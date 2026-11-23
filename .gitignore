@@ -1,0 +1,34 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Rust builds
+engine/target/
+engine/target-wide/
+engine/py/target/
+
+# Node (tools/showdown: `npm install` recreates it)
+node_modules/
+
+# Outputs: training runs, evaluation boxes, Showdown logs and replays
+agent/runs/
+
+# Large rebuildable data (scripts/build_tables.sh, agent/metamon_convert.py); never commit
+data/dataset_aws/
+data/dataset_pp/
+data/metamon_gen1ou/
+data/human_teams_v1.json
+data/matchup_table_v2_full.npz
+checkpoints/lineage/
+
+# Secrets: credentials belong in environment variables, never in files here
+.env
+*.creds
+creds
+
+.DS_Store
+
+# npm lockfile (recreated by npm install)
+tools/showdown/package-lock.json

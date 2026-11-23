@@ -1,0 +1,12625 @@
+{
+ "source": "pret/pokered",
+ "types": [
+  "NORMAL",
+  "FIGHTING",
+  "FLYING",
+  "POISON",
+  "GROUND",
+  "ROCK",
+  "BIRD",
+  "BUG",
+  "GHOST",
+  "FIRE",
+  "WATER",
+  "GRASS",
+  "ELECTRIC",
+  "PSYCHIC_TYPE",
+  "ICE",
+  "DRAGON"
+ ],
+ "special_threshold": 9,
+ "type_chart": [
+  [
+   10,
+   9,
+   20
+  ],
+  [
+   9,
+   11,
+   20
+  ],
+  [
+   9,
+   14,
+   20
+  ],
+  [
+   11,
+   10,
+   20
+  ],
+  [
+   12,
+   10,
+   20
+  ],
+  [
+   10,
+   5,
+   20
+  ],
+  [
+   4,
+   2,
+   0
+  ],
+  [
+   10,
+   10,
+   5
+  ],
+  [
+   9,
+   9,
+   5
+  ],
+  [
+   12,
+   12,
+   5
+  ],
+  [
+   14,
+   14,
+   5
+  ],
+  [
+   11,
+   11,
+   5
+  ],
+  [
+   13,
+   13,
+   5
+  ],
+  [
+   9,
+   10,
+   5
+  ],
+  [
+   11,
+   9,
+   5
+  ],
+  [
+   10,
+   11,
+   5
+  ],
+  [
+   12,
+   11,
+   5
+  ],
+  [
+   0,
+   5,
+   5
+  ],
+  [
+   0,
+   8,
+   0
+  ],
+  [
+   8,
+   8,
+   20
+  ],
+  [
+   9,
+   7,
+   20
+  ],
+  [
+   9,
+   5,
+   5
+  ],
+  [
+   10,
+   4,
+   20
+  ],
+  [
+   12,
+   4,
+   0
+  ],
+  [
+   12,
+   2,
+   20
+  ],
+  [
+   11,
+   4,
+   20
+  ],
+  [
+   11,
+   7,
+   5
+  ],
+  [
+   11,
+   3,
+   5
+  ],
+  [
+   11,
+   5,
+   20
+  ],
+  [
+   11,
+   2,
+   5
+  ],
+  [
+   14,
+   10,
+   5
+  ],
+  [
+   14,
+   11,
+   20
+  ],
+  [
+   14,
+   4,
+   20
+  ],
+  [
+   14,
+   2,
+   20
+  ],
+  [
+   1,
+   0,
+   20
+  ],
+  [
+   1,
+   3,
+   5
+  ],
+  [
+   1,
+   2,
+   5
+  ],
+  [
+   1,
+   13,
+   5
+  ],
+  [
+   1,
+   7,
+   5
+  ],
+  [
+   1,
+   5,
+   20
+  ],
+  [
+   1,
+   14,
+   20
+  ],
+  [
+   1,
+   8,
+   0
+  ],
+  [
+   3,
+   11,
+   20
+  ],
+  [
+   3,
+   3,
+   5
+  ],
+  [
+   3,
+   4,
+   5
+  ],
+  [
+   3,
+   7,
+   20
+  ],
+  [
+   3,
+   5,
+   5
+  ],
+  [
+   3,
+   8,
+   5
+  ],
+  [
+   4,
+   9,
+   20
+  ],
+  [
+   4,
+   12,
+   20
+  ],
+  [
+   4,
+   11,
+   5
+  ],
+  [
+   4,
+   7,
+   5
+  ],
+  [
+   4,
+   5,
+   20
+  ],
+  [
+   4,
+   3,
+   20
+  ],
+  [
+   2,
+   12,
+   5
+  ],
+  [
+   2,
+   1,
+   20
+  ],
+  [
+   2,
+   7,
+   20
+  ],
+  [
+   2,
+   11,
+   20
+  ],
+  [
+   2,
+   5,
+   5
+  ],
+  [
+   13,
+   1,
+   20
+  ],
+  [
+   13,
+   3,
+   20
+  ],
+  [
+   7,
+   9,
+   5
+  ],
+  [
+   7,
+   11,
+   20
+  ],
+  [
+   7,
+   1,
+   5
+  ],
+  [
+   7,
+   2,
+   5
+  ],
+  [
+   7,
+   13,
+   20
+  ],
+  [
+   7,
+   8,
+   5
+  ],
+  [
+   7,
+   3,
+   20
+  ],
+  [
+   5,
+   9,
+   20
+  ],
+  [
+   5,
+   1,
+   5
+  ],
+  [
+   5,
+   4,
+   5
+  ],
+  [
+   5,
+   2,
+   20
+  ],
+  [
+   5,
+   7,
+   20
+  ],
+  [
+   5,
+   14,
+   20
+  ],
+  [
+   8,
+   0,
+   0
+  ],
+  [
+   8,
+   13,
+   0
+  ],
+  [
+   9,
+   15,
+   5
+  ],
+  [
+   10,
+   15,
+   5
+  ],
+  [
+   12,
+   15,
+   5
+  ],
+  [
+   11,
+   15,
+   5
+  ],
+  [
+   14,
+   15,
+   20
+  ],
+  [
+   15,
+   15,
+   20
+  ]
+ ],
+ "effects": [
+  "NO_ADDITIONAL_EFFECT",
+  "EFFECT_01",
+  "POISON_SIDE_EFFECT1",
+  "DRAIN_HP_EFFECT",
+  "BURN_SIDE_EFFECT1",
+  "FREEZE_SIDE_EFFECT1",
+  "PARALYZE_SIDE_EFFECT1",
+  "EXPLODE_EFFECT",
+  "DREAM_EATER_EFFECT",
+  "MIRROR_MOVE_EFFECT",
+  "ATTACK_UP1_EFFECT",
+  "DEFENSE_UP1_EFFECT",
+  "SPEED_UP1_EFFECT",
+  "SPECIAL_UP1_EFFECT",
+  "ACCURACY_UP1_EFFECT",
+  "EVASION_UP1_EFFECT",
+  "PAY_DAY_EFFECT",
+  "SWIFT_EFFECT",
+  "ATTACK_DOWN1_EFFECT",
+  "DEFENSE_DOWN1_EFFECT",
+  "SPEED_DOWN1_EFFECT",
+  "SPECIAL_DOWN1_EFFECT",
+  "ACCURACY_DOWN1_EFFECT",
+  "EVASION_DOWN1_EFFECT",
+  "CONVERSION_EFFECT",
+  "HAZE_EFFECT",
+  "BIDE_EFFECT",
+  "THRASH_PETAL_DANCE_EFFECT",
+  "SWITCH_AND_TELEPORT_EFFECT",
+  "TWO_TO_FIVE_ATTACKS_EFFECT",
+  "EFFECT_1E",
+  "FLINCH_SIDE_EFFECT1",
+  "SLEEP_EFFECT",
+  "POISON_SIDE_EFFECT2",
+  "BURN_SIDE_EFFECT2",
+  "FREEZE_SIDE_EFFECT2",
+  "PARALYZE_SIDE_EFFECT2",
+  "FLINCH_SIDE_EFFECT2",
+  "OHKO_EFFECT",
+  "CHARGE_EFFECT",
+  "SUPER_FANG_EFFECT",
+  "SPECIAL_DAMAGE_EFFECT",
+  "TRAPPING_EFFECT",
+  "FLY_EFFECT",
+  "ATTACK_TWICE_EFFECT",
+  "JUMP_KICK_EFFECT",
+  "MIST_EFFECT",
+  "FOCUS_ENERGY_EFFECT",
+  "RECOIL_EFFECT",
+  "CONFUSION_EFFECT",
+  "ATTACK_UP2_EFFECT",
+  "DEFENSE_UP2_EFFECT",
+  "SPEED_UP2_EFFECT",
+  "SPECIAL_UP2_EFFECT",
+  "ACCURACY_UP2_EFFECT",
+  "EVASION_UP2_EFFECT",
+  "HEAL_EFFECT",
+  "TRANSFORM_EFFECT",
+  "ATTACK_DOWN2_EFFECT",
+  "DEFENSE_DOWN2_EFFECT",
+  "SPEED_DOWN2_EFFECT",
+  "SPECIAL_DOWN2_EFFECT",
+  "ACCURACY_DOWN2_EFFECT",
+  "EVASION_DOWN2_EFFECT",
+  "LIGHT_SCREEN_EFFECT",
+  "REFLECT_EFFECT",
+  "POISON_EFFECT",
+  "PARALYZE_EFFECT",
+  "ATTACK_DOWN_SIDE_EFFECT",
+  "DEFENSE_DOWN_SIDE_EFFECT",
+  "SPEED_DOWN_SIDE_EFFECT",
+  "SPECIAL_DOWN_SIDE_EFFECT",
+  null,
+  null,
+  null,
+  null,
+  "CONFUSION_SIDE_EFFECT",
+  "TWINEEDLE_EFFECT",
+  null,
+  "SUBSTITUTE_EFFECT",
+  "HYPER_BEAM_EFFECT",
+  "RAGE_EFFECT",
+  "MIMIC_EFFECT",
+  "METRONOME_EFFECT",
+  "LEECH_SEED_EFFECT",
+  "SPLASH_EFFECT",
+  "DISABLE_EFFECT"
+ ],
+ "moves": [
+  null,
+  {
+   "id": 1,
+   "name": "POUND",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 40,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 35
+  },
+  {
+   "id": 2,
+   "name": "KARATE_CHOP",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 50,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 25
+  },
+  {
+   "id": 3,
+   "name": "DOUBLESLAP",
+   "effect": "TWO_TO_FIVE_ATTACKS_EFFECT",
+   "effect_id": 29,
+   "power": 15,
+   "type": 0,
+   "accuracy": 216,
+   "accuracy_pct": 85,
+   "pp": 10
+  },
+  {
+   "id": 4,
+   "name": "COMET_PUNCH",
+   "effect": "TWO_TO_FIVE_ATTACKS_EFFECT",
+   "effect_id": 29,
+   "power": 18,
+   "type": 0,
+   "accuracy": 216,
+   "accuracy_pct": 85,
+   "pp": 15
+  },
+  {
+   "id": 5,
+   "name": "MEGA_PUNCH",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 80,
+   "type": 0,
+   "accuracy": 216,
+   "accuracy_pct": 85,
+   "pp": 20
+  },
+  {
+   "id": 6,
+   "name": "PAY_DAY",
+   "effect": "PAY_DAY_EFFECT",
+   "effect_id": 16,
+   "power": 40,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 7,
+   "name": "FIRE_PUNCH",
+   "effect": "BURN_SIDE_EFFECT1",
+   "effect_id": 4,
+   "power": 75,
+   "type": 9,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 8,
+   "name": "ICE_PUNCH",
+   "effect": "FREEZE_SIDE_EFFECT1",
+   "effect_id": 5,
+   "power": 75,
+   "type": 14,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 9,
+   "name": "THUNDERPUNCH",
+   "effect": "PARALYZE_SIDE_EFFECT1",
+   "effect_id": 6,
+   "power": 75,
+   "type": 12,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 10,
+   "name": "SCRATCH",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 40,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 35
+  },
+  {
+   "id": 11,
+   "name": "VICEGRIP",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 55,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 12,
+   "name": "GUILLOTINE",
+   "effect": "OHKO_EFFECT",
+   "effect_id": 38,
+   "power": 1,
+   "type": 0,
+   "accuracy": 76,
+   "accuracy_pct": 30,
+   "pp": 5
+  },
+  {
+   "id": 13,
+   "name": "RAZOR_WIND",
+   "effect": "CHARGE_EFFECT",
+   "effect_id": 39,
+   "power": 80,
+   "type": 0,
+   "accuracy": 191,
+   "accuracy_pct": 75,
+   "pp": 10
+  },
+  {
+   "id": 14,
+   "name": "SWORDS_DANCE",
+   "effect": "ATTACK_UP2_EFFECT",
+   "effect_id": 50,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 15,
+   "name": "CUT",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 50,
+   "type": 0,
+   "accuracy": 242,
+   "accuracy_pct": 95,
+   "pp": 30
+  },
+  {
+   "id": 16,
+   "name": "GUST",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 40,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 35
+  },
+  {
+   "id": 17,
+   "name": "WING_ATTACK",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 35,
+   "type": 2,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 35
+  },
+  {
+   "id": 18,
+   "name": "WHIRLWIND",
+   "effect": "SWITCH_AND_TELEPORT_EFFECT",
+   "effect_id": 28,
+   "power": 0,
+   "type": 0,
+   "accuracy": 216,
+   "accuracy_pct": 85,
+   "pp": 20
+  },
+  {
+   "id": 19,
+   "name": "FLY",
+   "effect": "FLY_EFFECT",
+   "effect_id": 43,
+   "power": 70,
+   "type": 2,
+   "accuracy": 242,
+   "accuracy_pct": 95,
+   "pp": 15
+  },
+  {
+   "id": 20,
+   "name": "BIND",
+   "effect": "TRAPPING_EFFECT",
+   "effect_id": 42,
+   "power": 15,
+   "type": 0,
+   "accuracy": 191,
+   "accuracy_pct": 75,
+   "pp": 20
+  },
+  {
+   "id": 21,
+   "name": "SLAM",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 80,
+   "type": 0,
+   "accuracy": 191,
+   "accuracy_pct": 75,
+   "pp": 20
+  },
+  {
+   "id": 22,
+   "name": "VINE_WHIP",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 35,
+   "type": 11,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  },
+  {
+   "id": 23,
+   "name": "STOMP",
+   "effect": "FLINCH_SIDE_EFFECT2",
+   "effect_id": 37,
+   "power": 65,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 24,
+   "name": "DOUBLE_KICK",
+   "effect": "ATTACK_TWICE_EFFECT",
+   "effect_id": 44,
+   "power": 30,
+   "type": 1,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 25,
+   "name": "MEGA_KICK",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 120,
+   "type": 0,
+   "accuracy": 191,
+   "accuracy_pct": 75,
+   "pp": 5
+  },
+  {
+   "id": 26,
+   "name": "JUMP_KICK",
+   "effect": "JUMP_KICK_EFFECT",
+   "effect_id": 45,
+   "power": 70,
+   "type": 1,
+   "accuracy": 242,
+   "accuracy_pct": 95,
+   "pp": 25
+  },
+  {
+   "id": 27,
+   "name": "ROLLING_KICK",
+   "effect": "FLINCH_SIDE_EFFECT2",
+   "effect_id": 37,
+   "power": 60,
+   "type": 1,
+   "accuracy": 216,
+   "accuracy_pct": 85,
+   "pp": 15
+  },
+  {
+   "id": 28,
+   "name": "SAND_ATTACK",
+   "effect": "ACCURACY_DOWN1_EFFECT",
+   "effect_id": 22,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 29,
+   "name": "HEADBUTT",
+   "effect": "FLINCH_SIDE_EFFECT2",
+   "effect_id": 37,
+   "power": 70,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 30,
+   "name": "HORN_ATTACK",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 65,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 25
+  },
+  {
+   "id": 31,
+   "name": "FURY_ATTACK",
+   "effect": "TWO_TO_FIVE_ATTACKS_EFFECT",
+   "effect_id": 29,
+   "power": 15,
+   "type": 0,
+   "accuracy": 216,
+   "accuracy_pct": 85,
+   "pp": 20
+  },
+  {
+   "id": 32,
+   "name": "HORN_DRILL",
+   "effect": "OHKO_EFFECT",
+   "effect_id": 38,
+   "power": 1,
+   "type": 0,
+   "accuracy": 76,
+   "accuracy_pct": 30,
+   "pp": 5
+  },
+  {
+   "id": 33,
+   "name": "TACKLE",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 35,
+   "type": 0,
+   "accuracy": 242,
+   "accuracy_pct": 95,
+   "pp": 35
+  },
+  {
+   "id": 34,
+   "name": "BODY_SLAM",
+   "effect": "PARALYZE_SIDE_EFFECT2",
+   "effect_id": 36,
+   "power": 85,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 35,
+   "name": "WRAP",
+   "effect": "TRAPPING_EFFECT",
+   "effect_id": 42,
+   "power": 15,
+   "type": 0,
+   "accuracy": 216,
+   "accuracy_pct": 85,
+   "pp": 20
+  },
+  {
+   "id": 36,
+   "name": "TAKE_DOWN",
+   "effect": "RECOIL_EFFECT",
+   "effect_id": 48,
+   "power": 90,
+   "type": 0,
+   "accuracy": 216,
+   "accuracy_pct": 85,
+   "pp": 20
+  },
+  {
+   "id": 37,
+   "name": "THRASH",
+   "effect": "THRASH_PETAL_DANCE_EFFECT",
+   "effect_id": 27,
+   "power": 90,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 38,
+   "name": "DOUBLE_EDGE",
+   "effect": "RECOIL_EFFECT",
+   "effect_id": 48,
+   "power": 100,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 39,
+   "name": "TAIL_WHIP",
+   "effect": "DEFENSE_DOWN1_EFFECT",
+   "effect_id": 19,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 40,
+   "name": "POISON_STING",
+   "effect": "POISON_SIDE_EFFECT1",
+   "effect_id": 2,
+   "power": 15,
+   "type": 3,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 35
+  },
+  {
+   "id": 41,
+   "name": "TWINEEDLE",
+   "effect": "TWINEEDLE_EFFECT",
+   "effect_id": 77,
+   "power": 25,
+   "type": 7,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 42,
+   "name": "PIN_MISSILE",
+   "effect": "TWO_TO_FIVE_ATTACKS_EFFECT",
+   "effect_id": 29,
+   "power": 14,
+   "type": 7,
+   "accuracy": 216,
+   "accuracy_pct": 85,
+   "pp": 20
+  },
+  {
+   "id": 43,
+   "name": "LEER",
+   "effect": "DEFENSE_DOWN1_EFFECT",
+   "effect_id": 19,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 44,
+   "name": "BITE",
+   "effect": "FLINCH_SIDE_EFFECT1",
+   "effect_id": 31,
+   "power": 60,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 25
+  },
+  {
+   "id": 45,
+   "name": "GROWL",
+   "effect": "ATTACK_DOWN1_EFFECT",
+   "effect_id": 18,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 40
+  },
+  {
+   "id": 46,
+   "name": "ROAR",
+   "effect": "SWITCH_AND_TELEPORT_EFFECT",
+   "effect_id": 28,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 47,
+   "name": "SING",
+   "effect": "SLEEP_EFFECT",
+   "effect_id": 32,
+   "power": 0,
+   "type": 0,
+   "accuracy": 140,
+   "accuracy_pct": 55,
+   "pp": 15
+  },
+  {
+   "id": 48,
+   "name": "SUPERSONIC",
+   "effect": "CONFUSION_EFFECT",
+   "effect_id": 49,
+   "power": 0,
+   "type": 0,
+   "accuracy": 140,
+   "accuracy_pct": 55,
+   "pp": 20
+  },
+  {
+   "id": 49,
+   "name": "SONICBOOM",
+   "effect": "SPECIAL_DAMAGE_EFFECT",
+   "effect_id": 41,
+   "power": 1,
+   "type": 0,
+   "accuracy": 229,
+   "accuracy_pct": 90,
+   "pp": 20
+  },
+  {
+   "id": 50,
+   "name": "DISABLE",
+   "effect": "DISABLE_EFFECT",
+   "effect_id": 86,
+   "power": 0,
+   "type": 0,
+   "accuracy": 140,
+   "accuracy_pct": 55,
+   "pp": 20
+  },
+  {
+   "id": 51,
+   "name": "ACID",
+   "effect": "DEFENSE_DOWN_SIDE_EFFECT",
+   "effect_id": 69,
+   "power": 40,
+   "type": 3,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 52,
+   "name": "EMBER",
+   "effect": "BURN_SIDE_EFFECT1",
+   "effect_id": 4,
+   "power": 40,
+   "type": 9,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 25
+  },
+  {
+   "id": 53,
+   "name": "FLAMETHROWER",
+   "effect": "BURN_SIDE_EFFECT1",
+   "effect_id": 4,
+   "power": 95,
+   "type": 9,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 54,
+   "name": "MIST",
+   "effect": "MIST_EFFECT",
+   "effect_id": 46,
+   "power": 0,
+   "type": 14,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 55,
+   "name": "WATER_GUN",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 40,
+   "type": 10,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 25
+  },
+  {
+   "id": 56,
+   "name": "HYDRO_PUMP",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 120,
+   "type": 10,
+   "accuracy": 204,
+   "accuracy_pct": 80,
+   "pp": 5
+  },
+  {
+   "id": 57,
+   "name": "SURF",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 95,
+   "type": 10,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 58,
+   "name": "ICE_BEAM",
+   "effect": "FREEZE_SIDE_EFFECT1",
+   "effect_id": 5,
+   "power": 95,
+   "type": 14,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  },
+  {
+   "id": 59,
+   "name": "BLIZZARD",
+   "effect": "FREEZE_SIDE_EFFECT1",
+   "effect_id": 5,
+   "power": 120,
+   "type": 14,
+   "accuracy": 229,
+   "accuracy_pct": 90,
+   "pp": 5
+  },
+  {
+   "id": 60,
+   "name": "PSYBEAM",
+   "effect": "CONFUSION_SIDE_EFFECT",
+   "effect_id": 76,
+   "power": 65,
+   "type": 13,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 61,
+   "name": "BUBBLEBEAM",
+   "effect": "SPEED_DOWN_SIDE_EFFECT",
+   "effect_id": 70,
+   "power": 65,
+   "type": 10,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 62,
+   "name": "AURORA_BEAM",
+   "effect": "ATTACK_DOWN_SIDE_EFFECT",
+   "effect_id": 68,
+   "power": 65,
+   "type": 14,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 63,
+   "name": "HYPER_BEAM",
+   "effect": "HYPER_BEAM_EFFECT",
+   "effect_id": 80,
+   "power": 150,
+   "type": 0,
+   "accuracy": 229,
+   "accuracy_pct": 90,
+   "pp": 5
+  },
+  {
+   "id": 64,
+   "name": "PECK",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 35,
+   "type": 2,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 35
+  },
+  {
+   "id": 65,
+   "name": "DRILL_PECK",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 80,
+   "type": 2,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 66,
+   "name": "SUBMISSION",
+   "effect": "RECOIL_EFFECT",
+   "effect_id": 48,
+   "power": 80,
+   "type": 1,
+   "accuracy": 204,
+   "accuracy_pct": 80,
+   "pp": 25
+  },
+  {
+   "id": 67,
+   "name": "LOW_KICK",
+   "effect": "FLINCH_SIDE_EFFECT2",
+   "effect_id": 37,
+   "power": 50,
+   "type": 1,
+   "accuracy": 229,
+   "accuracy_pct": 90,
+   "pp": 20
+  },
+  {
+   "id": 68,
+   "name": "COUNTER",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 1,
+   "type": 1,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 69,
+   "name": "SEISMIC_TOSS",
+   "effect": "SPECIAL_DAMAGE_EFFECT",
+   "effect_id": 41,
+   "power": 1,
+   "type": 1,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 70,
+   "name": "STRENGTH",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 80,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 71,
+   "name": "ABSORB",
+   "effect": "DRAIN_HP_EFFECT",
+   "effect_id": 3,
+   "power": 20,
+   "type": 11,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 72,
+   "name": "MEGA_DRAIN",
+   "effect": "DRAIN_HP_EFFECT",
+   "effect_id": 3,
+   "power": 40,
+   "type": 11,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  },
+  {
+   "id": 73,
+   "name": "LEECH_SEED",
+   "effect": "LEECH_SEED_EFFECT",
+   "effect_id": 84,
+   "power": 0,
+   "type": 11,
+   "accuracy": 229,
+   "accuracy_pct": 90,
+   "pp": 10
+  },
+  {
+   "id": 74,
+   "name": "GROWTH",
+   "effect": "SPECIAL_UP1_EFFECT",
+   "effect_id": 13,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 40
+  },
+  {
+   "id": 75,
+   "name": "RAZOR_LEAF",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 55,
+   "type": 11,
+   "accuracy": 242,
+   "accuracy_pct": 95,
+   "pp": 25
+  },
+  {
+   "id": 76,
+   "name": "SOLARBEAM",
+   "effect": "CHARGE_EFFECT",
+   "effect_id": 39,
+   "power": 120,
+   "type": 11,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  },
+  {
+   "id": 77,
+   "name": "POISONPOWDER",
+   "effect": "POISON_EFFECT",
+   "effect_id": 66,
+   "power": 0,
+   "type": 3,
+   "accuracy": 191,
+   "accuracy_pct": 75,
+   "pp": 35
+  },
+  {
+   "id": 78,
+   "name": "STUN_SPORE",
+   "effect": "PARALYZE_EFFECT",
+   "effect_id": 67,
+   "power": 0,
+   "type": 11,
+   "accuracy": 191,
+   "accuracy_pct": 75,
+   "pp": 30
+  },
+  {
+   "id": 79,
+   "name": "SLEEP_POWDER",
+   "effect": "SLEEP_EFFECT",
+   "effect_id": 32,
+   "power": 0,
+   "type": 11,
+   "accuracy": 191,
+   "accuracy_pct": 75,
+   "pp": 15
+  },
+  {
+   "id": 80,
+   "name": "PETAL_DANCE",
+   "effect": "THRASH_PETAL_DANCE_EFFECT",
+   "effect_id": 27,
+   "power": 70,
+   "type": 11,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 81,
+   "name": "STRING_SHOT",
+   "effect": "SPEED_DOWN1_EFFECT",
+   "effect_id": 20,
+   "power": 0,
+   "type": 7,
+   "accuracy": 242,
+   "accuracy_pct": 95,
+   "pp": 40
+  },
+  {
+   "id": 82,
+   "name": "DRAGON_RAGE",
+   "effect": "SPECIAL_DAMAGE_EFFECT",
+   "effect_id": 41,
+   "power": 1,
+   "type": 15,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  },
+  {
+   "id": 83,
+   "name": "FIRE_SPIN",
+   "effect": "TRAPPING_EFFECT",
+   "effect_id": 42,
+   "power": 15,
+   "type": 9,
+   "accuracy": 178,
+   "accuracy_pct": 70,
+   "pp": 15
+  },
+  {
+   "id": 84,
+   "name": "THUNDERSHOCK",
+   "effect": "PARALYZE_SIDE_EFFECT1",
+   "effect_id": 6,
+   "power": 40,
+   "type": 12,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 85,
+   "name": "THUNDERBOLT",
+   "effect": "PARALYZE_SIDE_EFFECT1",
+   "effect_id": 6,
+   "power": 95,
+   "type": 12,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 86,
+   "name": "THUNDER_WAVE",
+   "effect": "PARALYZE_EFFECT",
+   "effect_id": 67,
+   "power": 0,
+   "type": 12,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 87,
+   "name": "THUNDER",
+   "effect": "PARALYZE_SIDE_EFFECT1",
+   "effect_id": 6,
+   "power": 120,
+   "type": 12,
+   "accuracy": 178,
+   "accuracy_pct": 70,
+   "pp": 10
+  },
+  {
+   "id": 88,
+   "name": "ROCK_THROW",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 50,
+   "type": 5,
+   "accuracy": 165,
+   "accuracy_pct": 65,
+   "pp": 15
+  },
+  {
+   "id": 89,
+   "name": "EARTHQUAKE",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 100,
+   "type": 4,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  },
+  {
+   "id": 90,
+   "name": "FISSURE",
+   "effect": "OHKO_EFFECT",
+   "effect_id": 38,
+   "power": 1,
+   "type": 4,
+   "accuracy": 76,
+   "accuracy_pct": 30,
+   "pp": 5
+  },
+  {
+   "id": 91,
+   "name": "DIG",
+   "effect": "CHARGE_EFFECT",
+   "effect_id": 39,
+   "power": 100,
+   "type": 4,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  },
+  {
+   "id": 92,
+   "name": "TOXIC",
+   "effect": "POISON_EFFECT",
+   "effect_id": 66,
+   "power": 0,
+   "type": 3,
+   "accuracy": 216,
+   "accuracy_pct": 85,
+   "pp": 10
+  },
+  {
+   "id": 93,
+   "name": "CONFUSION",
+   "effect": "CONFUSION_SIDE_EFFECT",
+   "effect_id": 76,
+   "power": 50,
+   "type": 13,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 25
+  },
+  {
+   "id": 94,
+   "name": "PSYCHIC_M",
+   "effect": "SPECIAL_DOWN_SIDE_EFFECT",
+   "effect_id": 71,
+   "power": 90,
+   "type": 13,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  },
+  {
+   "id": 95,
+   "name": "HYPNOSIS",
+   "effect": "SLEEP_EFFECT",
+   "effect_id": 32,
+   "power": 0,
+   "type": 13,
+   "accuracy": 153,
+   "accuracy_pct": 60,
+   "pp": 20
+  },
+  {
+   "id": 96,
+   "name": "MEDITATE",
+   "effect": "ATTACK_UP1_EFFECT",
+   "effect_id": 10,
+   "power": 0,
+   "type": 13,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 40
+  },
+  {
+   "id": 97,
+   "name": "AGILITY",
+   "effect": "SPEED_UP2_EFFECT",
+   "effect_id": 52,
+   "power": 0,
+   "type": 13,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 98,
+   "name": "QUICK_ATTACK",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 40,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 99,
+   "name": "RAGE",
+   "effect": "RAGE_EFFECT",
+   "effect_id": 81,
+   "power": 20,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 100,
+   "name": "TELEPORT",
+   "effect": "SWITCH_AND_TELEPORT_EFFECT",
+   "effect_id": 28,
+   "power": 0,
+   "type": 13,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 101,
+   "name": "NIGHT_SHADE",
+   "effect": "SPECIAL_DAMAGE_EFFECT",
+   "effect_id": 41,
+   "power": 0,
+   "type": 8,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 102,
+   "name": "MIMIC",
+   "effect": "MIMIC_EFFECT",
+   "effect_id": 82,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  },
+  {
+   "id": 103,
+   "name": "SCREECH",
+   "effect": "DEFENSE_DOWN2_EFFECT",
+   "effect_id": 59,
+   "power": 0,
+   "type": 0,
+   "accuracy": 216,
+   "accuracy_pct": 85,
+   "pp": 40
+  },
+  {
+   "id": 104,
+   "name": "DOUBLE_TEAM",
+   "effect": "EVASION_UP1_EFFECT",
+   "effect_id": 15,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 105,
+   "name": "RECOVER",
+   "effect": "HEAL_EFFECT",
+   "effect_id": 56,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 106,
+   "name": "HARDEN",
+   "effect": "DEFENSE_UP1_EFFECT",
+   "effect_id": 11,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 107,
+   "name": "MINIMIZE",
+   "effect": "EVASION_UP1_EFFECT",
+   "effect_id": 15,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 108,
+   "name": "SMOKESCREEN",
+   "effect": "ACCURACY_DOWN1_EFFECT",
+   "effect_id": 22,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 109,
+   "name": "CONFUSE_RAY",
+   "effect": "CONFUSION_EFFECT",
+   "effect_id": 49,
+   "power": 0,
+   "type": 8,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  },
+  {
+   "id": 110,
+   "name": "WITHDRAW",
+   "effect": "DEFENSE_UP1_EFFECT",
+   "effect_id": 11,
+   "power": 0,
+   "type": 10,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 40
+  },
+  {
+   "id": 111,
+   "name": "DEFENSE_CURL",
+   "effect": "DEFENSE_UP1_EFFECT",
+   "effect_id": 11,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 40
+  },
+  {
+   "id": 112,
+   "name": "BARRIER",
+   "effect": "DEFENSE_UP2_EFFECT",
+   "effect_id": 51,
+   "power": 0,
+   "type": 13,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 113,
+   "name": "LIGHT_SCREEN",
+   "effect": "LIGHT_SCREEN_EFFECT",
+   "effect_id": 64,
+   "power": 0,
+   "type": 13,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 114,
+   "name": "HAZE",
+   "effect": "HAZE_EFFECT",
+   "effect_id": 25,
+   "power": 0,
+   "type": 14,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 115,
+   "name": "REFLECT",
+   "effect": "REFLECT_EFFECT",
+   "effect_id": 65,
+   "power": 0,
+   "type": 13,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 116,
+   "name": "FOCUS_ENERGY",
+   "effect": "FOCUS_ENERGY_EFFECT",
+   "effect_id": 47,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 117,
+   "name": "BIDE",
+   "effect": "BIDE_EFFECT",
+   "effect_id": 26,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  },
+  {
+   "id": 118,
+   "name": "METRONOME",
+   "effect": "METRONOME_EFFECT",
+   "effect_id": 83,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  },
+  {
+   "id": 119,
+   "name": "MIRROR_MOVE",
+   "effect": "MIRROR_MOVE_EFFECT",
+   "effect_id": 9,
+   "power": 0,
+   "type": 2,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 120,
+   "name": "SELFDESTRUCT",
+   "effect": "EXPLODE_EFFECT",
+   "effect_id": 7,
+   "power": 130,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 5
+  },
+  {
+   "id": 121,
+   "name": "EGG_BOMB",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 100,
+   "type": 0,
+   "accuracy": 191,
+   "accuracy_pct": 75,
+   "pp": 10
+  },
+  {
+   "id": 122,
+   "name": "LICK",
+   "effect": "PARALYZE_SIDE_EFFECT2",
+   "effect_id": 36,
+   "power": 20,
+   "type": 8,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 123,
+   "name": "SMOG",
+   "effect": "POISON_SIDE_EFFECT2",
+   "effect_id": 33,
+   "power": 20,
+   "type": 3,
+   "accuracy": 178,
+   "accuracy_pct": 70,
+   "pp": 20
+  },
+  {
+   "id": 124,
+   "name": "SLUDGE",
+   "effect": "POISON_SIDE_EFFECT2",
+   "effect_id": 33,
+   "power": 65,
+   "type": 3,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 125,
+   "name": "BONE_CLUB",
+   "effect": "FLINCH_SIDE_EFFECT1",
+   "effect_id": 31,
+   "power": 65,
+   "type": 4,
+   "accuracy": 216,
+   "accuracy_pct": 85,
+   "pp": 20
+  },
+  {
+   "id": 126,
+   "name": "FIRE_BLAST",
+   "effect": "BURN_SIDE_EFFECT2",
+   "effect_id": 34,
+   "power": 120,
+   "type": 9,
+   "accuracy": 216,
+   "accuracy_pct": 85,
+   "pp": 5
+  },
+  {
+   "id": 127,
+   "name": "WATERFALL",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 80,
+   "type": 10,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 128,
+   "name": "CLAMP",
+   "effect": "TRAPPING_EFFECT",
+   "effect_id": 42,
+   "power": 35,
+   "type": 10,
+   "accuracy": 191,
+   "accuracy_pct": 75,
+   "pp": 10
+  },
+  {
+   "id": 129,
+   "name": "SWIFT",
+   "effect": "SWIFT_EFFECT",
+   "effect_id": 17,
+   "power": 60,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 130,
+   "name": "SKULL_BASH",
+   "effect": "CHARGE_EFFECT",
+   "effect_id": 39,
+   "power": 100,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 131,
+   "name": "SPIKE_CANNON",
+   "effect": "TWO_TO_FIVE_ATTACKS_EFFECT",
+   "effect_id": 29,
+   "power": 20,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 132,
+   "name": "CONSTRICT",
+   "effect": "SPEED_DOWN_SIDE_EFFECT",
+   "effect_id": 70,
+   "power": 10,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 35
+  },
+  {
+   "id": 133,
+   "name": "AMNESIA",
+   "effect": "SPECIAL_UP2_EFFECT",
+   "effect_id": 53,
+   "power": 0,
+   "type": 13,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 134,
+   "name": "KINESIS",
+   "effect": "ACCURACY_DOWN1_EFFECT",
+   "effect_id": 22,
+   "power": 0,
+   "type": 13,
+   "accuracy": 204,
+   "accuracy_pct": 80,
+   "pp": 15
+  },
+  {
+   "id": 135,
+   "name": "SOFTBOILED",
+   "effect": "HEAL_EFFECT",
+   "effect_id": 56,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  },
+  {
+   "id": 136,
+   "name": "HI_JUMP_KICK",
+   "effect": "JUMP_KICK_EFFECT",
+   "effect_id": 45,
+   "power": 85,
+   "type": 1,
+   "accuracy": 229,
+   "accuracy_pct": 90,
+   "pp": 20
+  },
+  {
+   "id": 137,
+   "name": "GLARE",
+   "effect": "PARALYZE_EFFECT",
+   "effect_id": 67,
+   "power": 0,
+   "type": 0,
+   "accuracy": 191,
+   "accuracy_pct": 75,
+   "pp": 30
+  },
+  {
+   "id": 138,
+   "name": "DREAM_EATER",
+   "effect": "DREAM_EATER_EFFECT",
+   "effect_id": 8,
+   "power": 100,
+   "type": 13,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 139,
+   "name": "POISON_GAS",
+   "effect": "POISON_EFFECT",
+   "effect_id": 66,
+   "power": 0,
+   "type": 3,
+   "accuracy": 140,
+   "accuracy_pct": 55,
+   "pp": 40
+  },
+  {
+   "id": 140,
+   "name": "BARRAGE",
+   "effect": "TWO_TO_FIVE_ATTACKS_EFFECT",
+   "effect_id": 29,
+   "power": 15,
+   "type": 0,
+   "accuracy": 216,
+   "accuracy_pct": 85,
+   "pp": 20
+  },
+  {
+   "id": 141,
+   "name": "LEECH_LIFE",
+   "effect": "DRAIN_HP_EFFECT",
+   "effect_id": 3,
+   "power": 20,
+   "type": 7,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 142,
+   "name": "LOVELY_KISS",
+   "effect": "SLEEP_EFFECT",
+   "effect_id": 32,
+   "power": 0,
+   "type": 0,
+   "accuracy": 191,
+   "accuracy_pct": 75,
+   "pp": 10
+  },
+  {
+   "id": 143,
+   "name": "SKY_ATTACK",
+   "effect": "CHARGE_EFFECT",
+   "effect_id": 39,
+   "power": 140,
+   "type": 2,
+   "accuracy": 229,
+   "accuracy_pct": 90,
+   "pp": 5
+  },
+  {
+   "id": 144,
+   "name": "TRANSFORM",
+   "effect": "TRANSFORM_EFFECT",
+   "effect_id": 57,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  },
+  {
+   "id": 145,
+   "name": "BUBBLE",
+   "effect": "SPEED_DOWN_SIDE_EFFECT",
+   "effect_id": 70,
+   "power": 20,
+   "type": 10,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 146,
+   "name": "DIZZY_PUNCH",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 70,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  },
+  {
+   "id": 147,
+   "name": "SPORE",
+   "effect": "SLEEP_EFFECT",
+   "effect_id": 32,
+   "power": 0,
+   "type": 11,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 15
+  },
+  {
+   "id": 148,
+   "name": "FLASH",
+   "effect": "ACCURACY_DOWN1_EFFECT",
+   "effect_id": 22,
+   "power": 0,
+   "type": 0,
+   "accuracy": 178,
+   "accuracy_pct": 70,
+   "pp": 20
+  },
+  {
+   "id": 149,
+   "name": "PSYWAVE",
+   "effect": "SPECIAL_DAMAGE_EFFECT",
+   "effect_id": 41,
+   "power": 1,
+   "type": 13,
+   "accuracy": 204,
+   "accuracy_pct": 80,
+   "pp": 15
+  },
+  {
+   "id": 150,
+   "name": "SPLASH",
+   "effect": "SPLASH_EFFECT",
+   "effect_id": 85,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 40
+  },
+  {
+   "id": 151,
+   "name": "ACID_ARMOR",
+   "effect": "DEFENSE_UP2_EFFECT",
+   "effect_id": 51,
+   "power": 0,
+   "type": 3,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 40
+  },
+  {
+   "id": 152,
+   "name": "CRABHAMMER",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 90,
+   "type": 10,
+   "accuracy": 216,
+   "accuracy_pct": 85,
+   "pp": 10
+  },
+  {
+   "id": 153,
+   "name": "EXPLOSION",
+   "effect": "EXPLODE_EFFECT",
+   "effect_id": 7,
+   "power": 170,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 5
+  },
+  {
+   "id": 154,
+   "name": "FURY_SWIPES",
+   "effect": "TWO_TO_FIVE_ATTACKS_EFFECT",
+   "effect_id": 29,
+   "power": 18,
+   "type": 0,
+   "accuracy": 204,
+   "accuracy_pct": 80,
+   "pp": 15
+  },
+  {
+   "id": 155,
+   "name": "BONEMERANG",
+   "effect": "ATTACK_TWICE_EFFECT",
+   "effect_id": 44,
+   "power": 50,
+   "type": 4,
+   "accuracy": 229,
+   "accuracy_pct": 90,
+   "pp": 10
+  },
+  {
+   "id": 156,
+   "name": "REST",
+   "effect": "HEAL_EFFECT",
+   "effect_id": 56,
+   "power": 0,
+   "type": 13,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  },
+  {
+   "id": 157,
+   "name": "ROCK_SLIDE",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 75,
+   "type": 5,
+   "accuracy": 229,
+   "accuracy_pct": 90,
+   "pp": 10
+  },
+  {
+   "id": 158,
+   "name": "HYPER_FANG",
+   "effect": "FLINCH_SIDE_EFFECT1",
+   "effect_id": 31,
+   "power": 80,
+   "type": 0,
+   "accuracy": 229,
+   "accuracy_pct": 90,
+   "pp": 15
+  },
+  {
+   "id": 159,
+   "name": "SHARPEN",
+   "effect": "ATTACK_UP1_EFFECT",
+   "effect_id": 10,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 160,
+   "name": "CONVERSION",
+   "effect": "CONVERSION_EFFECT",
+   "effect_id": 24,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 30
+  },
+  {
+   "id": 161,
+   "name": "TRI_ATTACK",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 80,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  },
+  {
+   "id": 162,
+   "name": "SUPER_FANG",
+   "effect": "SUPER_FANG_EFFECT",
+   "effect_id": 40,
+   "power": 1,
+   "type": 0,
+   "accuracy": 229,
+   "accuracy_pct": 90,
+   "pp": 10
+  },
+  {
+   "id": 163,
+   "name": "SLASH",
+   "effect": "NO_ADDITIONAL_EFFECT",
+   "effect_id": 0,
+   "power": 70,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 20
+  },
+  {
+   "id": 164,
+   "name": "SUBSTITUTE",
+   "effect": "SUBSTITUTE_EFFECT",
+   "effect_id": 79,
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  },
+  {
+   "id": 165,
+   "name": "STRUGGLE",
+   "effect": "RECOIL_EFFECT",
+   "effect_id": 48,
+   "power": 50,
+   "type": 0,
+   "accuracy": 255,
+   "accuracy_pct": 100,
+   "pp": 10
+  }
+ ],
+ "species": [
+  {
+   "name": "BULBASAUR",
+   "file": "bulbasaur",
+   "base": {
+    "hp": 45,
+    "atk": 49,
+    "def": 49,
+    "spe": 45,
+    "spc": 65
+   },
+   "types": [
+    11,
+    3
+   ],
+   "learnset": [
+    14,
+    15,
+    22,
+    33,
+    34,
+    36,
+    38,
+    45,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    79,
+    92,
+    99,
+    102,
+    104,
+    115,
+    117,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     7,
+     "LEECH_SEED"
+    ],
+    [
+     13,
+     "VINE_WHIP"
+    ],
+    [
+     20,
+     "POISONPOWDER"
+    ],
+    [
+     27,
+     "RAZOR_LEAF"
+    ],
+    [
+     34,
+     "GROWTH"
+    ],
+    [
+     41,
+     "SLEEP_POWDER"
+    ],
+    [
+     48,
+     "SOLARBEAM"
+    ]
+   ],
+   "dex": 1
+  },
+  {
+   "name": "IVYSAUR",
+   "file": "ivysaur",
+   "base": {
+    "hp": 60,
+    "atk": 62,
+    "def": 63,
+    "spe": 60,
+    "spc": 80
+   },
+   "types": [
+    11,
+    3
+   ],
+   "learnset": [
+    14,
+    15,
+    22,
+    33,
+    34,
+    36,
+    38,
+    45,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    79,
+    92,
+    99,
+    102,
+    104,
+    115,
+    117,
+    156,
+    164
+   ],
+   "prevos": [
+    "BULBASAUR"
+   ],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     7,
+     "LEECH_SEED"
+    ],
+    [
+     13,
+     "VINE_WHIP"
+    ],
+    [
+     22,
+     "POISONPOWDER"
+    ],
+    [
+     30,
+     "RAZOR_LEAF"
+    ],
+    [
+     38,
+     "GROWTH"
+    ],
+    [
+     46,
+     "SLEEP_POWDER"
+    ],
+    [
+     54,
+     "SOLARBEAM"
+    ]
+   ],
+   "dex": 2
+  },
+  {
+   "name": "VENUSAUR",
+   "file": "venusaur",
+   "base": {
+    "hp": 80,
+    "atk": 82,
+    "def": 83,
+    "spe": 80,
+    "spc": 100
+   },
+   "types": [
+    11,
+    3
+   ],
+   "learnset": [
+    14,
+    15,
+    22,
+    33,
+    34,
+    36,
+    38,
+    45,
+    63,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    79,
+    92,
+    99,
+    102,
+    104,
+    115,
+    117,
+    156,
+    164
+   ],
+   "prevos": [
+    "IVYSAUR",
+    "BULBASAUR"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     7,
+     "LEECH_SEED"
+    ],
+    [
+     13,
+     "VINE_WHIP"
+    ],
+    [
+     22,
+     "POISONPOWDER"
+    ],
+    [
+     30,
+     "RAZOR_LEAF"
+    ],
+    [
+     43,
+     "GROWTH"
+    ],
+    [
+     55,
+     "SLEEP_POWDER"
+    ],
+    [
+     65,
+     "SOLARBEAM"
+    ]
+   ],
+   "dex": 3
+  },
+  {
+   "name": "CHARMANDER",
+   "file": "charmander",
+   "base": {
+    "hp": 39,
+    "atk": 52,
+    "def": 43,
+    "spe": 65,
+    "spc": 50
+   },
+   "types": [
+    9,
+    9
+   ],
+   "learnset": [
+    5,
+    10,
+    14,
+    15,
+    25,
+    34,
+    36,
+    38,
+    43,
+    45,
+    52,
+    53,
+    66,
+    68,
+    69,
+    70,
+    82,
+    83,
+    91,
+    92,
+    99,
+    102,
+    104,
+    115,
+    117,
+    126,
+    129,
+    130,
+    156,
+    163,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     9,
+     "EMBER"
+    ],
+    [
+     15,
+     "LEER"
+    ],
+    [
+     22,
+     "RAGE"
+    ],
+    [
+     30,
+     "SLASH"
+    ],
+    [
+     38,
+     "FLAMETHROWER"
+    ],
+    [
+     46,
+     "FIRE_SPIN"
+    ]
+   ],
+   "dex": 4
+  },
+  {
+   "name": "CHARMELEON",
+   "file": "charmeleon",
+   "base": {
+    "hp": 58,
+    "atk": 64,
+    "def": 58,
+    "spe": 80,
+    "spc": 65
+   },
+   "types": [
+    9,
+    9
+   ],
+   "learnset": [
+    5,
+    10,
+    14,
+    15,
+    25,
+    34,
+    36,
+    38,
+    43,
+    45,
+    52,
+    53,
+    66,
+    68,
+    69,
+    70,
+    82,
+    83,
+    91,
+    92,
+    99,
+    102,
+    104,
+    115,
+    117,
+    126,
+    129,
+    130,
+    156,
+    163,
+    164
+   ],
+   "prevos": [
+    "CHARMANDER"
+   ],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     9,
+     "EMBER"
+    ],
+    [
+     15,
+     "LEER"
+    ],
+    [
+     24,
+     "RAGE"
+    ],
+    [
+     33,
+     "SLASH"
+    ],
+    [
+     42,
+     "FLAMETHROWER"
+    ],
+    [
+     56,
+     "FIRE_SPIN"
+    ]
+   ],
+   "dex": 5
+  },
+  {
+   "name": "CHARIZARD",
+   "file": "charizard",
+   "base": {
+    "hp": 78,
+    "atk": 84,
+    "def": 78,
+    "spe": 100,
+    "spc": 85
+   },
+   "types": [
+    9,
+    2
+   ],
+   "learnset": [
+    5,
+    10,
+    14,
+    15,
+    25,
+    34,
+    36,
+    38,
+    43,
+    45,
+    52,
+    53,
+    63,
+    66,
+    68,
+    69,
+    70,
+    82,
+    83,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    104,
+    115,
+    117,
+    126,
+    129,
+    130,
+    156,
+    163,
+    164
+   ],
+   "prevos": [
+    "CHARMELEON",
+    "CHARMANDER"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     9,
+     "EMBER"
+    ],
+    [
+     15,
+     "LEER"
+    ],
+    [
+     24,
+     "RAGE"
+    ],
+    [
+     36,
+     "SLASH"
+    ],
+    [
+     46,
+     "FLAMETHROWER"
+    ],
+    [
+     55,
+     "FIRE_SPIN"
+    ]
+   ],
+   "dex": 6
+  },
+  {
+   "name": "SQUIRTLE",
+   "file": "squirtle",
+   "base": {
+    "hp": 44,
+    "atk": 48,
+    "def": 65,
+    "spe": 43,
+    "spc": 50
+   },
+   "types": [
+    10,
+    10
+   ],
+   "learnset": [
+    5,
+    25,
+    33,
+    34,
+    36,
+    38,
+    39,
+    44,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    66,
+    68,
+    69,
+    70,
+    91,
+    92,
+    99,
+    102,
+    104,
+    110,
+    115,
+    117,
+    130,
+    145,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     8,
+     "BUBBLE"
+    ],
+    [
+     15,
+     "WATER_GUN"
+    ],
+    [
+     22,
+     "BITE"
+    ],
+    [
+     28,
+     "WITHDRAW"
+    ],
+    [
+     35,
+     "SKULL_BASH"
+    ],
+    [
+     42,
+     "HYDRO_PUMP"
+    ]
+   ],
+   "dex": 7
+  },
+  {
+   "name": "WARTORTLE",
+   "file": "wartortle",
+   "base": {
+    "hp": 59,
+    "atk": 63,
+    "def": 80,
+    "spe": 58,
+    "spc": 65
+   },
+   "types": [
+    10,
+    10
+   ],
+   "learnset": [
+    5,
+    25,
+    33,
+    34,
+    36,
+    38,
+    39,
+    44,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    66,
+    68,
+    69,
+    70,
+    91,
+    92,
+    99,
+    102,
+    104,
+    110,
+    115,
+    117,
+    130,
+    145,
+    156,
+    164
+   ],
+   "prevos": [
+    "SQUIRTLE"
+   ],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     8,
+     "BUBBLE"
+    ],
+    [
+     15,
+     "WATER_GUN"
+    ],
+    [
+     24,
+     "BITE"
+    ],
+    [
+     31,
+     "WITHDRAW"
+    ],
+    [
+     39,
+     "SKULL_BASH"
+    ],
+    [
+     47,
+     "HYDRO_PUMP"
+    ]
+   ],
+   "dex": 8
+  },
+  {
+   "name": "BLASTOISE",
+   "file": "blastoise",
+   "base": {
+    "hp": 79,
+    "atk": 83,
+    "def": 100,
+    "spe": 78,
+    "spc": 85
+   },
+   "types": [
+    10,
+    10
+   ],
+   "learnset": [
+    5,
+    25,
+    33,
+    34,
+    36,
+    38,
+    39,
+    44,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    63,
+    66,
+    68,
+    69,
+    70,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    104,
+    110,
+    115,
+    117,
+    130,
+    145,
+    156,
+    164
+   ],
+   "prevos": [
+    "WARTORTLE",
+    "SQUIRTLE"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     8,
+     "BUBBLE"
+    ],
+    [
+     15,
+     "WATER_GUN"
+    ],
+    [
+     24,
+     "BITE"
+    ],
+    [
+     31,
+     "WITHDRAW"
+    ],
+    [
+     42,
+     "SKULL_BASH"
+    ],
+    [
+     52,
+     "HYDRO_PUMP"
+    ]
+   ],
+   "dex": 9
+  },
+  {
+   "name": "CATERPIE",
+   "file": "caterpie",
+   "base": {
+    "hp": 45,
+    "atk": 30,
+    "def": 35,
+    "spe": 45,
+    "spc": 20
+   },
+   "types": [
+    7,
+    7
+   ],
+   "learnset": [
+    33,
+    81
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [],
+   "dex": 10
+  },
+  {
+   "name": "METAPOD",
+   "file": "metapod",
+   "base": {
+    "hp": 50,
+    "atk": 20,
+    "def": 55,
+    "spe": 30,
+    "spc": 25
+   },
+   "types": [
+    7,
+    7
+   ],
+   "learnset": [
+    33,
+    81,
+    106
+   ],
+   "prevos": [
+    "CATERPIE"
+   ],
+   "fully_evolved": false,
+   "levelup": [],
+   "dex": 11
+  },
+  {
+   "name": "BUTTERFREE",
+   "file": "butterfree",
+   "base": {
+    "hp": 60,
+    "atk": 45,
+    "def": 50,
+    "spe": 70,
+    "spc": 80
+   },
+   "types": [
+    7,
+    2
+   ],
+   "learnset": [
+    13,
+    18,
+    33,
+    36,
+    38,
+    48,
+    60,
+    63,
+    72,
+    76,
+    77,
+    78,
+    79,
+    81,
+    92,
+    93,
+    94,
+    99,
+    100,
+    102,
+    104,
+    106,
+    115,
+    117,
+    129,
+    149,
+    156,
+    164
+   ],
+   "prevos": [
+    "METAPOD",
+    "CATERPIE"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     12,
+     "CONFUSION"
+    ],
+    [
+     15,
+     "POISONPOWDER"
+    ],
+    [
+     16,
+     "STUN_SPORE"
+    ],
+    [
+     17,
+     "SLEEP_POWDER"
+    ],
+    [
+     21,
+     "SUPERSONIC"
+    ],
+    [
+     26,
+     "WHIRLWIND"
+    ],
+    [
+     32,
+     "PSYBEAM"
+    ]
+   ],
+   "dex": 12
+  },
+  {
+   "name": "WEEDLE",
+   "file": "weedle",
+   "base": {
+    "hp": 40,
+    "atk": 35,
+    "def": 30,
+    "spe": 50,
+    "spc": 20
+   },
+   "types": [
+    7,
+    3
+   ],
+   "learnset": [
+    40,
+    81
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [],
+   "dex": 13
+  },
+  {
+   "name": "KAKUNA",
+   "file": "kakuna",
+   "base": {
+    "hp": 45,
+    "atk": 25,
+    "def": 50,
+    "spe": 35,
+    "spc": 25
+   },
+   "types": [
+    7,
+    3
+   ],
+   "learnset": [
+    40,
+    81,
+    106
+   ],
+   "prevos": [
+    "WEEDLE"
+   ],
+   "fully_evolved": false,
+   "levelup": [],
+   "dex": 14
+  },
+  {
+   "name": "BEEDRILL",
+   "file": "beedrill",
+   "base": {
+    "hp": 65,
+    "atk": 80,
+    "def": 40,
+    "spe": 75,
+    "spc": 45
+   },
+   "types": [
+    7,
+    3
+   ],
+   "learnset": [
+    14,
+    15,
+    31,
+    36,
+    38,
+    40,
+    41,
+    42,
+    63,
+    72,
+    81,
+    92,
+    97,
+    99,
+    102,
+    104,
+    106,
+    115,
+    116,
+    117,
+    129,
+    130,
+    156,
+    164
+   ],
+   "prevos": [
+    "KAKUNA",
+    "WEEDLE"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     12,
+     "FURY_ATTACK"
+    ],
+    [
+     16,
+     "FOCUS_ENERGY"
+    ],
+    [
+     20,
+     "TWINEEDLE"
+    ],
+    [
+     25,
+     "RAGE"
+    ],
+    [
+     30,
+     "PIN_MISSILE"
+    ],
+    [
+     35,
+     "AGILITY"
+    ]
+   ],
+   "dex": 15
+  },
+  {
+   "name": "PIDGEY",
+   "file": "pidgey",
+   "base": {
+    "hp": 40,
+    "atk": 45,
+    "def": 40,
+    "spe": 56,
+    "spc": 35
+   },
+   "types": [
+    0,
+    2
+   ],
+   "learnset": [
+    13,
+    16,
+    17,
+    18,
+    19,
+    28,
+    36,
+    38,
+    92,
+    97,
+    98,
+    99,
+    102,
+    104,
+    115,
+    117,
+    119,
+    129,
+    143,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     5,
+     "SAND_ATTACK"
+    ],
+    [
+     12,
+     "QUICK_ATTACK"
+    ],
+    [
+     19,
+     "WHIRLWIND"
+    ],
+    [
+     28,
+     "WING_ATTACK"
+    ],
+    [
+     36,
+     "AGILITY"
+    ],
+    [
+     44,
+     "MIRROR_MOVE"
+    ]
+   ],
+   "dex": 16
+  },
+  {
+   "name": "PIDGEOTTO",
+   "file": "pidgeotto",
+   "base": {
+    "hp": 63,
+    "atk": 60,
+    "def": 55,
+    "spe": 71,
+    "spc": 50
+   },
+   "types": [
+    0,
+    2
+   ],
+   "learnset": [
+    13,
+    16,
+    17,
+    18,
+    19,
+    28,
+    36,
+    38,
+    92,
+    97,
+    98,
+    99,
+    102,
+    104,
+    115,
+    117,
+    119,
+    129,
+    143,
+    156,
+    164
+   ],
+   "prevos": [
+    "PIDGEY"
+   ],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     5,
+     "SAND_ATTACK"
+    ],
+    [
+     12,
+     "QUICK_ATTACK"
+    ],
+    [
+     21,
+     "WHIRLWIND"
+    ],
+    [
+     31,
+     "WING_ATTACK"
+    ],
+    [
+     40,
+     "AGILITY"
+    ],
+    [
+     49,
+     "MIRROR_MOVE"
+    ]
+   ],
+   "dex": 17
+  },
+  {
+   "name": "PIDGEOT",
+   "file": "pidgeot",
+   "base": {
+    "hp": 83,
+    "atk": 80,
+    "def": 75,
+    "spe": 91,
+    "spc": 70
+   },
+   "types": [
+    0,
+    2
+   ],
+   "learnset": [
+    13,
+    16,
+    17,
+    18,
+    19,
+    28,
+    36,
+    38,
+    63,
+    92,
+    97,
+    98,
+    99,
+    102,
+    104,
+    115,
+    117,
+    119,
+    129,
+    143,
+    156,
+    164
+   ],
+   "prevos": [
+    "PIDGEOTTO",
+    "PIDGEY"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     5,
+     "SAND_ATTACK"
+    ],
+    [
+     12,
+     "QUICK_ATTACK"
+    ],
+    [
+     21,
+     "WHIRLWIND"
+    ],
+    [
+     31,
+     "WING_ATTACK"
+    ],
+    [
+     44,
+     "AGILITY"
+    ],
+    [
+     54,
+     "MIRROR_MOVE"
+    ]
+   ],
+   "dex": 18
+  },
+  {
+   "name": "RATTATA",
+   "file": "rattata",
+   "base": {
+    "hp": 30,
+    "atk": 56,
+    "def": 35,
+    "spe": 72,
+    "spc": 25
+   },
+   "types": [
+    0,
+    0
+   ],
+   "learnset": [
+    33,
+    34,
+    36,
+    38,
+    39,
+    55,
+    59,
+    61,
+    85,
+    87,
+    91,
+    92,
+    98,
+    99,
+    102,
+    104,
+    116,
+    117,
+    129,
+    130,
+    156,
+    158,
+    162,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     7,
+     "QUICK_ATTACK"
+    ],
+    [
+     14,
+     "HYPER_FANG"
+    ],
+    [
+     23,
+     "FOCUS_ENERGY"
+    ],
+    [
+     34,
+     "SUPER_FANG"
+    ]
+   ],
+   "dex": 19
+  },
+  {
+   "name": "RATICATE",
+   "file": "raticate",
+   "base": {
+    "hp": 55,
+    "atk": 81,
+    "def": 60,
+    "spe": 97,
+    "spc": 50
+   },
+   "types": [
+    0,
+    0
+   ],
+   "learnset": [
+    33,
+    34,
+    36,
+    38,
+    39,
+    55,
+    58,
+    59,
+    61,
+    63,
+    85,
+    87,
+    91,
+    92,
+    98,
+    99,
+    102,
+    104,
+    116,
+    117,
+    129,
+    130,
+    156,
+    158,
+    162,
+    164
+   ],
+   "prevos": [
+    "RATTATA"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     7,
+     "QUICK_ATTACK"
+    ],
+    [
+     14,
+     "HYPER_FANG"
+    ],
+    [
+     27,
+     "FOCUS_ENERGY"
+    ],
+    [
+     41,
+     "SUPER_FANG"
+    ]
+   ],
+   "dex": 20
+  },
+  {
+   "name": "SPEAROW",
+   "file": "spearow",
+   "base": {
+    "hp": 40,
+    "atk": 60,
+    "def": 30,
+    "spe": 70,
+    "spc": 31
+   },
+   "types": [
+    0,
+    2
+   ],
+   "learnset": [
+    13,
+    18,
+    19,
+    31,
+    36,
+    38,
+    43,
+    45,
+    64,
+    65,
+    92,
+    97,
+    99,
+    102,
+    104,
+    117,
+    119,
+    129,
+    143,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     9,
+     "LEER"
+    ],
+    [
+     15,
+     "FURY_ATTACK"
+    ],
+    [
+     22,
+     "MIRROR_MOVE"
+    ],
+    [
+     29,
+     "DRILL_PECK"
+    ],
+    [
+     36,
+     "AGILITY"
+    ]
+   ],
+   "dex": 21
+  },
+  {
+   "name": "FEAROW",
+   "file": "fearow",
+   "base": {
+    "hp": 65,
+    "atk": 90,
+    "def": 65,
+    "spe": 100,
+    "spc": 61
+   },
+   "types": [
+    0,
+    2
+   ],
+   "learnset": [
+    13,
+    18,
+    19,
+    31,
+    36,
+    38,
+    43,
+    45,
+    63,
+    64,
+    65,
+    92,
+    97,
+    99,
+    102,
+    104,
+    117,
+    119,
+    129,
+    143,
+    156,
+    164
+   ],
+   "prevos": [
+    "SPEAROW"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     9,
+     "LEER"
+    ],
+    [
+     15,
+     "FURY_ATTACK"
+    ],
+    [
+     25,
+     "MIRROR_MOVE"
+    ],
+    [
+     34,
+     "DRILL_PECK"
+    ],
+    [
+     43,
+     "AGILITY"
+    ]
+   ],
+   "dex": 22
+  },
+  {
+   "name": "EKANS",
+   "file": "ekans",
+   "base": {
+    "hp": 35,
+    "atk": 60,
+    "def": 44,
+    "spe": 55,
+    "spc": 40
+   },
+   "types": [
+    3,
+    3
+   ],
+   "learnset": [
+    34,
+    35,
+    36,
+    38,
+    40,
+    43,
+    44,
+    51,
+    70,
+    72,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    103,
+    104,
+    117,
+    130,
+    137,
+    156,
+    157,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     10,
+     "POISON_STING"
+    ],
+    [
+     17,
+     "BITE"
+    ],
+    [
+     24,
+     "GLARE"
+    ],
+    [
+     31,
+     "SCREECH"
+    ],
+    [
+     38,
+     "ACID"
+    ]
+   ],
+   "dex": 23
+  },
+  {
+   "name": "ARBOK",
+   "file": "arbok",
+   "base": {
+    "hp": 60,
+    "atk": 85,
+    "def": 69,
+    "spe": 80,
+    "spc": 65
+   },
+   "types": [
+    3,
+    3
+   ],
+   "learnset": [
+    34,
+    35,
+    36,
+    38,
+    40,
+    43,
+    44,
+    51,
+    63,
+    70,
+    72,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    103,
+    104,
+    117,
+    130,
+    137,
+    156,
+    157,
+    164
+   ],
+   "prevos": [
+    "EKANS"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     10,
+     "POISON_STING"
+    ],
+    [
+     17,
+     "BITE"
+    ],
+    [
+     27,
+     "GLARE"
+    ],
+    [
+     36,
+     "SCREECH"
+    ],
+    [
+     47,
+     "ACID"
+    ]
+   ],
+   "dex": 24
+  },
+  {
+   "name": "PIKACHU",
+   "file": "pikachu",
+   "base": {
+    "hp": 35,
+    "atk": 55,
+    "def": 30,
+    "spe": 90,
+    "spc": 50
+   },
+   "types": [
+    12,
+    12
+   ],
+   "learnset": [
+    5,
+    6,
+    25,
+    34,
+    36,
+    38,
+    45,
+    66,
+    69,
+    84,
+    85,
+    86,
+    87,
+    92,
+    97,
+    98,
+    99,
+    102,
+    104,
+    115,
+    117,
+    129,
+    130,
+    148,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     9,
+     "THUNDER_WAVE"
+    ],
+    [
+     16,
+     "QUICK_ATTACK"
+    ],
+    [
+     26,
+     "SWIFT"
+    ],
+    [
+     33,
+     "AGILITY"
+    ],
+    [
+     43,
+     "THUNDER"
+    ]
+   ],
+   "dex": 25
+  },
+  {
+   "name": "RAICHU",
+   "file": "raichu",
+   "base": {
+    "hp": 60,
+    "atk": 90,
+    "def": 55,
+    "spe": 100,
+    "spc": 90
+   },
+   "types": [
+    12,
+    12
+   ],
+   "learnset": [
+    5,
+    6,
+    25,
+    34,
+    36,
+    38,
+    45,
+    63,
+    66,
+    69,
+    84,
+    85,
+    86,
+    87,
+    92,
+    97,
+    98,
+    99,
+    102,
+    104,
+    115,
+    117,
+    129,
+    130,
+    148,
+    156,
+    164
+   ],
+   "prevos": [
+    "PIKACHU"
+   ],
+   "fully_evolved": true,
+   "levelup": [],
+   "dex": 26
+  },
+  {
+   "name": "SANDSHREW",
+   "file": "sandshrew",
+   "base": {
+    "hp": 50,
+    "atk": 75,
+    "def": 85,
+    "spe": 40,
+    "spc": 30
+   },
+   "types": [
+    4,
+    4
+   ],
+   "learnset": [
+    10,
+    14,
+    15,
+    28,
+    34,
+    36,
+    38,
+    40,
+    66,
+    69,
+    70,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    104,
+    117,
+    129,
+    130,
+    154,
+    156,
+    157,
+    163,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     10,
+     "SAND_ATTACK"
+    ],
+    [
+     17,
+     "SLASH"
+    ],
+    [
+     24,
+     "POISON_STING"
+    ],
+    [
+     31,
+     "SWIFT"
+    ],
+    [
+     38,
+     "FURY_SWIPES"
+    ]
+   ],
+   "dex": 27
+  },
+  {
+   "name": "SANDSLASH",
+   "file": "sandslash",
+   "base": {
+    "hp": 75,
+    "atk": 100,
+    "def": 110,
+    "spe": 65,
+    "spc": 55
+   },
+   "types": [
+    4,
+    4
+   ],
+   "learnset": [
+    10,
+    14,
+    15,
+    28,
+    34,
+    36,
+    38,
+    40,
+    63,
+    66,
+    69,
+    70,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    104,
+    117,
+    129,
+    130,
+    154,
+    156,
+    157,
+    163,
+    164
+   ],
+   "prevos": [
+    "SANDSHREW"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     10,
+     "SAND_ATTACK"
+    ],
+    [
+     17,
+     "SLASH"
+    ],
+    [
+     27,
+     "POISON_STING"
+    ],
+    [
+     36,
+     "SWIFT"
+    ],
+    [
+     47,
+     "FURY_SWIPES"
+    ]
+   ],
+   "dex": 28
+  },
+  {
+   "name": "NIDORAN_F",
+   "file": "nidoranf",
+   "base": {
+    "hp": 55,
+    "atk": 47,
+    "def": 52,
+    "spe": 41,
+    "spc": 40
+   },
+   "types": [
+    3,
+    3
+   ],
+   "learnset": [
+    10,
+    24,
+    33,
+    34,
+    36,
+    38,
+    39,
+    40,
+    44,
+    45,
+    59,
+    85,
+    87,
+    92,
+    99,
+    102,
+    104,
+    115,
+    117,
+    130,
+    154,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     8,
+     "SCRATCH"
+    ],
+    [
+     14,
+     "POISON_STING"
+    ],
+    [
+     21,
+     "TAIL_WHIP"
+    ],
+    [
+     29,
+     "BITE"
+    ],
+    [
+     36,
+     "FURY_SWIPES"
+    ],
+    [
+     43,
+     "DOUBLE_KICK"
+    ]
+   ],
+   "dex": 29
+  },
+  {
+   "name": "NIDORINA",
+   "file": "nidorina",
+   "base": {
+    "hp": 70,
+    "atk": 62,
+    "def": 67,
+    "spe": 56,
+    "spc": 55
+   },
+   "types": [
+    3,
+    3
+   ],
+   "learnset": [
+    10,
+    24,
+    32,
+    33,
+    34,
+    36,
+    38,
+    39,
+    40,
+    44,
+    45,
+    55,
+    58,
+    59,
+    61,
+    85,
+    87,
+    92,
+    99,
+    102,
+    104,
+    115,
+    117,
+    130,
+    154,
+    156,
+    164
+   ],
+   "prevos": [
+    "NIDORAN_F"
+   ],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     8,
+     "SCRATCH"
+    ],
+    [
+     14,
+     "POISON_STING"
+    ],
+    [
+     23,
+     "TAIL_WHIP"
+    ],
+    [
+     32,
+     "BITE"
+    ],
+    [
+     41,
+     "FURY_SWIPES"
+    ],
+    [
+     50,
+     "DOUBLE_KICK"
+    ]
+   ],
+   "dex": 30
+  },
+  {
+   "name": "NIDOQUEEN",
+   "file": "nidoqueen",
+   "base": {
+    "hp": 90,
+    "atk": 82,
+    "def": 87,
+    "spe": 76,
+    "spc": 75
+   },
+   "types": [
+    3,
+    4
+   ],
+   "learnset": [
+    5,
+    6,
+    10,
+    24,
+    25,
+    32,
+    33,
+    34,
+    36,
+    38,
+    39,
+    40,
+    44,
+    45,
+    55,
+    57,
+    58,
+    59,
+    61,
+    63,
+    66,
+    68,
+    69,
+    70,
+    85,
+    87,
+    89,
+    90,
+    92,
+    99,
+    102,
+    104,
+    115,
+    117,
+    126,
+    130,
+    154,
+    156,
+    157,
+    164
+   ],
+   "prevos": [
+    "NIDORINA",
+    "NIDORAN_F"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     8,
+     "SCRATCH"
+    ],
+    [
+     14,
+     "POISON_STING"
+    ],
+    [
+     23,
+     "BODY_SLAM"
+    ]
+   ],
+   "dex": 31
+  },
+  {
+   "name": "NIDORAN_M",
+   "file": "nidoranm",
+   "base": {
+    "hp": 46,
+    "atk": 57,
+    "def": 40,
+    "spe": 50,
+    "spc": 40
+   },
+   "types": [
+    3,
+    3
+   ],
+   "learnset": [
+    24,
+    30,
+    31,
+    32,
+    33,
+    34,
+    36,
+    38,
+    40,
+    43,
+    59,
+    85,
+    87,
+    92,
+    99,
+    102,
+    104,
+    115,
+    116,
+    117,
+    130,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     8,
+     "HORN_ATTACK"
+    ],
+    [
+     14,
+     "POISON_STING"
+    ],
+    [
+     21,
+     "FOCUS_ENERGY"
+    ],
+    [
+     29,
+     "FURY_ATTACK"
+    ],
+    [
+     36,
+     "HORN_DRILL"
+    ],
+    [
+     43,
+     "DOUBLE_KICK"
+    ]
+   ],
+   "dex": 32
+  },
+  {
+   "name": "NIDORINO",
+   "file": "nidorino",
+   "base": {
+    "hp": 61,
+    "atk": 72,
+    "def": 57,
+    "spe": 65,
+    "spc": 55
+   },
+   "types": [
+    3,
+    3
+   ],
+   "learnset": [
+    24,
+    30,
+    31,
+    32,
+    33,
+    34,
+    36,
+    38,
+    40,
+    43,
+    55,
+    58,
+    59,
+    61,
+    85,
+    87,
+    92,
+    99,
+    102,
+    104,
+    115,
+    116,
+    117,
+    130,
+    156,
+    164
+   ],
+   "prevos": [
+    "NIDORAN_M"
+   ],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     8,
+     "HORN_ATTACK"
+    ],
+    [
+     14,
+     "POISON_STING"
+    ],
+    [
+     23,
+     "FOCUS_ENERGY"
+    ],
+    [
+     32,
+     "FURY_ATTACK"
+    ],
+    [
+     41,
+     "HORN_DRILL"
+    ],
+    [
+     50,
+     "DOUBLE_KICK"
+    ]
+   ],
+   "dex": 33
+  },
+  {
+   "name": "NIDOKING",
+   "file": "nidoking",
+   "base": {
+    "hp": 81,
+    "atk": 92,
+    "def": 77,
+    "spe": 85,
+    "spc": 75
+   },
+   "types": [
+    3,
+    4
+   ],
+   "learnset": [
+    5,
+    6,
+    24,
+    25,
+    30,
+    31,
+    32,
+    33,
+    34,
+    36,
+    37,
+    38,
+    40,
+    43,
+    55,
+    57,
+    58,
+    59,
+    61,
+    63,
+    66,
+    68,
+    69,
+    70,
+    85,
+    87,
+    89,
+    90,
+    92,
+    99,
+    102,
+    104,
+    115,
+    116,
+    117,
+    126,
+    130,
+    156,
+    157,
+    164
+   ],
+   "prevos": [
+    "NIDORINO",
+    "NIDORAN_M"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     8,
+     "HORN_ATTACK"
+    ],
+    [
+     14,
+     "POISON_STING"
+    ],
+    [
+     23,
+     "THRASH"
+    ]
+   ],
+   "dex": 34
+  },
+  {
+   "name": "CLEFAIRY",
+   "file": "clefairy",
+   "base": {
+    "hp": 70,
+    "atk": 45,
+    "def": 48,
+    "spe": 35,
+    "spc": 60
+   },
+   "types": [
+    0,
+    0
+   ],
+   "learnset": [
+    1,
+    3,
+    5,
+    25,
+    34,
+    36,
+    38,
+    45,
+    47,
+    55,
+    58,
+    59,
+    61,
+    66,
+    68,
+    69,
+    70,
+    76,
+    85,
+    86,
+    87,
+    92,
+    94,
+    99,
+    100,
+    102,
+    104,
+    107,
+    111,
+    113,
+    115,
+    117,
+    118,
+    126,
+    130,
+    148,
+    149,
+    156,
+    161,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     13,
+     "SING"
+    ],
+    [
+     18,
+     "DOUBLESLAP"
+    ],
+    [
+     24,
+     "MINIMIZE"
+    ],
+    [
+     31,
+     "METRONOME"
+    ],
+    [
+     39,
+     "DEFENSE_CURL"
+    ],
+    [
+     48,
+     "LIGHT_SCREEN"
+    ]
+   ],
+   "dex": 35
+  },
+  {
+   "name": "CLEFABLE",
+   "file": "clefable",
+   "base": {
+    "hp": 95,
+    "atk": 70,
+    "def": 73,
+    "spe": 60,
+    "spc": 85
+   },
+   "types": [
+    0,
+    0
+   ],
+   "learnset": [
+    1,
+    3,
+    5,
+    25,
+    34,
+    36,
+    38,
+    45,
+    47,
+    55,
+    58,
+    59,
+    61,
+    63,
+    66,
+    68,
+    69,
+    70,
+    76,
+    85,
+    86,
+    87,
+    92,
+    94,
+    99,
+    100,
+    102,
+    104,
+    107,
+    111,
+    113,
+    115,
+    117,
+    118,
+    126,
+    130,
+    148,
+    149,
+    156,
+    161,
+    164
+   ],
+   "prevos": [
+    "CLEFAIRY"
+   ],
+   "fully_evolved": true,
+   "levelup": [],
+   "dex": 36
+  },
+  {
+   "name": "VULPIX",
+   "file": "vulpix",
+   "base": {
+    "hp": 38,
+    "atk": 41,
+    "def": 40,
+    "spe": 65,
+    "spc": 65
+   },
+   "types": [
+    9,
+    9
+   ],
+   "learnset": [
+    34,
+    36,
+    38,
+    39,
+    46,
+    52,
+    53,
+    83,
+    91,
+    92,
+    98,
+    99,
+    102,
+    104,
+    109,
+    115,
+    117,
+    126,
+    129,
+    130,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     16,
+     "QUICK_ATTACK"
+    ],
+    [
+     21,
+     "ROAR"
+    ],
+    [
+     28,
+     "CONFUSE_RAY"
+    ],
+    [
+     35,
+     "FLAMETHROWER"
+    ],
+    [
+     42,
+     "FIRE_SPIN"
+    ]
+   ],
+   "dex": 37
+  },
+  {
+   "name": "NINETALES",
+   "file": "ninetales",
+   "base": {
+    "hp": 73,
+    "atk": 76,
+    "def": 75,
+    "spe": 100,
+    "spc": 100
+   },
+   "types": [
+    9,
+    9
+   ],
+   "learnset": [
+    34,
+    36,
+    38,
+    39,
+    46,
+    52,
+    53,
+    63,
+    83,
+    91,
+    92,
+    98,
+    99,
+    102,
+    104,
+    109,
+    115,
+    117,
+    126,
+    129,
+    130,
+    156,
+    164
+   ],
+   "prevos": [
+    "VULPIX"
+   ],
+   "fully_evolved": true,
+   "levelup": [],
+   "dex": 38
+  },
+  {
+   "name": "JIGGLYPUFF",
+   "file": "jigglypuff",
+   "base": {
+    "hp": 115,
+    "atk": 45,
+    "def": 20,
+    "spe": 20,
+    "spc": 25
+   },
+   "types": [
+    0,
+    0
+   ],
+   "learnset": [
+    1,
+    3,
+    5,
+    25,
+    34,
+    36,
+    38,
+    47,
+    50,
+    55,
+    58,
+    59,
+    61,
+    66,
+    68,
+    69,
+    70,
+    76,
+    85,
+    86,
+    87,
+    92,
+    94,
+    99,
+    100,
+    102,
+    104,
+    111,
+    115,
+    117,
+    126,
+    130,
+    148,
+    149,
+    156,
+    161,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     9,
+     "POUND"
+    ],
+    [
+     14,
+     "DISABLE"
+    ],
+    [
+     19,
+     "DEFENSE_CURL"
+    ],
+    [
+     24,
+     "DOUBLESLAP"
+    ],
+    [
+     29,
+     "REST"
+    ],
+    [
+     34,
+     "BODY_SLAM"
+    ],
+    [
+     39,
+     "DOUBLE_EDGE"
+    ]
+   ],
+   "dex": 39
+  },
+  {
+   "name": "WIGGLYTUFF",
+   "file": "wigglytuff",
+   "base": {
+    "hp": 140,
+    "atk": 70,
+    "def": 45,
+    "spe": 45,
+    "spc": 50
+   },
+   "types": [
+    0,
+    0
+   ],
+   "learnset": [
+    1,
+    3,
+    5,
+    25,
+    34,
+    36,
+    38,
+    47,
+    50,
+    55,
+    58,
+    59,
+    61,
+    63,
+    66,
+    68,
+    69,
+    70,
+    76,
+    85,
+    86,
+    87,
+    92,
+    94,
+    99,
+    100,
+    102,
+    104,
+    111,
+    115,
+    117,
+    126,
+    130,
+    148,
+    149,
+    156,
+    161,
+    164
+   ],
+   "prevos": [
+    "JIGGLYPUFF"
+   ],
+   "fully_evolved": true,
+   "levelup": [],
+   "dex": 40
+  },
+  {
+   "name": "ZUBAT",
+   "file": "zubat",
+   "base": {
+    "hp": 40,
+    "atk": 45,
+    "def": 35,
+    "spe": 55,
+    "spc": 40
+   },
+   "types": [
+    3,
+    2
+   ],
+   "learnset": [
+    13,
+    17,
+    18,
+    36,
+    38,
+    44,
+    48,
+    72,
+    92,
+    99,
+    102,
+    104,
+    109,
+    114,
+    117,
+    129,
+    141,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     10,
+     "SUPERSONIC"
+    ],
+    [
+     15,
+     "BITE"
+    ],
+    [
+     21,
+     "CONFUSE_RAY"
+    ],
+    [
+     28,
+     "WING_ATTACK"
+    ],
+    [
+     36,
+     "HAZE"
+    ]
+   ],
+   "dex": 41
+  },
+  {
+   "name": "GOLBAT",
+   "file": "golbat",
+   "base": {
+    "hp": 75,
+    "atk": 80,
+    "def": 70,
+    "spe": 90,
+    "spc": 75
+   },
+   "types": [
+    3,
+    2
+   ],
+   "learnset": [
+    13,
+    17,
+    18,
+    36,
+    38,
+    44,
+    48,
+    63,
+    72,
+    92,
+    99,
+    102,
+    103,
+    104,
+    109,
+    114,
+    117,
+    129,
+    141,
+    156,
+    164
+   ],
+   "prevos": [
+    "ZUBAT"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     10,
+     "SUPERSONIC"
+    ],
+    [
+     15,
+     "BITE"
+    ],
+    [
+     21,
+     "CONFUSE_RAY"
+    ],
+    [
+     32,
+     "WING_ATTACK"
+    ],
+    [
+     43,
+     "HAZE"
+    ]
+   ],
+   "dex": 42
+  },
+  {
+   "name": "ODDISH",
+   "file": "oddish",
+   "base": {
+    "hp": 45,
+    "atk": 50,
+    "def": 55,
+    "spe": 30,
+    "spc": 75
+   },
+   "types": [
+    11,
+    3
+   ],
+   "learnset": [
+    14,
+    15,
+    36,
+    38,
+    51,
+    71,
+    72,
+    76,
+    77,
+    78,
+    79,
+    80,
+    92,
+    99,
+    102,
+    104,
+    115,
+    117,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     15,
+     "POISONPOWDER"
+    ],
+    [
+     17,
+     "STUN_SPORE"
+    ],
+    [
+     19,
+     "SLEEP_POWDER"
+    ],
+    [
+     24,
+     "ACID"
+    ],
+    [
+     33,
+     "PETAL_DANCE"
+    ],
+    [
+     46,
+     "SOLARBEAM"
+    ]
+   ],
+   "dex": 43
+  },
+  {
+   "name": "GLOOM",
+   "file": "gloom",
+   "base": {
+    "hp": 60,
+    "atk": 65,
+    "def": 70,
+    "spe": 40,
+    "spc": 85
+   },
+   "types": [
+    11,
+    3
+   ],
+   "learnset": [
+    14,
+    15,
+    36,
+    38,
+    51,
+    71,
+    72,
+    76,
+    77,
+    78,
+    79,
+    80,
+    92,
+    99,
+    102,
+    104,
+    115,
+    117,
+    156,
+    164
+   ],
+   "prevos": [
+    "ODDISH"
+   ],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     15,
+     "POISONPOWDER"
+    ],
+    [
+     17,
+     "STUN_SPORE"
+    ],
+    [
+     19,
+     "SLEEP_POWDER"
+    ],
+    [
+     28,
+     "ACID"
+    ],
+    [
+     38,
+     "PETAL_DANCE"
+    ],
+    [
+     52,
+     "SOLARBEAM"
+    ]
+   ],
+   "dex": 44
+  },
+  {
+   "name": "VILEPLUME",
+   "file": "vileplume",
+   "base": {
+    "hp": 75,
+    "atk": 80,
+    "def": 85,
+    "spe": 50,
+    "spc": 100
+   },
+   "types": [
+    11,
+    3
+   ],
+   "learnset": [
+    14,
+    15,
+    34,
+    36,
+    38,
+    51,
+    63,
+    71,
+    72,
+    76,
+    77,
+    78,
+    79,
+    80,
+    92,
+    99,
+    102,
+    104,
+    115,
+    117,
+    156,
+    164
+   ],
+   "prevos": [
+    "GLOOM",
+    "ODDISH"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     15,
+     "POISONPOWDER"
+    ],
+    [
+     17,
+     "STUN_SPORE"
+    ],
+    [
+     19,
+     "SLEEP_POWDER"
+    ]
+   ],
+   "dex": 45
+  },
+  {
+   "name": "PARAS",
+   "file": "paras",
+   "base": {
+    "hp": 35,
+    "atk": 70,
+    "def": 55,
+    "spe": 25,
+    "spc": 55
+   },
+   "types": [
+    7,
+    11
+   ],
+   "learnset": [
+    10,
+    14,
+    15,
+    34,
+    36,
+    38,
+    72,
+    74,
+    76,
+    78,
+    91,
+    92,
+    99,
+    102,
+    104,
+    115,
+    117,
+    130,
+    141,
+    147,
+    156,
+    163,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     13,
+     "STUN_SPORE"
+    ],
+    [
+     20,
+     "LEECH_LIFE"
+    ],
+    [
+     27,
+     "SPORE"
+    ],
+    [
+     34,
+     "SLASH"
+    ],
+    [
+     41,
+     "GROWTH"
+    ]
+   ],
+   "dex": 46
+  },
+  {
+   "name": "PARASECT",
+   "file": "parasect",
+   "base": {
+    "hp": 60,
+    "atk": 95,
+    "def": 80,
+    "spe": 30,
+    "spc": 80
+   },
+   "types": [
+    7,
+    11
+   ],
+   "learnset": [
+    10,
+    14,
+    15,
+    34,
+    36,
+    38,
+    63,
+    72,
+    74,
+    76,
+    78,
+    91,
+    92,
+    99,
+    102,
+    104,
+    115,
+    117,
+    130,
+    141,
+    147,
+    156,
+    163,
+    164
+   ],
+   "prevos": [
+    "PARAS"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     13,
+     "STUN_SPORE"
+    ],
+    [
+     20,
+     "LEECH_LIFE"
+    ],
+    [
+     30,
+     "SPORE"
+    ],
+    [
+     39,
+     "SLASH"
+    ],
+    [
+     48,
+     "GROWTH"
+    ]
+   ],
+   "dex": 47
+  },
+  {
+   "name": "VENONAT",
+   "file": "venonat",
+   "base": {
+    "hp": 60,
+    "atk": 55,
+    "def": 50,
+    "spe": 45,
+    "spc": 40
+   },
+   "types": [
+    7,
+    3
+   ],
+   "learnset": [
+    33,
+    36,
+    38,
+    50,
+    60,
+    72,
+    76,
+    77,
+    78,
+    79,
+    92,
+    94,
+    99,
+    102,
+    104,
+    115,
+    117,
+    141,
+    149,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     24,
+     "POISONPOWDER"
+    ],
+    [
+     27,
+     "LEECH_LIFE"
+    ],
+    [
+     30,
+     "STUN_SPORE"
+    ],
+    [
+     35,
+     "PSYBEAM"
+    ],
+    [
+     38,
+     "SLEEP_POWDER"
+    ],
+    [
+     43,
+     "PSYCHIC_M"
+    ]
+   ],
+   "dex": 48
+  },
+  {
+   "name": "VENOMOTH",
+   "file": "venomoth",
+   "base": {
+    "hp": 70,
+    "atk": 65,
+    "def": 60,
+    "spe": 90,
+    "spc": 90
+   },
+   "types": [
+    7,
+    3
+   ],
+   "learnset": [
+    13,
+    18,
+    33,
+    36,
+    38,
+    50,
+    60,
+    63,
+    72,
+    76,
+    77,
+    78,
+    79,
+    92,
+    94,
+    99,
+    100,
+    102,
+    104,
+    115,
+    117,
+    129,
+    141,
+    149,
+    156,
+    164
+   ],
+   "prevos": [
+    "VENONAT"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     24,
+     "POISONPOWDER"
+    ],
+    [
+     27,
+     "LEECH_LIFE"
+    ],
+    [
+     30,
+     "STUN_SPORE"
+    ],
+    [
+     38,
+     "PSYBEAM"
+    ],
+    [
+     43,
+     "SLEEP_POWDER"
+    ],
+    [
+     50,
+     "PSYCHIC_M"
+    ]
+   ],
+   "dex": 49
+  },
+  {
+   "name": "DIGLETT",
+   "file": "diglett",
+   "base": {
+    "hp": 10,
+    "atk": 55,
+    "def": 25,
+    "spe": 95,
+    "spc": 45
+   },
+   "types": [
+    4,
+    4
+   ],
+   "learnset": [
+    10,
+    28,
+    34,
+    36,
+    38,
+    45,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    104,
+    117,
+    156,
+    157,
+    163,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     15,
+     "GROWL"
+    ],
+    [
+     19,
+     "DIG"
+    ],
+    [
+     24,
+     "SAND_ATTACK"
+    ],
+    [
+     31,
+     "SLASH"
+    ],
+    [
+     40,
+     "EARTHQUAKE"
+    ]
+   ],
+   "dex": 50
+  },
+  {
+   "name": "DUGTRIO",
+   "file": "dugtrio",
+   "base": {
+    "hp": 35,
+    "atk": 80,
+    "def": 50,
+    "spe": 120,
+    "spc": 70
+   },
+   "types": [
+    4,
+    4
+   ],
+   "learnset": [
+    10,
+    28,
+    34,
+    36,
+    38,
+    45,
+    63,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    104,
+    117,
+    156,
+    157,
+    163,
+    164
+   ],
+   "prevos": [
+    "DIGLETT"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     15,
+     "GROWL"
+    ],
+    [
+     19,
+     "DIG"
+    ],
+    [
+     24,
+     "SAND_ATTACK"
+    ],
+    [
+     35,
+     "SLASH"
+    ],
+    [
+     47,
+     "EARTHQUAKE"
+    ]
+   ],
+   "dex": 51
+  },
+  {
+   "name": "MEOWTH",
+   "file": "meowth",
+   "base": {
+    "hp": 40,
+    "atk": 45,
+    "def": 35,
+    "spe": 90,
+    "spc": 40
+   },
+   "types": [
+    0,
+    0
+   ],
+   "learnset": [
+    6,
+    10,
+    34,
+    36,
+    38,
+    44,
+    45,
+    55,
+    61,
+    85,
+    87,
+    92,
+    99,
+    102,
+    103,
+    104,
+    117,
+    129,
+    130,
+    154,
+    156,
+    163,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     12,
+     "BITE"
+    ],
+    [
+     17,
+     "PAY_DAY"
+    ],
+    [
+     24,
+     "SCREECH"
+    ],
+    [
+     33,
+     "FURY_SWIPES"
+    ],
+    [
+     44,
+     "SLASH"
+    ]
+   ],
+   "dex": 52
+  },
+  {
+   "name": "PERSIAN",
+   "file": "persian",
+   "base": {
+    "hp": 65,
+    "atk": 70,
+    "def": 60,
+    "spe": 115,
+    "spc": 65
+   },
+   "types": [
+    0,
+    0
+   ],
+   "learnset": [
+    6,
+    10,
+    34,
+    36,
+    38,
+    44,
+    45,
+    55,
+    61,
+    63,
+    85,
+    87,
+    92,
+    99,
+    102,
+    103,
+    104,
+    117,
+    129,
+    130,
+    154,
+    156,
+    163,
+    164
+   ],
+   "prevos": [
+    "MEOWTH"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     12,
+     "BITE"
+    ],
+    [
+     17,
+     "PAY_DAY"
+    ],
+    [
+     24,
+     "SCREECH"
+    ],
+    [
+     37,
+     "FURY_SWIPES"
+    ],
+    [
+     51,
+     "SLASH"
+    ]
+   ],
+   "dex": 53
+  },
+  {
+   "name": "PSYDUCK",
+   "file": "psyduck",
+   "base": {
+    "hp": 50,
+    "atk": 52,
+    "def": 48,
+    "spe": 55,
+    "spc": 50
+   },
+   "types": [
+    10,
+    10
+   ],
+   "learnset": [
+    5,
+    6,
+    10,
+    25,
+    34,
+    36,
+    38,
+    39,
+    50,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    66,
+    68,
+    69,
+    70,
+    91,
+    92,
+    93,
+    99,
+    102,
+    104,
+    117,
+    129,
+    130,
+    154,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     28,
+     "TAIL_WHIP"
+    ],
+    [
+     31,
+     "DISABLE"
+    ],
+    [
+     36,
+     "CONFUSION"
+    ],
+    [
+     43,
+     "FURY_SWIPES"
+    ],
+    [
+     52,
+     "HYDRO_PUMP"
+    ]
+   ],
+   "dex": 54
+  },
+  {
+   "name": "GOLDUCK",
+   "file": "golduck",
+   "base": {
+    "hp": 80,
+    "atk": 82,
+    "def": 78,
+    "spe": 85,
+    "spc": 80
+   },
+   "types": [
+    10,
+    10
+   ],
+   "learnset": [
+    5,
+    6,
+    10,
+    25,
+    34,
+    36,
+    38,
+    39,
+    50,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    63,
+    66,
+    68,
+    69,
+    70,
+    91,
+    92,
+    93,
+    99,
+    102,
+    104,
+    117,
+    129,
+    130,
+    154,
+    156,
+    164
+   ],
+   "prevos": [
+    "PSYDUCK"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     28,
+     "TAIL_WHIP"
+    ],
+    [
+     31,
+     "DISABLE"
+    ],
+    [
+     39,
+     "CONFUSION"
+    ],
+    [
+     48,
+     "FURY_SWIPES"
+    ],
+    [
+     59,
+     "HYDRO_PUMP"
+    ]
+   ],
+   "dex": 55
+  },
+  {
+   "name": "MANKEY",
+   "file": "mankey",
+   "base": {
+    "hp": 40,
+    "atk": 80,
+    "def": 35,
+    "spe": 70,
+    "spc": 35
+   },
+   "types": [
+    1,
+    1
+   ],
+   "learnset": [
+    2,
+    5,
+    6,
+    10,
+    25,
+    34,
+    36,
+    37,
+    38,
+    43,
+    66,
+    68,
+    69,
+    70,
+    85,
+    87,
+    91,
+    92,
+    99,
+    102,
+    104,
+    116,
+    117,
+    118,
+    129,
+    130,
+    154,
+    156,
+    157,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     15,
+     "KARATE_CHOP"
+    ],
+    [
+     21,
+     "FURY_SWIPES"
+    ],
+    [
+     27,
+     "FOCUS_ENERGY"
+    ],
+    [
+     33,
+     "SEISMIC_TOSS"
+    ],
+    [
+     39,
+     "THRASH"
+    ]
+   ],
+   "dex": 56
+  },
+  {
+   "name": "PRIMEAPE",
+   "file": "primeape",
+   "base": {
+    "hp": 65,
+    "atk": 105,
+    "def": 60,
+    "spe": 95,
+    "spc": 60
+   },
+   "types": [
+    1,
+    1
+   ],
+   "learnset": [
+    2,
+    5,
+    6,
+    10,
+    25,
+    34,
+    36,
+    37,
+    38,
+    43,
+    63,
+    66,
+    68,
+    69,
+    70,
+    85,
+    87,
+    91,
+    92,
+    99,
+    102,
+    104,
+    116,
+    117,
+    118,
+    129,
+    130,
+    154,
+    156,
+    157,
+    164
+   ],
+   "prevos": [
+    "MANKEY"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     15,
+     "KARATE_CHOP"
+    ],
+    [
+     21,
+     "FURY_SWIPES"
+    ],
+    [
+     27,
+     "FOCUS_ENERGY"
+    ],
+    [
+     37,
+     "SEISMIC_TOSS"
+    ],
+    [
+     46,
+     "THRASH"
+    ]
+   ],
+   "dex": 57
+  },
+  {
+   "name": "GROWLITHE",
+   "file": "growlithe",
+   "base": {
+    "hp": 55,
+    "atk": 70,
+    "def": 45,
+    "spe": 60,
+    "spc": 50
+   },
+   "types": [
+    9,
+    9
+   ],
+   "learnset": [
+    34,
+    36,
+    38,
+    43,
+    44,
+    46,
+    52,
+    53,
+    82,
+    91,
+    92,
+    97,
+    99,
+    102,
+    104,
+    115,
+    117,
+    126,
+    129,
+    130,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     18,
+     "EMBER"
+    ],
+    [
+     23,
+     "LEER"
+    ],
+    [
+     30,
+     "TAKE_DOWN"
+    ],
+    [
+     39,
+     "AGILITY"
+    ],
+    [
+     50,
+     "FLAMETHROWER"
+    ]
+   ],
+   "dex": 58
+  },
+  {
+   "name": "ARCANINE",
+   "file": "arcanine",
+   "base": {
+    "hp": 90,
+    "atk": 110,
+    "def": 80,
+    "spe": 95,
+    "spc": 80
+   },
+   "types": [
+    9,
+    9
+   ],
+   "learnset": [
+    34,
+    36,
+    38,
+    43,
+    44,
+    46,
+    52,
+    53,
+    63,
+    82,
+    91,
+    92,
+    97,
+    99,
+    100,
+    102,
+    104,
+    115,
+    117,
+    126,
+    129,
+    130,
+    156,
+    164
+   ],
+   "prevos": [
+    "GROWLITHE"
+   ],
+   "fully_evolved": true,
+   "levelup": [],
+   "dex": 59
+  },
+  {
+   "name": "POLIWAG",
+   "file": "poliwag",
+   "base": {
+    "hp": 40,
+    "atk": 50,
+    "def": 40,
+    "spe": 90,
+    "spc": 40
+   },
+   "types": [
+    10,
+    10
+   ],
+   "learnset": [
+    3,
+    34,
+    36,
+    38,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    92,
+    94,
+    95,
+    99,
+    102,
+    104,
+    117,
+    130,
+    133,
+    145,
+    149,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     16,
+     "HYPNOSIS"
+    ],
+    [
+     19,
+     "WATER_GUN"
+    ],
+    [
+     25,
+     "DOUBLESLAP"
+    ],
+    [
+     31,
+     "BODY_SLAM"
+    ],
+    [
+     38,
+     "AMNESIA"
+    ],
+    [
+     45,
+     "HYDRO_PUMP"
+    ]
+   ],
+   "dex": 60
+  },
+  {
+   "name": "POLIWHIRL",
+   "file": "poliwhirl",
+   "base": {
+    "hp": 65,
+    "atk": 65,
+    "def": 65,
+    "spe": 90,
+    "spc": 50
+   },
+   "types": [
+    10,
+    10
+   ],
+   "learnset": [
+    3,
+    5,
+    25,
+    34,
+    36,
+    38,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    66,
+    68,
+    69,
+    70,
+    89,
+    90,
+    92,
+    94,
+    95,
+    99,
+    102,
+    104,
+    117,
+    118,
+    130,
+    133,
+    145,
+    149,
+    156,
+    164
+   ],
+   "prevos": [
+    "POLIWAG"
+   ],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     16,
+     "HYPNOSIS"
+    ],
+    [
+     19,
+     "WATER_GUN"
+    ],
+    [
+     26,
+     "DOUBLESLAP"
+    ],
+    [
+     33,
+     "BODY_SLAM"
+    ],
+    [
+     41,
+     "AMNESIA"
+    ],
+    [
+     49,
+     "HYDRO_PUMP"
+    ]
+   ],
+   "dex": 61
+  },
+  {
+   "name": "POLIWRATH",
+   "file": "poliwrath",
+   "base": {
+    "hp": 90,
+    "atk": 85,
+    "def": 95,
+    "spe": 70,
+    "spc": 70
+   },
+   "types": [
+    10,
+    1
+   ],
+   "learnset": [
+    3,
+    5,
+    25,
+    34,
+    36,
+    38,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    63,
+    66,
+    68,
+    69,
+    70,
+    89,
+    90,
+    92,
+    94,
+    95,
+    99,
+    102,
+    104,
+    117,
+    118,
+    130,
+    133,
+    145,
+    149,
+    156,
+    164
+   ],
+   "prevos": [
+    "POLIWHIRL",
+    "POLIWAG"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     16,
+     "HYPNOSIS"
+    ],
+    [
+     19,
+     "WATER_GUN"
+    ]
+   ],
+   "dex": 62
+  },
+  {
+   "name": "ABRA",
+   "file": "abra",
+   "base": {
+    "hp": 25,
+    "atk": 20,
+    "def": 15,
+    "spe": 90,
+    "spc": 105
+   },
+   "types": [
+    13,
+    13
+   ],
+   "learnset": [
+    5,
+    25,
+    34,
+    36,
+    38,
+    66,
+    68,
+    69,
+    86,
+    92,
+    94,
+    99,
+    100,
+    102,
+    104,
+    115,
+    117,
+    118,
+    130,
+    148,
+    149,
+    156,
+    161,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [],
+   "dex": 63
+  },
+  {
+   "name": "KADABRA",
+   "file": "kadabra",
+   "base": {
+    "hp": 40,
+    "atk": 35,
+    "def": 30,
+    "spe": 105,
+    "spc": 120
+   },
+   "types": [
+    13,
+    13
+   ],
+   "learnset": [
+    5,
+    25,
+    34,
+    36,
+    38,
+    50,
+    60,
+    66,
+    68,
+    69,
+    86,
+    91,
+    92,
+    93,
+    94,
+    99,
+    100,
+    102,
+    104,
+    105,
+    115,
+    117,
+    118,
+    130,
+    148,
+    149,
+    156,
+    161,
+    164
+   ],
+   "prevos": [
+    "ABRA"
+   ],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     16,
+     "CONFUSION"
+    ],
+    [
+     20,
+     "DISABLE"
+    ],
+    [
+     27,
+     "PSYBEAM"
+    ],
+    [
+     31,
+     "RECOVER"
+    ],
+    [
+     38,
+     "PSYCHIC_M"
+    ],
+    [
+     42,
+     "REFLECT"
+    ]
+   ],
+   "dex": 64
+  },
+  {
+   "name": "ALAKAZAM",
+   "file": "alakazam",
+   "base": {
+    "hp": 55,
+    "atk": 50,
+    "def": 45,
+    "spe": 120,
+    "spc": 135
+   },
+   "types": [
+    13,
+    13
+   ],
+   "learnset": [
+    5,
+    25,
+    34,
+    36,
+    38,
+    50,
+    60,
+    63,
+    66,
+    68,
+    69,
+    86,
+    91,
+    92,
+    93,
+    94,
+    99,
+    100,
+    102,
+    104,
+    105,
+    115,
+    117,
+    118,
+    130,
+    148,
+    149,
+    156,
+    161,
+    164
+   ],
+   "prevos": [
+    "KADABRA",
+    "ABRA"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     16,
+     "CONFUSION"
+    ],
+    [
+     20,
+     "DISABLE"
+    ],
+    [
+     27,
+     "PSYBEAM"
+    ],
+    [
+     31,
+     "RECOVER"
+    ],
+    [
+     38,
+     "PSYCHIC_M"
+    ],
+    [
+     42,
+     "REFLECT"
+    ]
+   ],
+   "dex": 65
+  },
+  {
+   "name": "MACHOP",
+   "file": "machop",
+   "base": {
+    "hp": 70,
+    "atk": 80,
+    "def": 50,
+    "spe": 35,
+    "spc": 35
+   },
+   "types": [
+    1,
+    1
+   ],
+   "learnset": [
+    2,
+    5,
+    25,
+    34,
+    36,
+    38,
+    43,
+    66,
+    67,
+    68,
+    69,
+    70,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    104,
+    116,
+    117,
+    118,
+    126,
+    130,
+    156,
+    157,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     20,
+     "LOW_KICK"
+    ],
+    [
+     25,
+     "LEER"
+    ],
+    [
+     32,
+     "FOCUS_ENERGY"
+    ],
+    [
+     39,
+     "SEISMIC_TOSS"
+    ],
+    [
+     46,
+     "SUBMISSION"
+    ]
+   ],
+   "dex": 66
+  },
+  {
+   "name": "MACHOKE",
+   "file": "machoke",
+   "base": {
+    "hp": 80,
+    "atk": 100,
+    "def": 70,
+    "spe": 45,
+    "spc": 50
+   },
+   "types": [
+    1,
+    1
+   ],
+   "learnset": [
+    2,
+    5,
+    25,
+    34,
+    36,
+    38,
+    43,
+    66,
+    67,
+    68,
+    69,
+    70,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    104,
+    116,
+    117,
+    118,
+    126,
+    130,
+    156,
+    157,
+    164
+   ],
+   "prevos": [
+    "MACHOP"
+   ],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     20,
+     "LOW_KICK"
+    ],
+    [
+     25,
+     "LEER"
+    ],
+    [
+     36,
+     "FOCUS_ENERGY"
+    ],
+    [
+     44,
+     "SEISMIC_TOSS"
+    ],
+    [
+     52,
+     "SUBMISSION"
+    ]
+   ],
+   "dex": 67
+  },
+  {
+   "name": "MACHAMP",
+   "file": "machamp",
+   "base": {
+    "hp": 90,
+    "atk": 130,
+    "def": 80,
+    "spe": 55,
+    "spc": 65
+   },
+   "types": [
+    1,
+    1
+   ],
+   "learnset": [
+    2,
+    5,
+    25,
+    34,
+    36,
+    38,
+    43,
+    63,
+    66,
+    67,
+    68,
+    69,
+    70,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    104,
+    116,
+    117,
+    118,
+    126,
+    130,
+    156,
+    157,
+    164
+   ],
+   "prevos": [
+    "MACHOKE",
+    "MACHOP"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     20,
+     "LOW_KICK"
+    ],
+    [
+     25,
+     "LEER"
+    ],
+    [
+     36,
+     "FOCUS_ENERGY"
+    ],
+    [
+     44,
+     "SEISMIC_TOSS"
+    ],
+    [
+     52,
+     "SUBMISSION"
+    ]
+   ],
+   "dex": 68
+  },
+  {
+   "name": "BELLSPROUT",
+   "file": "bellsprout",
+   "base": {
+    "hp": 50,
+    "atk": 75,
+    "def": 35,
+    "spe": 40,
+    "spc": 70
+   },
+   "types": [
+    11,
+    3
+   ],
+   "learnset": [
+    14,
+    15,
+    21,
+    22,
+    35,
+    36,
+    38,
+    51,
+    72,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    92,
+    99,
+    102,
+    104,
+    115,
+    117,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     13,
+     "WRAP"
+    ],
+    [
+     15,
+     "POISONPOWDER"
+    ],
+    [
+     18,
+     "SLEEP_POWDER"
+    ],
+    [
+     21,
+     "STUN_SPORE"
+    ],
+    [
+     26,
+     "ACID"
+    ],
+    [
+     33,
+     "RAZOR_LEAF"
+    ],
+    [
+     42,
+     "SLAM"
+    ]
+   ],
+   "dex": 69
+  },
+  {
+   "name": "WEEPINBELL",
+   "file": "weepinbell",
+   "base": {
+    "hp": 65,
+    "atk": 90,
+    "def": 50,
+    "spe": 55,
+    "spc": 85
+   },
+   "types": [
+    11,
+    3
+   ],
+   "learnset": [
+    14,
+    15,
+    21,
+    22,
+    35,
+    36,
+    38,
+    51,
+    72,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    92,
+    99,
+    102,
+    104,
+    115,
+    117,
+    156,
+    164
+   ],
+   "prevos": [
+    "BELLSPROUT"
+   ],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     13,
+     "WRAP"
+    ],
+    [
+     15,
+     "POISONPOWDER"
+    ],
+    [
+     18,
+     "SLEEP_POWDER"
+    ],
+    [
+     23,
+     "STUN_SPORE"
+    ],
+    [
+     29,
+     "ACID"
+    ],
+    [
+     38,
+     "RAZOR_LEAF"
+    ],
+    [
+     49,
+     "SLAM"
+    ]
+   ],
+   "dex": 70
+  },
+  {
+   "name": "VICTREEBEL",
+   "file": "victreebel",
+   "base": {
+    "hp": 80,
+    "atk": 105,
+    "def": 65,
+    "spe": 70,
+    "spc": 100
+   },
+   "types": [
+    11,
+    3
+   ],
+   "learnset": [
+    14,
+    15,
+    21,
+    22,
+    34,
+    35,
+    36,
+    38,
+    51,
+    63,
+    72,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    92,
+    99,
+    102,
+    104,
+    115,
+    117,
+    156,
+    164
+   ],
+   "prevos": [
+    "WEEPINBELL",
+    "BELLSPROUT"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     13,
+     "WRAP"
+    ],
+    [
+     15,
+     "POISONPOWDER"
+    ],
+    [
+     18,
+     "SLEEP_POWDER"
+    ]
+   ],
+   "dex": 71
+  },
+  {
+   "name": "TENTACOOL",
+   "file": "tentacool",
+   "base": {
+    "hp": 40,
+    "atk": 40,
+    "def": 35,
+    "spe": 70,
+    "spc": 100
+   },
+   "types": [
+    10,
+    3
+   ],
+   "learnset": [
+    14,
+    15,
+    35,
+    36,
+    38,
+    40,
+    48,
+    51,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    72,
+    92,
+    99,
+    102,
+    103,
+    104,
+    112,
+    115,
+    117,
+    130,
+    132,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     7,
+     "SUPERSONIC"
+    ],
+    [
+     13,
+     "WRAP"
+    ],
+    [
+     18,
+     "POISON_STING"
+    ],
+    [
+     22,
+     "WATER_GUN"
+    ],
+    [
+     27,
+     "CONSTRICT"
+    ],
+    [
+     33,
+     "BARRIER"
+    ],
+    [
+     40,
+     "SCREECH"
+    ],
+    [
+     48,
+     "HYDRO_PUMP"
+    ]
+   ],
+   "dex": 72
+  },
+  {
+   "name": "TENTACRUEL",
+   "file": "tentacruel",
+   "base": {
+    "hp": 80,
+    "atk": 70,
+    "def": 65,
+    "spe": 100,
+    "spc": 120
+   },
+   "types": [
+    10,
+    3
+   ],
+   "learnset": [
+    14,
+    15,
+    35,
+    36,
+    38,
+    40,
+    48,
+    51,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    63,
+    72,
+    92,
+    99,
+    102,
+    103,
+    104,
+    112,
+    115,
+    117,
+    130,
+    132,
+    156,
+    164
+   ],
+   "prevos": [
+    "TENTACOOL"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     7,
+     "SUPERSONIC"
+    ],
+    [
+     13,
+     "WRAP"
+    ],
+    [
+     18,
+     "POISON_STING"
+    ],
+    [
+     22,
+     "WATER_GUN"
+    ],
+    [
+     27,
+     "CONSTRICT"
+    ],
+    [
+     35,
+     "BARRIER"
+    ],
+    [
+     43,
+     "SCREECH"
+    ],
+    [
+     50,
+     "HYDRO_PUMP"
+    ]
+   ],
+   "dex": 73
+  },
+  {
+   "name": "GEODUDE",
+   "file": "geodude",
+   "base": {
+    "hp": 40,
+    "atk": 80,
+    "def": 100,
+    "spe": 20,
+    "spc": 30
+   },
+   "types": [
+    5,
+    4
+   ],
+   "learnset": [
+    5,
+    33,
+    34,
+    36,
+    38,
+    66,
+    68,
+    69,
+    70,
+    88,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    104,
+    106,
+    111,
+    117,
+    118,
+    120,
+    126,
+    153,
+    156,
+    157,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     11,
+     "DEFENSE_CURL"
+    ],
+    [
+     16,
+     "ROCK_THROW"
+    ],
+    [
+     21,
+     "SELFDESTRUCT"
+    ],
+    [
+     26,
+     "HARDEN"
+    ],
+    [
+     31,
+     "EARTHQUAKE"
+    ],
+    [
+     36,
+     "EXPLOSION"
+    ]
+   ],
+   "dex": 74
+  },
+  {
+   "name": "GRAVELER",
+   "file": "graveler",
+   "base": {
+    "hp": 55,
+    "atk": 95,
+    "def": 115,
+    "spe": 35,
+    "spc": 45
+   },
+   "types": [
+    5,
+    4
+   ],
+   "learnset": [
+    5,
+    33,
+    34,
+    36,
+    38,
+    66,
+    68,
+    69,
+    70,
+    88,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    104,
+    106,
+    111,
+    117,
+    118,
+    120,
+    126,
+    153,
+    156,
+    157,
+    164
+   ],
+   "prevos": [
+    "GEODUDE"
+   ],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     11,
+     "DEFENSE_CURL"
+    ],
+    [
+     16,
+     "ROCK_THROW"
+    ],
+    [
+     21,
+     "SELFDESTRUCT"
+    ],
+    [
+     29,
+     "HARDEN"
+    ],
+    [
+     36,
+     "EARTHQUAKE"
+    ],
+    [
+     43,
+     "EXPLOSION"
+    ]
+   ],
+   "dex": 75
+  },
+  {
+   "name": "GOLEM",
+   "file": "golem",
+   "base": {
+    "hp": 80,
+    "atk": 110,
+    "def": 130,
+    "spe": 45,
+    "spc": 55
+   },
+   "types": [
+    5,
+    4
+   ],
+   "learnset": [
+    5,
+    25,
+    33,
+    34,
+    36,
+    38,
+    63,
+    66,
+    68,
+    69,
+    70,
+    88,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    104,
+    106,
+    111,
+    117,
+    118,
+    120,
+    126,
+    153,
+    156,
+    157,
+    164
+   ],
+   "prevos": [
+    "GRAVELER",
+    "GEODUDE"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     11,
+     "DEFENSE_CURL"
+    ],
+    [
+     16,
+     "ROCK_THROW"
+    ],
+    [
+     21,
+     "SELFDESTRUCT"
+    ],
+    [
+     29,
+     "HARDEN"
+    ],
+    [
+     36,
+     "EARTHQUAKE"
+    ],
+    [
+     43,
+     "EXPLOSION"
+    ]
+   ],
+   "dex": 76
+  },
+  {
+   "name": "PONYTA",
+   "file": "ponyta",
+   "base": {
+    "hp": 50,
+    "atk": 85,
+    "def": 55,
+    "spe": 90,
+    "spc": 65
+   },
+   "types": [
+    9,
+    9
+   ],
+   "learnset": [
+    23,
+    32,
+    34,
+    36,
+    38,
+    39,
+    45,
+    52,
+    83,
+    92,
+    97,
+    99,
+    102,
+    104,
+    115,
+    117,
+    126,
+    129,
+    130,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     30,
+     "TAIL_WHIP"
+    ],
+    [
+     32,
+     "STOMP"
+    ],
+    [
+     35,
+     "GROWL"
+    ],
+    [
+     39,
+     "FIRE_SPIN"
+    ],
+    [
+     43,
+     "TAKE_DOWN"
+    ],
+    [
+     48,
+     "AGILITY"
+    ]
+   ],
+   "dex": 77
+  },
+  {
+   "name": "RAPIDASH",
+   "file": "rapidash",
+   "base": {
+    "hp": 65,
+    "atk": 100,
+    "def": 70,
+    "spe": 105,
+    "spc": 80
+   },
+   "types": [
+    9,
+    9
+   ],
+   "learnset": [
+    23,
+    32,
+    34,
+    36,
+    38,
+    39,
+    45,
+    52,
+    63,
+    83,
+    92,
+    97,
+    99,
+    102,
+    104,
+    115,
+    117,
+    126,
+    129,
+    130,
+    156,
+    164
+   ],
+   "prevos": [
+    "PONYTA"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     30,
+     "TAIL_WHIP"
+    ],
+    [
+     32,
+     "STOMP"
+    ],
+    [
+     35,
+     "GROWL"
+    ],
+    [
+     39,
+     "FIRE_SPIN"
+    ],
+    [
+     47,
+     "TAKE_DOWN"
+    ],
+    [
+     55,
+     "AGILITY"
+    ]
+   ],
+   "dex": 78
+  },
+  {
+   "name": "SLOWPOKE",
+   "file": "slowpoke",
+   "base": {
+    "hp": 90,
+    "atk": 65,
+    "def": 65,
+    "spe": 15,
+    "spc": 40
+   },
+   "types": [
+    10,
+    13
+   ],
+   "learnset": [
+    6,
+    29,
+    34,
+    36,
+    38,
+    45,
+    50,
+    55,
+    57,
+    58,
+    59,
+    61,
+    70,
+    86,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    99,
+    100,
+    102,
+    104,
+    115,
+    117,
+    126,
+    129,
+    130,
+    133,
+    148,
+    149,
+    156,
+    161,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     18,
+     "DISABLE"
+    ],
+    [
+     22,
+     "HEADBUTT"
+    ],
+    [
+     27,
+     "GROWL"
+    ],
+    [
+     33,
+     "WATER_GUN"
+    ],
+    [
+     40,
+     "AMNESIA"
+    ],
+    [
+     48,
+     "PSYCHIC_M"
+    ]
+   ],
+   "dex": 79
+  },
+  {
+   "name": "SLOWBRO",
+   "file": "slowbro",
+   "base": {
+    "hp": 95,
+    "atk": 75,
+    "def": 110,
+    "spe": 30,
+    "spc": 80
+   },
+   "types": [
+    10,
+    13
+   ],
+   "learnset": [
+    5,
+    6,
+    25,
+    29,
+    34,
+    36,
+    38,
+    45,
+    50,
+    55,
+    57,
+    58,
+    59,
+    61,
+    63,
+    66,
+    68,
+    69,
+    70,
+    86,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    99,
+    100,
+    102,
+    104,
+    110,
+    115,
+    117,
+    126,
+    129,
+    130,
+    133,
+    148,
+    149,
+    156,
+    161,
+    164
+   ],
+   "prevos": [
+    "SLOWPOKE"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     18,
+     "DISABLE"
+    ],
+    [
+     22,
+     "HEADBUTT"
+    ],
+    [
+     27,
+     "GROWL"
+    ],
+    [
+     33,
+     "WATER_GUN"
+    ],
+    [
+     37,
+     "WITHDRAW"
+    ],
+    [
+     44,
+     "AMNESIA"
+    ],
+    [
+     55,
+     "PSYCHIC_M"
+    ]
+   ],
+   "dex": 80
+  },
+  {
+   "name": "MAGNEMITE",
+   "file": "magnemite",
+   "base": {
+    "hp": 25,
+    "atk": 35,
+    "def": 70,
+    "spe": 45,
+    "spc": 95
+   },
+   "types": [
+    12,
+    12
+   ],
+   "learnset": [
+    33,
+    36,
+    38,
+    48,
+    49,
+    84,
+    85,
+    86,
+    87,
+    92,
+    99,
+    100,
+    102,
+    103,
+    104,
+    115,
+    117,
+    129,
+    148,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     21,
+     "SONICBOOM"
+    ],
+    [
+     25,
+     "THUNDERSHOCK"
+    ],
+    [
+     29,
+     "SUPERSONIC"
+    ],
+    [
+     35,
+     "THUNDER_WAVE"
+    ],
+    [
+     41,
+     "SWIFT"
+    ],
+    [
+     47,
+     "SCREECH"
+    ]
+   ],
+   "dex": 81
+  },
+  {
+   "name": "MAGNETON",
+   "file": "magneton",
+   "base": {
+    "hp": 50,
+    "atk": 60,
+    "def": 95,
+    "spe": 70,
+    "spc": 120
+   },
+   "types": [
+    12,
+    12
+   ],
+   "learnset": [
+    33,
+    36,
+    38,
+    48,
+    49,
+    63,
+    84,
+    85,
+    86,
+    87,
+    92,
+    99,
+    100,
+    102,
+    103,
+    104,
+    115,
+    117,
+    129,
+    148,
+    156,
+    164
+   ],
+   "prevos": [
+    "MAGNEMITE"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     21,
+     "SONICBOOM"
+    ],
+    [
+     25,
+     "THUNDERSHOCK"
+    ],
+    [
+     29,
+     "SUPERSONIC"
+    ],
+    [
+     38,
+     "THUNDER_WAVE"
+    ],
+    [
+     46,
+     "SWIFT"
+    ],
+    [
+     54,
+     "SCREECH"
+    ]
+   ],
+   "dex": 82
+  },
+  {
+   "name": "FARFETCHD",
+   "file": "farfetchd",
+   "base": {
+    "hp": 52,
+    "atk": 65,
+    "def": 55,
+    "spe": 60,
+    "spc": 58
+   },
+   "types": [
+    0,
+    2
+   ],
+   "learnset": [
+    13,
+    14,
+    15,
+    18,
+    19,
+    28,
+    31,
+    34,
+    36,
+    38,
+    43,
+    64,
+    92,
+    97,
+    99,
+    102,
+    104,
+    115,
+    117,
+    129,
+    130,
+    156,
+    163,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     7,
+     "LEER"
+    ],
+    [
+     15,
+     "FURY_ATTACK"
+    ],
+    [
+     23,
+     "SWORDS_DANCE"
+    ],
+    [
+     31,
+     "AGILITY"
+    ],
+    [
+     39,
+     "SLASH"
+    ]
+   ],
+   "dex": 83
+  },
+  {
+   "name": "DODUO",
+   "file": "doduo",
+   "base": {
+    "hp": 35,
+    "atk": 85,
+    "def": 45,
+    "spe": 75,
+    "spc": 35
+   },
+   "types": [
+    0,
+    2
+   ],
+   "learnset": [
+    18,
+    19,
+    31,
+    34,
+    36,
+    38,
+    45,
+    64,
+    65,
+    92,
+    97,
+    99,
+    102,
+    104,
+    115,
+    117,
+    130,
+    143,
+    156,
+    161,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     20,
+     "GROWL"
+    ],
+    [
+     24,
+     "FURY_ATTACK"
+    ],
+    [
+     30,
+     "DRILL_PECK"
+    ],
+    [
+     36,
+     "RAGE"
+    ],
+    [
+     40,
+     "TRI_ATTACK"
+    ],
+    [
+     44,
+     "AGILITY"
+    ]
+   ],
+   "dex": 84
+  },
+  {
+   "name": "DODRIO",
+   "file": "dodrio",
+   "base": {
+    "hp": 60,
+    "atk": 110,
+    "def": 70,
+    "spe": 100,
+    "spc": 60
+   },
+   "types": [
+    0,
+    2
+   ],
+   "learnset": [
+    18,
+    19,
+    31,
+    34,
+    36,
+    38,
+    45,
+    63,
+    64,
+    65,
+    92,
+    97,
+    99,
+    102,
+    104,
+    115,
+    117,
+    130,
+    143,
+    156,
+    161,
+    164
+   ],
+   "prevos": [
+    "DODUO"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     20,
+     "GROWL"
+    ],
+    [
+     24,
+     "FURY_ATTACK"
+    ],
+    [
+     30,
+     "DRILL_PECK"
+    ],
+    [
+     39,
+     "RAGE"
+    ],
+    [
+     45,
+     "TRI_ATTACK"
+    ],
+    [
+     51,
+     "AGILITY"
+    ]
+   ],
+   "dex": 85
+  },
+  {
+   "name": "SEEL",
+   "file": "seel",
+   "base": {
+    "hp": 65,
+    "atk": 45,
+    "def": 55,
+    "spe": 45,
+    "spc": 70
+   },
+   "types": [
+    10,
+    10
+   ],
+   "learnset": [
+    6,
+    29,
+    32,
+    34,
+    36,
+    38,
+    45,
+    55,
+    57,
+    58,
+    59,
+    61,
+    62,
+    70,
+    92,
+    99,
+    102,
+    104,
+    117,
+    130,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     30,
+     "GROWL"
+    ],
+    [
+     35,
+     "AURORA_BEAM"
+    ],
+    [
+     40,
+     "REST"
+    ],
+    [
+     45,
+     "TAKE_DOWN"
+    ],
+    [
+     50,
+     "ICE_BEAM"
+    ]
+   ],
+   "dex": 86
+  },
+  {
+   "name": "DEWGONG",
+   "file": "dewgong",
+   "base": {
+    "hp": 90,
+    "atk": 70,
+    "def": 80,
+    "spe": 70,
+    "spc": 95
+   },
+   "types": [
+    10,
+    14
+   ],
+   "learnset": [
+    6,
+    29,
+    32,
+    34,
+    36,
+    38,
+    45,
+    55,
+    57,
+    58,
+    59,
+    61,
+    62,
+    63,
+    70,
+    92,
+    99,
+    102,
+    104,
+    117,
+    130,
+    156,
+    164
+   ],
+   "prevos": [
+    "SEEL"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     30,
+     "GROWL"
+    ],
+    [
+     35,
+     "AURORA_BEAM"
+    ],
+    [
+     44,
+     "REST"
+    ],
+    [
+     50,
+     "TAKE_DOWN"
+    ],
+    [
+     56,
+     "ICE_BEAM"
+    ]
+   ],
+   "dex": 87
+  },
+  {
+   "name": "GRIMER",
+   "file": "grimer",
+   "base": {
+    "hp": 80,
+    "atk": 80,
+    "def": 50,
+    "spe": 25,
+    "spc": 40
+   },
+   "types": [
+    3,
+    3
+   ],
+   "learnset": [
+    1,
+    34,
+    50,
+    72,
+    85,
+    87,
+    92,
+    99,
+    102,
+    103,
+    104,
+    106,
+    107,
+    117,
+    120,
+    124,
+    126,
+    139,
+    151,
+    153,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     30,
+     "POISON_GAS"
+    ],
+    [
+     33,
+     "MINIMIZE"
+    ],
+    [
+     37,
+     "SLUDGE"
+    ],
+    [
+     42,
+     "HARDEN"
+    ],
+    [
+     48,
+     "SCREECH"
+    ],
+    [
+     55,
+     "ACID_ARMOR"
+    ]
+   ],
+   "dex": 88
+  },
+  {
+   "name": "MUK",
+   "file": "muk",
+   "base": {
+    "hp": 105,
+    "atk": 105,
+    "def": 75,
+    "spe": 50,
+    "spc": 65
+   },
+   "types": [
+    3,
+    3
+   ],
+   "learnset": [
+    1,
+    34,
+    50,
+    63,
+    72,
+    85,
+    87,
+    92,
+    99,
+    102,
+    103,
+    104,
+    106,
+    107,
+    117,
+    120,
+    124,
+    126,
+    139,
+    151,
+    153,
+    156,
+    164
+   ],
+   "prevos": [
+    "GRIMER"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     30,
+     "POISON_GAS"
+    ],
+    [
+     33,
+     "MINIMIZE"
+    ],
+    [
+     37,
+     "SLUDGE"
+    ],
+    [
+     45,
+     "HARDEN"
+    ],
+    [
+     53,
+     "SCREECH"
+    ],
+    [
+     60,
+     "ACID_ARMOR"
+    ]
+   ],
+   "dex": 89
+  },
+  {
+   "name": "SHELLDER",
+   "file": "shellder",
+   "base": {
+    "hp": 30,
+    "atk": 65,
+    "def": 100,
+    "spe": 40,
+    "spc": 45
+   },
+   "types": [
+    10,
+    10
+   ],
+   "learnset": [
+    33,
+    36,
+    38,
+    43,
+    48,
+    55,
+    57,
+    58,
+    59,
+    61,
+    62,
+    92,
+    99,
+    100,
+    102,
+    104,
+    110,
+    115,
+    117,
+    120,
+    128,
+    129,
+    153,
+    156,
+    161,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     18,
+     "SUPERSONIC"
+    ],
+    [
+     23,
+     "CLAMP"
+    ],
+    [
+     30,
+     "AURORA_BEAM"
+    ],
+    [
+     39,
+     "LEER"
+    ],
+    [
+     50,
+     "ICE_BEAM"
+    ]
+   ],
+   "dex": 90
+  },
+  {
+   "name": "CLOYSTER",
+   "file": "cloyster",
+   "base": {
+    "hp": 50,
+    "atk": 95,
+    "def": 180,
+    "spe": 70,
+    "spc": 85
+   },
+   "types": [
+    10,
+    14
+   ],
+   "learnset": [
+    33,
+    36,
+    38,
+    43,
+    48,
+    55,
+    57,
+    58,
+    59,
+    61,
+    62,
+    63,
+    92,
+    99,
+    100,
+    102,
+    104,
+    110,
+    115,
+    117,
+    120,
+    128,
+    129,
+    131,
+    153,
+    156,
+    161,
+    164
+   ],
+   "prevos": [
+    "SHELLDER"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     50,
+     "SPIKE_CANNON"
+    ]
+   ],
+   "dex": 91
+  },
+  {
+   "name": "GASTLY",
+   "file": "gastly",
+   "base": {
+    "hp": 30,
+    "atk": 35,
+    "def": 30,
+    "spe": 80,
+    "spc": 100
+   },
+   "types": [
+    8,
+    3
+   ],
+   "learnset": [
+    72,
+    85,
+    87,
+    92,
+    94,
+    95,
+    99,
+    101,
+    102,
+    104,
+    109,
+    117,
+    120,
+    122,
+    138,
+    149,
+    153,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     27,
+     "HYPNOSIS"
+    ],
+    [
+     35,
+     "DREAM_EATER"
+    ]
+   ],
+   "dex": 92
+  },
+  {
+   "name": "HAUNTER",
+   "file": "haunter",
+   "base": {
+    "hp": 45,
+    "atk": 50,
+    "def": 45,
+    "spe": 95,
+    "spc": 115
+   },
+   "types": [
+    8,
+    3
+   ],
+   "learnset": [
+    72,
+    85,
+    87,
+    92,
+    94,
+    95,
+    99,
+    101,
+    102,
+    104,
+    109,
+    117,
+    120,
+    122,
+    138,
+    149,
+    153,
+    156,
+    164
+   ],
+   "prevos": [
+    "GASTLY"
+   ],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     29,
+     "HYPNOSIS"
+    ],
+    [
+     38,
+     "DREAM_EATER"
+    ]
+   ],
+   "dex": 93
+  },
+  {
+   "name": "GENGAR",
+   "file": "gengar",
+   "base": {
+    "hp": 60,
+    "atk": 65,
+    "def": 60,
+    "spe": 110,
+    "spc": 130
+   },
+   "types": [
+    8,
+    3
+   ],
+   "learnset": [
+    5,
+    25,
+    34,
+    36,
+    38,
+    63,
+    66,
+    68,
+    69,
+    70,
+    72,
+    85,
+    87,
+    92,
+    94,
+    95,
+    99,
+    101,
+    102,
+    104,
+    109,
+    117,
+    118,
+    120,
+    122,
+    130,
+    138,
+    149,
+    153,
+    156,
+    164
+   ],
+   "prevos": [
+    "HAUNTER",
+    "GASTLY"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     29,
+     "HYPNOSIS"
+    ],
+    [
+     38,
+     "DREAM_EATER"
+    ]
+   ],
+   "dex": 94
+  },
+  {
+   "name": "ONIX",
+   "file": "onix",
+   "base": {
+    "hp": 35,
+    "atk": 45,
+    "def": 160,
+    "spe": 70,
+    "spc": 30
+   },
+   "types": [
+    5,
+    4
+   ],
+   "learnset": [
+    20,
+    21,
+    33,
+    34,
+    36,
+    38,
+    70,
+    88,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    103,
+    104,
+    106,
+    117,
+    120,
+    130,
+    153,
+    156,
+    157,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     15,
+     "BIND"
+    ],
+    [
+     19,
+     "ROCK_THROW"
+    ],
+    [
+     25,
+     "RAGE"
+    ],
+    [
+     33,
+     "SLAM"
+    ],
+    [
+     43,
+     "HARDEN"
+    ]
+   ],
+   "dex": 95
+  },
+  {
+   "name": "DROWZEE",
+   "file": "drowzee",
+   "base": {
+    "hp": 60,
+    "atk": 48,
+    "def": 45,
+    "spe": 42,
+    "spc": 90
+   },
+   "types": [
+    13,
+    13
+   ],
+   "learnset": [
+    1,
+    5,
+    25,
+    29,
+    34,
+    36,
+    38,
+    50,
+    66,
+    68,
+    69,
+    86,
+    92,
+    93,
+    94,
+    95,
+    96,
+    99,
+    100,
+    102,
+    104,
+    115,
+    117,
+    118,
+    130,
+    138,
+    139,
+    148,
+    149,
+    156,
+    161,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     12,
+     "DISABLE"
+    ],
+    [
+     17,
+     "CONFUSION"
+    ],
+    [
+     24,
+     "HEADBUTT"
+    ],
+    [
+     29,
+     "POISON_GAS"
+    ],
+    [
+     32,
+     "PSYCHIC_M"
+    ],
+    [
+     37,
+     "MEDITATE"
+    ]
+   ],
+   "dex": 96
+  },
+  {
+   "name": "HYPNO",
+   "file": "hypno",
+   "base": {
+    "hp": 85,
+    "atk": 73,
+    "def": 70,
+    "spe": 67,
+    "spc": 115
+   },
+   "types": [
+    13,
+    13
+   ],
+   "learnset": [
+    1,
+    5,
+    25,
+    29,
+    34,
+    36,
+    38,
+    50,
+    63,
+    66,
+    68,
+    69,
+    86,
+    92,
+    93,
+    94,
+    95,
+    96,
+    99,
+    100,
+    102,
+    104,
+    115,
+    117,
+    118,
+    130,
+    138,
+    139,
+    148,
+    149,
+    156,
+    161,
+    164
+   ],
+   "prevos": [
+    "DROWZEE"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     12,
+     "DISABLE"
+    ],
+    [
+     17,
+     "CONFUSION"
+    ],
+    [
+     24,
+     "HEADBUTT"
+    ],
+    [
+     33,
+     "POISON_GAS"
+    ],
+    [
+     37,
+     "PSYCHIC_M"
+    ],
+    [
+     43,
+     "MEDITATE"
+    ]
+   ],
+   "dex": 97
+  },
+  {
+   "name": "KRABBY",
+   "file": "krabby",
+   "base": {
+    "hp": 30,
+    "atk": 105,
+    "def": 90,
+    "spe": 50,
+    "spc": 25
+   },
+   "types": [
+    10,
+    10
+   ],
+   "learnset": [
+    11,
+    12,
+    14,
+    15,
+    23,
+    34,
+    36,
+    38,
+    43,
+    55,
+    57,
+    58,
+    59,
+    61,
+    70,
+    92,
+    99,
+    102,
+    104,
+    106,
+    117,
+    145,
+    152,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     20,
+     "VICEGRIP"
+    ],
+    [
+     25,
+     "GUILLOTINE"
+    ],
+    [
+     30,
+     "STOMP"
+    ],
+    [
+     35,
+     "CRABHAMMER"
+    ],
+    [
+     40,
+     "HARDEN"
+    ]
+   ],
+   "dex": 98
+  },
+  {
+   "name": "KINGLER",
+   "file": "kingler",
+   "base": {
+    "hp": 55,
+    "atk": 130,
+    "def": 115,
+    "spe": 75,
+    "spc": 50
+   },
+   "types": [
+    10,
+    10
+   ],
+   "learnset": [
+    11,
+    12,
+    14,
+    15,
+    23,
+    34,
+    36,
+    38,
+    43,
+    55,
+    57,
+    58,
+    59,
+    61,
+    63,
+    70,
+    92,
+    99,
+    102,
+    104,
+    106,
+    117,
+    145,
+    152,
+    156,
+    164
+   ],
+   "prevos": [
+    "KRABBY"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     20,
+     "VICEGRIP"
+    ],
+    [
+     25,
+     "GUILLOTINE"
+    ],
+    [
+     34,
+     "STOMP"
+    ],
+    [
+     42,
+     "CRABHAMMER"
+    ],
+    [
+     49,
+     "HARDEN"
+    ]
+   ],
+   "dex": 99
+  },
+  {
+   "name": "VOLTORB",
+   "file": "voltorb",
+   "base": {
+    "hp": 40,
+    "atk": 30,
+    "def": 50,
+    "spe": 100,
+    "spc": 55
+   },
+   "types": [
+    12,
+    12
+   ],
+   "learnset": [
+    33,
+    36,
+    49,
+    85,
+    86,
+    87,
+    92,
+    99,
+    100,
+    102,
+    103,
+    104,
+    113,
+    115,
+    117,
+    120,
+    129,
+    148,
+    153,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     17,
+     "SONICBOOM"
+    ],
+    [
+     22,
+     "SELFDESTRUCT"
+    ],
+    [
+     29,
+     "LIGHT_SCREEN"
+    ],
+    [
+     36,
+     "SWIFT"
+    ],
+    [
+     43,
+     "EXPLOSION"
+    ]
+   ],
+   "dex": 100
+  },
+  {
+   "name": "ELECTRODE",
+   "file": "electrode",
+   "base": {
+    "hp": 60,
+    "atk": 50,
+    "def": 70,
+    "spe": 140,
+    "spc": 80
+   },
+   "types": [
+    12,
+    12
+   ],
+   "learnset": [
+    33,
+    36,
+    49,
+    63,
+    85,
+    86,
+    87,
+    92,
+    99,
+    100,
+    102,
+    103,
+    104,
+    113,
+    115,
+    117,
+    120,
+    129,
+    130,
+    148,
+    153,
+    156,
+    164
+   ],
+   "prevos": [
+    "VOLTORB"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     17,
+     "SONICBOOM"
+    ],
+    [
+     22,
+     "SELFDESTRUCT"
+    ],
+    [
+     29,
+     "LIGHT_SCREEN"
+    ],
+    [
+     40,
+     "SWIFT"
+    ],
+    [
+     50,
+     "EXPLOSION"
+    ]
+   ],
+   "dex": 101
+  },
+  {
+   "name": "EXEGGCUTE",
+   "file": "exeggcute",
+   "base": {
+    "hp": 60,
+    "atk": 40,
+    "def": 80,
+    "spe": 40,
+    "spc": 60
+   },
+   "types": [
+    11,
+    13
+   ],
+   "learnset": [
+    36,
+    38,
+    73,
+    76,
+    77,
+    78,
+    79,
+    92,
+    94,
+    95,
+    99,
+    100,
+    102,
+    104,
+    115,
+    117,
+    120,
+    121,
+    140,
+    149,
+    153,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     25,
+     "REFLECT"
+    ],
+    [
+     28,
+     "LEECH_SEED"
+    ],
+    [
+     32,
+     "STUN_SPORE"
+    ],
+    [
+     37,
+     "POISONPOWDER"
+    ],
+    [
+     42,
+     "SOLARBEAM"
+    ],
+    [
+     48,
+     "SLEEP_POWDER"
+    ]
+   ],
+   "dex": 102
+  },
+  {
+   "name": "EXEGGUTOR",
+   "file": "exeggutor",
+   "base": {
+    "hp": 95,
+    "atk": 95,
+    "def": 85,
+    "spe": 55,
+    "spc": 125
+   },
+   "types": [
+    11,
+    13
+   ],
+   "learnset": [
+    23,
+    36,
+    38,
+    63,
+    70,
+    72,
+    73,
+    76,
+    77,
+    78,
+    79,
+    92,
+    94,
+    95,
+    99,
+    100,
+    102,
+    104,
+    115,
+    117,
+    120,
+    121,
+    140,
+    149,
+    153,
+    156,
+    164
+   ],
+   "prevos": [
+    "EXEGGCUTE"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     28,
+     "STOMP"
+    ]
+   ],
+   "dex": 103
+  },
+  {
+   "name": "CUBONE",
+   "file": "cubone",
+   "base": {
+    "hp": 50,
+    "atk": 50,
+    "def": 95,
+    "spe": 35,
+    "spc": 40
+   },
+   "types": [
+    4,
+    4
+   ],
+   "learnset": [
+    5,
+    25,
+    34,
+    36,
+    37,
+    38,
+    43,
+    45,
+    55,
+    58,
+    59,
+    61,
+    66,
+    68,
+    69,
+    70,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    104,
+    116,
+    117,
+    125,
+    126,
+    130,
+    155,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     25,
+     "LEER"
+    ],
+    [
+     31,
+     "FOCUS_ENERGY"
+    ],
+    [
+     38,
+     "THRASH"
+    ],
+    [
+     43,
+     "BONEMERANG"
+    ],
+    [
+     46,
+     "RAGE"
+    ]
+   ],
+   "dex": 104
+  },
+  {
+   "name": "MAROWAK",
+   "file": "marowak",
+   "base": {
+    "hp": 60,
+    "atk": 80,
+    "def": 110,
+    "spe": 45,
+    "spc": 50
+   },
+   "types": [
+    4,
+    4
+   ],
+   "learnset": [
+    5,
+    25,
+    34,
+    36,
+    37,
+    38,
+    43,
+    45,
+    55,
+    58,
+    59,
+    61,
+    63,
+    66,
+    68,
+    69,
+    70,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    104,
+    116,
+    117,
+    125,
+    126,
+    130,
+    155,
+    156,
+    164
+   ],
+   "prevos": [
+    "CUBONE"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     25,
+     "LEER"
+    ],
+    [
+     33,
+     "FOCUS_ENERGY"
+    ],
+    [
+     41,
+     "THRASH"
+    ],
+    [
+     48,
+     "BONEMERANG"
+    ],
+    [
+     55,
+     "RAGE"
+    ]
+   ],
+   "dex": 105
+  },
+  {
+   "name": "HITMONLEE",
+   "file": "hitmonlee",
+   "base": {
+    "hp": 50,
+    "atk": 120,
+    "def": 53,
+    "spe": 87,
+    "spc": 35
+   },
+   "types": [
+    1,
+    1
+   ],
+   "learnset": [
+    5,
+    24,
+    25,
+    26,
+    27,
+    34,
+    36,
+    38,
+    66,
+    68,
+    69,
+    70,
+    92,
+    96,
+    99,
+    102,
+    104,
+    116,
+    117,
+    118,
+    129,
+    130,
+    136,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     33,
+     "ROLLING_KICK"
+    ],
+    [
+     38,
+     "JUMP_KICK"
+    ],
+    [
+     43,
+     "FOCUS_ENERGY"
+    ],
+    [
+     48,
+     "HI_JUMP_KICK"
+    ],
+    [
+     53,
+     "MEGA_KICK"
+    ]
+   ],
+   "dex": 106
+  },
+  {
+   "name": "HITMONCHAN",
+   "file": "hitmonchan",
+   "base": {
+    "hp": 50,
+    "atk": 105,
+    "def": 79,
+    "spe": 76,
+    "spc": 35
+   },
+   "types": [
+    1,
+    1
+   ],
+   "learnset": [
+    4,
+    5,
+    7,
+    8,
+    9,
+    25,
+    34,
+    36,
+    38,
+    66,
+    68,
+    69,
+    70,
+    92,
+    97,
+    99,
+    102,
+    104,
+    117,
+    118,
+    129,
+    130,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     33,
+     "FIRE_PUNCH"
+    ],
+    [
+     38,
+     "ICE_PUNCH"
+    ],
+    [
+     43,
+     "THUNDERPUNCH"
+    ],
+    [
+     48,
+     "MEGA_PUNCH"
+    ],
+    [
+     53,
+     "COUNTER"
+    ]
+   ],
+   "dex": 107
+  },
+  {
+   "name": "LICKITUNG",
+   "file": "lickitung",
+   "base": {
+    "hp": 90,
+    "atk": 55,
+    "def": 75,
+    "spe": 30,
+    "spc": 60
+   },
+   "types": [
+    0,
+    0
+   ],
+   "learnset": [
+    5,
+    14,
+    15,
+    21,
+    23,
+    25,
+    34,
+    35,
+    36,
+    38,
+    48,
+    50,
+    55,
+    57,
+    58,
+    59,
+    61,
+    63,
+    66,
+    68,
+    69,
+    70,
+    85,
+    87,
+    89,
+    90,
+    92,
+    99,
+    102,
+    103,
+    104,
+    111,
+    117,
+    126,
+    130,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     7,
+     "STOMP"
+    ],
+    [
+     15,
+     "DISABLE"
+    ],
+    [
+     23,
+     "DEFENSE_CURL"
+    ],
+    [
+     31,
+     "SLAM"
+    ],
+    [
+     39,
+     "SCREECH"
+    ]
+   ],
+   "dex": 108
+  },
+  {
+   "name": "KOFFING",
+   "file": "koffing",
+   "base": {
+    "hp": 40,
+    "atk": 65,
+    "def": 95,
+    "spe": 35,
+    "spc": 60
+   },
+   "types": [
+    3,
+    3
+   ],
+   "learnset": [
+    33,
+    85,
+    87,
+    92,
+    99,
+    102,
+    104,
+    108,
+    114,
+    117,
+    120,
+    123,
+    124,
+    126,
+    153,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     32,
+     "SLUDGE"
+    ],
+    [
+     37,
+     "SMOKESCREEN"
+    ],
+    [
+     40,
+     "SELFDESTRUCT"
+    ],
+    [
+     45,
+     "HAZE"
+    ],
+    [
+     48,
+     "EXPLOSION"
+    ]
+   ],
+   "dex": 109
+  },
+  {
+   "name": "WEEZING",
+   "file": "weezing",
+   "base": {
+    "hp": 65,
+    "atk": 90,
+    "def": 120,
+    "spe": 60,
+    "spc": 85
+   },
+   "types": [
+    3,
+    3
+   ],
+   "learnset": [
+    33,
+    63,
+    85,
+    87,
+    92,
+    99,
+    102,
+    104,
+    108,
+    114,
+    117,
+    120,
+    123,
+    124,
+    126,
+    153,
+    156,
+    164
+   ],
+   "prevos": [
+    "KOFFING"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     32,
+     "SLUDGE"
+    ],
+    [
+     39,
+     "SMOKESCREEN"
+    ],
+    [
+     43,
+     "SELFDESTRUCT"
+    ],
+    [
+     49,
+     "HAZE"
+    ],
+    [
+     53,
+     "EXPLOSION"
+    ]
+   ],
+   "dex": 110
+  },
+  {
+   "name": "RHYHORN",
+   "file": "rhyhorn",
+   "base": {
+    "hp": 80,
+    "atk": 85,
+    "def": 95,
+    "spe": 25,
+    "spc": 30
+   },
+   "types": [
+    4,
+    5
+   ],
+   "learnset": [
+    23,
+    30,
+    31,
+    32,
+    34,
+    36,
+    38,
+    39,
+    43,
+    70,
+    85,
+    87,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    104,
+    117,
+    126,
+    130,
+    156,
+    157,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     30,
+     "STOMP"
+    ],
+    [
+     35,
+     "TAIL_WHIP"
+    ],
+    [
+     40,
+     "FURY_ATTACK"
+    ],
+    [
+     45,
+     "HORN_DRILL"
+    ],
+    [
+     50,
+     "LEER"
+    ],
+    [
+     55,
+     "TAKE_DOWN"
+    ]
+   ],
+   "dex": 111
+  },
+  {
+   "name": "RHYDON",
+   "file": "rhydon",
+   "base": {
+    "hp": 105,
+    "atk": 130,
+    "def": 120,
+    "spe": 40,
+    "spc": 45
+   },
+   "types": [
+    4,
+    5
+   ],
+   "learnset": [
+    5,
+    6,
+    23,
+    25,
+    30,
+    31,
+    32,
+    34,
+    36,
+    38,
+    39,
+    43,
+    55,
+    57,
+    58,
+    59,
+    61,
+    63,
+    66,
+    68,
+    69,
+    70,
+    85,
+    87,
+    89,
+    90,
+    91,
+    92,
+    99,
+    102,
+    104,
+    117,
+    126,
+    130,
+    156,
+    157,
+    164
+   ],
+   "prevos": [
+    "RHYHORN"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     30,
+     "STOMP"
+    ],
+    [
+     35,
+     "TAIL_WHIP"
+    ],
+    [
+     40,
+     "FURY_ATTACK"
+    ],
+    [
+     48,
+     "HORN_DRILL"
+    ],
+    [
+     55,
+     "LEER"
+    ],
+    [
+     64,
+     "TAKE_DOWN"
+    ]
+   ],
+   "dex": 112
+  },
+  {
+   "name": "CHANSEY",
+   "file": "chansey",
+   "base": {
+    "hp": 250,
+    "atk": 5,
+    "def": 5,
+    "spe": 50,
+    "spc": 105
+   },
+   "types": [
+    0,
+    0
+   ],
+   "learnset": [
+    1,
+    3,
+    5,
+    25,
+    34,
+    36,
+    38,
+    45,
+    47,
+    55,
+    58,
+    59,
+    61,
+    63,
+    66,
+    68,
+    69,
+    70,
+    76,
+    85,
+    86,
+    87,
+    92,
+    94,
+    99,
+    100,
+    102,
+    104,
+    107,
+    111,
+    113,
+    115,
+    117,
+    118,
+    121,
+    126,
+    130,
+    135,
+    148,
+    149,
+    156,
+    161,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     24,
+     "SING"
+    ],
+    [
+     30,
+     "GROWL"
+    ],
+    [
+     38,
+     "MINIMIZE"
+    ],
+    [
+     44,
+     "DEFENSE_CURL"
+    ],
+    [
+     48,
+     "LIGHT_SCREEN"
+    ],
+    [
+     54,
+     "DOUBLE_EDGE"
+    ]
+   ],
+   "dex": 113
+  },
+  {
+   "name": "TANGELA",
+   "file": "tangela",
+   "base": {
+    "hp": 65,
+    "atk": 55,
+    "def": 115,
+    "spe": 60,
+    "spc": 100
+   },
+   "types": [
+    11,
+    11
+   ],
+   "learnset": [
+    14,
+    15,
+    20,
+    21,
+    34,
+    36,
+    38,
+    63,
+    71,
+    72,
+    74,
+    76,
+    77,
+    78,
+    79,
+    92,
+    99,
+    102,
+    104,
+    117,
+    130,
+    132,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     29,
+     "ABSORB"
+    ],
+    [
+     32,
+     "POISONPOWDER"
+    ],
+    [
+     36,
+     "STUN_SPORE"
+    ],
+    [
+     39,
+     "SLEEP_POWDER"
+    ],
+    [
+     45,
+     "SLAM"
+    ],
+    [
+     49,
+     "GROWTH"
+    ]
+   ],
+   "dex": 114
+  },
+  {
+   "name": "KANGASKHAN",
+   "file": "kangaskhan",
+   "base": {
+    "hp": 105,
+    "atk": 95,
+    "def": 80,
+    "spe": 90,
+    "spc": 40
+   },
+   "types": [
+    0,
+    0
+   ],
+   "learnset": [
+    4,
+    5,
+    25,
+    34,
+    36,
+    38,
+    39,
+    43,
+    44,
+    55,
+    57,
+    58,
+    59,
+    61,
+    63,
+    66,
+    68,
+    69,
+    70,
+    85,
+    87,
+    89,
+    90,
+    92,
+    99,
+    102,
+    104,
+    117,
+    126,
+    130,
+    146,
+    156,
+    157,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     26,
+     "BITE"
+    ],
+    [
+     31,
+     "TAIL_WHIP"
+    ],
+    [
+     36,
+     "MEGA_PUNCH"
+    ],
+    [
+     41,
+     "LEER"
+    ],
+    [
+     46,
+     "DIZZY_PUNCH"
+    ]
+   ],
+   "dex": 115
+  },
+  {
+   "name": "HORSEA",
+   "file": "horsea",
+   "base": {
+    "hp": 30,
+    "atk": 40,
+    "def": 70,
+    "spe": 60,
+    "spc": 70
+   },
+   "types": [
+    10,
+    10
+   ],
+   "learnset": [
+    36,
+    38,
+    43,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    92,
+    97,
+    99,
+    102,
+    104,
+    108,
+    117,
+    129,
+    130,
+    145,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     19,
+     "SMOKESCREEN"
+    ],
+    [
+     24,
+     "LEER"
+    ],
+    [
+     30,
+     "WATER_GUN"
+    ],
+    [
+     37,
+     "AGILITY"
+    ],
+    [
+     45,
+     "HYDRO_PUMP"
+    ]
+   ],
+   "dex": 116
+  },
+  {
+   "name": "SEADRA",
+   "file": "seadra",
+   "base": {
+    "hp": 55,
+    "atk": 65,
+    "def": 95,
+    "spe": 85,
+    "spc": 95
+   },
+   "types": [
+    10,
+    10
+   ],
+   "learnset": [
+    36,
+    38,
+    43,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    63,
+    92,
+    97,
+    99,
+    102,
+    104,
+    108,
+    117,
+    129,
+    130,
+    145,
+    156,
+    164
+   ],
+   "prevos": [
+    "HORSEA"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     19,
+     "SMOKESCREEN"
+    ],
+    [
+     24,
+     "LEER"
+    ],
+    [
+     30,
+     "WATER_GUN"
+    ],
+    [
+     41,
+     "AGILITY"
+    ],
+    [
+     52,
+     "HYDRO_PUMP"
+    ]
+   ],
+   "dex": 117
+  },
+  {
+   "name": "GOLDEEN",
+   "file": "goldeen",
+   "base": {
+    "hp": 45,
+    "atk": 67,
+    "def": 60,
+    "spe": 63,
+    "spc": 50
+   },
+   "types": [
+    10,
+    10
+   ],
+   "learnset": [
+    30,
+    31,
+    32,
+    36,
+    38,
+    39,
+    48,
+    55,
+    57,
+    58,
+    59,
+    61,
+    64,
+    92,
+    97,
+    99,
+    102,
+    104,
+    117,
+    127,
+    129,
+    130,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     19,
+     "SUPERSONIC"
+    ],
+    [
+     24,
+     "HORN_ATTACK"
+    ],
+    [
+     30,
+     "FURY_ATTACK"
+    ],
+    [
+     37,
+     "WATERFALL"
+    ],
+    [
+     45,
+     "HORN_DRILL"
+    ],
+    [
+     54,
+     "AGILITY"
+    ]
+   ],
+   "dex": 118
+  },
+  {
+   "name": "SEAKING",
+   "file": "seaking",
+   "base": {
+    "hp": 80,
+    "atk": 92,
+    "def": 65,
+    "spe": 68,
+    "spc": 80
+   },
+   "types": [
+    10,
+    10
+   ],
+   "learnset": [
+    30,
+    31,
+    32,
+    36,
+    38,
+    39,
+    48,
+    55,
+    57,
+    58,
+    59,
+    61,
+    63,
+    64,
+    92,
+    97,
+    99,
+    102,
+    104,
+    117,
+    127,
+    129,
+    130,
+    156,
+    164
+   ],
+   "prevos": [
+    "GOLDEEN"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     19,
+     "SUPERSONIC"
+    ],
+    [
+     24,
+     "HORN_ATTACK"
+    ],
+    [
+     30,
+     "FURY_ATTACK"
+    ],
+    [
+     39,
+     "WATERFALL"
+    ],
+    [
+     48,
+     "HORN_DRILL"
+    ],
+    [
+     54,
+     "AGILITY"
+    ]
+   ],
+   "dex": 119
+  },
+  {
+   "name": "STARYU",
+   "file": "staryu",
+   "base": {
+    "hp": 30,
+    "atk": 45,
+    "def": 55,
+    "spe": 85,
+    "spc": 70
+   },
+   "types": [
+    10,
+    10
+   ],
+   "learnset": [
+    33,
+    36,
+    38,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    85,
+    86,
+    87,
+    92,
+    94,
+    99,
+    100,
+    102,
+    104,
+    105,
+    106,
+    107,
+    113,
+    115,
+    117,
+    129,
+    130,
+    148,
+    149,
+    156,
+    161,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     17,
+     "WATER_GUN"
+    ],
+    [
+     22,
+     "HARDEN"
+    ],
+    [
+     27,
+     "RECOVER"
+    ],
+    [
+     32,
+     "SWIFT"
+    ],
+    [
+     37,
+     "MINIMIZE"
+    ],
+    [
+     42,
+     "LIGHT_SCREEN"
+    ],
+    [
+     47,
+     "HYDRO_PUMP"
+    ]
+   ],
+   "dex": 120
+  },
+  {
+   "name": "STARMIE",
+   "file": "starmie",
+   "base": {
+    "hp": 60,
+    "atk": 75,
+    "def": 85,
+    "spe": 115,
+    "spc": 100
+   },
+   "types": [
+    10,
+    13
+   ],
+   "learnset": [
+    33,
+    36,
+    38,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    63,
+    85,
+    86,
+    87,
+    92,
+    94,
+    99,
+    100,
+    102,
+    104,
+    105,
+    106,
+    107,
+    113,
+    115,
+    117,
+    129,
+    130,
+    148,
+    149,
+    156,
+    161,
+    164
+   ],
+   "prevos": [
+    "STARYU"
+   ],
+   "fully_evolved": true,
+   "levelup": [],
+   "dex": 121
+  },
+  {
+   "name": "MR_MIME",
+   "file": "mrmime",
+   "base": {
+    "hp": 40,
+    "atk": 45,
+    "def": 65,
+    "spe": 90,
+    "spc": 100
+   },
+   "types": [
+    13,
+    13
+   ],
+   "learnset": [
+    3,
+    5,
+    25,
+    34,
+    36,
+    38,
+    63,
+    66,
+    68,
+    69,
+    76,
+    85,
+    86,
+    87,
+    92,
+    93,
+    94,
+    96,
+    99,
+    100,
+    102,
+    104,
+    112,
+    113,
+    115,
+    117,
+    118,
+    130,
+    148,
+    149,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     15,
+     "CONFUSION"
+    ],
+    [
+     23,
+     "LIGHT_SCREEN"
+    ],
+    [
+     31,
+     "DOUBLESLAP"
+    ],
+    [
+     39,
+     "MEDITATE"
+    ],
+    [
+     47,
+     "SUBSTITUTE"
+    ]
+   ],
+   "dex": 122
+  },
+  {
+   "name": "SCYTHER",
+   "file": "scyther",
+   "base": {
+    "hp": 70,
+    "atk": 110,
+    "def": 80,
+    "spe": 105,
+    "spc": 55
+   },
+   "types": [
+    7,
+    2
+   ],
+   "learnset": [
+    14,
+    15,
+    36,
+    38,
+    43,
+    63,
+    92,
+    97,
+    98,
+    99,
+    102,
+    104,
+    116,
+    117,
+    129,
+    130,
+    156,
+    163,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     17,
+     "LEER"
+    ],
+    [
+     20,
+     "FOCUS_ENERGY"
+    ],
+    [
+     24,
+     "DOUBLE_TEAM"
+    ],
+    [
+     29,
+     "SLASH"
+    ],
+    [
+     35,
+     "SWORDS_DANCE"
+    ],
+    [
+     42,
+     "AGILITY"
+    ]
+   ],
+   "dex": 123
+  },
+  {
+   "name": "JYNX",
+   "file": "jynx",
+   "base": {
+    "hp": 65,
+    "atk": 50,
+    "def": 35,
+    "spe": 95,
+    "spc": 95
+   },
+   "types": [
+    14,
+    13
+   ],
+   "learnset": [
+    1,
+    3,
+    5,
+    8,
+    25,
+    34,
+    36,
+    37,
+    38,
+    55,
+    58,
+    59,
+    61,
+    63,
+    66,
+    68,
+    69,
+    92,
+    94,
+    99,
+    100,
+    102,
+    104,
+    115,
+    117,
+    118,
+    122,
+    130,
+    142,
+    149,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     18,
+     "LICK"
+    ],
+    [
+     23,
+     "DOUBLESLAP"
+    ],
+    [
+     31,
+     "ICE_PUNCH"
+    ],
+    [
+     39,
+     "BODY_SLAM"
+    ],
+    [
+     47,
+     "THRASH"
+    ],
+    [
+     58,
+     "BLIZZARD"
+    ]
+   ],
+   "dex": 124
+  },
+  {
+   "name": "ELECTABUZZ",
+   "file": "electabuzz",
+   "base": {
+    "hp": 65,
+    "atk": 83,
+    "def": 57,
+    "spe": 105,
+    "spc": 85
+   },
+   "types": [
+    12,
+    12
+   ],
+   "learnset": [
+    5,
+    9,
+    25,
+    34,
+    36,
+    38,
+    43,
+    63,
+    66,
+    68,
+    69,
+    70,
+    84,
+    85,
+    86,
+    87,
+    92,
+    94,
+    98,
+    99,
+    100,
+    102,
+    103,
+    104,
+    113,
+    115,
+    117,
+    118,
+    129,
+    130,
+    148,
+    149,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     34,
+     "THUNDERSHOCK"
+    ],
+    [
+     37,
+     "SCREECH"
+    ],
+    [
+     42,
+     "THUNDERPUNCH"
+    ],
+    [
+     49,
+     "LIGHT_SCREEN"
+    ],
+    [
+     54,
+     "THUNDER"
+    ]
+   ],
+   "dex": 125
+  },
+  {
+   "name": "MAGMAR",
+   "file": "magmar",
+   "base": {
+    "hp": 65,
+    "atk": 95,
+    "def": 57,
+    "spe": 93,
+    "spc": 85
+   },
+   "types": [
+    9,
+    9
+   ],
+   "learnset": [
+    5,
+    7,
+    25,
+    34,
+    36,
+    38,
+    43,
+    52,
+    53,
+    63,
+    66,
+    68,
+    69,
+    70,
+    92,
+    94,
+    99,
+    100,
+    102,
+    104,
+    108,
+    109,
+    117,
+    118,
+    123,
+    126,
+    130,
+    149,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     36,
+     "LEER"
+    ],
+    [
+     39,
+     "CONFUSE_RAY"
+    ],
+    [
+     43,
+     "FIRE_PUNCH"
+    ],
+    [
+     48,
+     "SMOKESCREEN"
+    ],
+    [
+     52,
+     "SMOG"
+    ],
+    [
+     55,
+     "FLAMETHROWER"
+    ]
+   ],
+   "dex": 126
+  },
+  {
+   "name": "PINSIR",
+   "file": "pinsir",
+   "base": {
+    "hp": 65,
+    "atk": 125,
+    "def": 100,
+    "spe": 85,
+    "spc": 55
+   },
+   "types": [
+    7,
+    7
+   ],
+   "learnset": [
+    11,
+    12,
+    14,
+    15,
+    34,
+    36,
+    38,
+    63,
+    66,
+    69,
+    70,
+    92,
+    99,
+    102,
+    104,
+    106,
+    116,
+    117,
+    156,
+    163,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     25,
+     "SEISMIC_TOSS"
+    ],
+    [
+     30,
+     "GUILLOTINE"
+    ],
+    [
+     36,
+     "FOCUS_ENERGY"
+    ],
+    [
+     43,
+     "HARDEN"
+    ],
+    [
+     49,
+     "SLASH"
+    ],
+    [
+     54,
+     "SWORDS_DANCE"
+    ]
+   ],
+   "dex": 127
+  },
+  {
+   "name": "TAUROS",
+   "file": "tauros",
+   "base": {
+    "hp": 75,
+    "atk": 100,
+    "def": 95,
+    "spe": 110,
+    "spc": 70
+   },
+   "types": [
+    0,
+    0
+   ],
+   "learnset": [
+    23,
+    32,
+    33,
+    34,
+    36,
+    38,
+    39,
+    43,
+    58,
+    59,
+    63,
+    70,
+    85,
+    87,
+    89,
+    90,
+    92,
+    99,
+    102,
+    104,
+    117,
+    126,
+    130,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     21,
+     "STOMP"
+    ],
+    [
+     28,
+     "TAIL_WHIP"
+    ],
+    [
+     35,
+     "LEER"
+    ],
+    [
+     44,
+     "RAGE"
+    ],
+    [
+     51,
+     "TAKE_DOWN"
+    ]
+   ],
+   "dex": 128
+  },
+  {
+   "name": "MAGIKARP",
+   "file": "magikarp",
+   "base": {
+    "hp": 20,
+    "atk": 10,
+    "def": 55,
+    "spe": 80,
+    "spc": 20
+   },
+   "types": [
+    10,
+    10
+   ],
+   "learnset": [
+    33,
+    150
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     15,
+     "TACKLE"
+    ]
+   ],
+   "dex": 129
+  },
+  {
+   "name": "GYARADOS",
+   "file": "gyarados",
+   "base": {
+    "hp": 95,
+    "atk": 125,
+    "def": 79,
+    "spe": 81,
+    "spc": 100
+   },
+   "types": [
+    10,
+    2
+   ],
+   "learnset": [
+    33,
+    34,
+    36,
+    38,
+    43,
+    44,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    63,
+    70,
+    82,
+    85,
+    87,
+    92,
+    99,
+    102,
+    104,
+    115,
+    117,
+    126,
+    130,
+    150,
+    156,
+    164
+   ],
+   "prevos": [
+    "MAGIKARP"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     20,
+     "BITE"
+    ],
+    [
+     25,
+     "DRAGON_RAGE"
+    ],
+    [
+     32,
+     "LEER"
+    ],
+    [
+     41,
+     "HYDRO_PUMP"
+    ],
+    [
+     52,
+     "HYPER_BEAM"
+    ]
+   ],
+   "dex": 130
+  },
+  {
+   "name": "LAPRAS",
+   "file": "lapras",
+   "base": {
+    "hp": 130,
+    "atk": 85,
+    "def": 80,
+    "spe": 60,
+    "spc": 95
+   },
+   "types": [
+    10,
+    14
+   ],
+   "learnset": [
+    32,
+    34,
+    36,
+    38,
+    45,
+    47,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    63,
+    70,
+    76,
+    82,
+    85,
+    87,
+    92,
+    94,
+    99,
+    102,
+    104,
+    109,
+    115,
+    117,
+    130,
+    149,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     16,
+     "SING"
+    ],
+    [
+     20,
+     "MIST"
+    ],
+    [
+     25,
+     "BODY_SLAM"
+    ],
+    [
+     31,
+     "CONFUSE_RAY"
+    ],
+    [
+     38,
+     "ICE_BEAM"
+    ],
+    [
+     46,
+     "HYDRO_PUMP"
+    ]
+   ],
+   "dex": 131
+  },
+  {
+   "name": "DITTO",
+   "file": "ditto",
+   "base": {
+    "hp": 48,
+    "atk": 48,
+    "def": 48,
+    "spe": 48,
+    "spc": 48
+   },
+   "types": [
+    0,
+    0
+   ],
+   "learnset": [
+    144
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [],
+   "dex": 132
+  },
+  {
+   "name": "EEVEE",
+   "file": "eevee",
+   "base": {
+    "hp": 55,
+    "atk": 55,
+    "def": 50,
+    "spe": 55,
+    "spc": 65
+   },
+   "types": [
+    0,
+    0
+   ],
+   "learnset": [
+    28,
+    33,
+    34,
+    36,
+    38,
+    39,
+    44,
+    92,
+    98,
+    99,
+    102,
+    104,
+    115,
+    117,
+    129,
+    130,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     27,
+     "QUICK_ATTACK"
+    ],
+    [
+     31,
+     "TAIL_WHIP"
+    ],
+    [
+     37,
+     "BITE"
+    ],
+    [
+     45,
+     "TAKE_DOWN"
+    ]
+   ],
+   "dex": 133
+  },
+  {
+   "name": "VAPOREON",
+   "file": "vaporeon",
+   "base": {
+    "hp": 130,
+    "atk": 65,
+    "def": 60,
+    "spe": 65,
+    "spc": 110
+   },
+   "types": [
+    10,
+    10
+   ],
+   "learnset": [
+    28,
+    33,
+    34,
+    36,
+    38,
+    39,
+    44,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    63,
+    92,
+    98,
+    99,
+    102,
+    104,
+    114,
+    115,
+    117,
+    129,
+    130,
+    151,
+    156,
+    164
+   ],
+   "prevos": [
+    "EEVEE"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     27,
+     "QUICK_ATTACK"
+    ],
+    [
+     31,
+     "WATER_GUN"
+    ],
+    [
+     37,
+     "TAIL_WHIP"
+    ],
+    [
+     40,
+     "BITE"
+    ],
+    [
+     42,
+     "ACID_ARMOR"
+    ],
+    [
+     44,
+     "HAZE"
+    ],
+    [
+     48,
+     "MIST"
+    ],
+    [
+     54,
+     "HYDRO_PUMP"
+    ]
+   ],
+   "dex": 134
+  },
+  {
+   "name": "JOLTEON",
+   "file": "jolteon",
+   "base": {
+    "hp": 65,
+    "atk": 65,
+    "def": 60,
+    "spe": 130,
+    "spc": 110
+   },
+   "types": [
+    12,
+    12
+   ],
+   "learnset": [
+    24,
+    28,
+    33,
+    34,
+    36,
+    38,
+    39,
+    42,
+    44,
+    63,
+    84,
+    85,
+    86,
+    87,
+    92,
+    97,
+    98,
+    99,
+    102,
+    104,
+    115,
+    117,
+    129,
+    130,
+    148,
+    156,
+    164
+   ],
+   "prevos": [
+    "EEVEE"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     27,
+     "QUICK_ATTACK"
+    ],
+    [
+     31,
+     "THUNDERSHOCK"
+    ],
+    [
+     37,
+     "TAIL_WHIP"
+    ],
+    [
+     40,
+     "THUNDER_WAVE"
+    ],
+    [
+     42,
+     "DOUBLE_KICK"
+    ],
+    [
+     44,
+     "AGILITY"
+    ],
+    [
+     48,
+     "PIN_MISSILE"
+    ],
+    [
+     54,
+     "THUNDER"
+    ]
+   ],
+   "dex": 135
+  },
+  {
+   "name": "FLAREON",
+   "file": "flareon",
+   "base": {
+    "hp": 65,
+    "atk": 130,
+    "def": 60,
+    "spe": 65,
+    "spc": 110
+   },
+   "types": [
+    9,
+    9
+   ],
+   "learnset": [
+    28,
+    33,
+    34,
+    36,
+    38,
+    39,
+    43,
+    44,
+    52,
+    53,
+    63,
+    83,
+    92,
+    98,
+    99,
+    102,
+    104,
+    115,
+    117,
+    126,
+    129,
+    130,
+    156,
+    164
+   ],
+   "prevos": [
+    "EEVEE"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     27,
+     "QUICK_ATTACK"
+    ],
+    [
+     31,
+     "EMBER"
+    ],
+    [
+     37,
+     "TAIL_WHIP"
+    ],
+    [
+     40,
+     "BITE"
+    ],
+    [
+     42,
+     "LEER"
+    ],
+    [
+     44,
+     "FIRE_SPIN"
+    ],
+    [
+     48,
+     "RAGE"
+    ],
+    [
+     54,
+     "FLAMETHROWER"
+    ]
+   ],
+   "dex": 136
+  },
+  {
+   "name": "PORYGON",
+   "file": "porygon",
+   "base": {
+    "hp": 65,
+    "atk": 60,
+    "def": 70,
+    "spe": 40,
+    "spc": 75
+   },
+   "types": [
+    0,
+    0
+   ],
+   "learnset": [
+    33,
+    36,
+    38,
+    58,
+    59,
+    60,
+    63,
+    85,
+    86,
+    87,
+    92,
+    94,
+    97,
+    99,
+    100,
+    102,
+    104,
+    105,
+    115,
+    117,
+    129,
+    130,
+    148,
+    149,
+    156,
+    159,
+    160,
+    161,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     23,
+     "PSYBEAM"
+    ],
+    [
+     28,
+     "RECOVER"
+    ],
+    [
+     35,
+     "AGILITY"
+    ],
+    [
+     42,
+     "TRI_ATTACK"
+    ]
+   ],
+   "dex": 137
+  },
+  {
+   "name": "OMANYTE",
+   "file": "omanyte",
+   "base": {
+    "hp": 35,
+    "atk": 40,
+    "def": 100,
+    "spe": 35,
+    "spc": 90
+   },
+   "types": [
+    5,
+    10
+   ],
+   "learnset": [
+    30,
+    34,
+    36,
+    38,
+    43,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    92,
+    99,
+    102,
+    104,
+    110,
+    115,
+    117,
+    131,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     34,
+     "HORN_ATTACK"
+    ],
+    [
+     39,
+     "LEER"
+    ],
+    [
+     46,
+     "SPIKE_CANNON"
+    ],
+    [
+     53,
+     "HYDRO_PUMP"
+    ]
+   ],
+   "dex": 138
+  },
+  {
+   "name": "OMASTAR",
+   "file": "omastar",
+   "base": {
+    "hp": 70,
+    "atk": 60,
+    "def": 125,
+    "spe": 55,
+    "spc": 115
+   },
+   "types": [
+    5,
+    10
+   ],
+   "learnset": [
+    30,
+    32,
+    34,
+    36,
+    38,
+    43,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    63,
+    66,
+    69,
+    92,
+    99,
+    102,
+    104,
+    110,
+    115,
+    117,
+    130,
+    131,
+    156,
+    164
+   ],
+   "prevos": [
+    "OMANYTE"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     34,
+     "HORN_ATTACK"
+    ],
+    [
+     39,
+     "LEER"
+    ],
+    [
+     44,
+     "SPIKE_CANNON"
+    ],
+    [
+     49,
+     "HYDRO_PUMP"
+    ]
+   ],
+   "dex": 139
+  },
+  {
+   "name": "KABUTO",
+   "file": "kabuto",
+   "base": {
+    "hp": 30,
+    "atk": 80,
+    "def": 90,
+    "spe": 55,
+    "spc": 45
+   },
+   "types": [
+    5,
+    10
+   ],
+   "learnset": [
+    10,
+    34,
+    36,
+    38,
+    43,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    71,
+    92,
+    99,
+    102,
+    104,
+    106,
+    115,
+    117,
+    156,
+    163,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     34,
+     "ABSORB"
+    ],
+    [
+     39,
+     "SLASH"
+    ],
+    [
+     44,
+     "LEER"
+    ],
+    [
+     49,
+     "HYDRO_PUMP"
+    ]
+   ],
+   "dex": 140
+  },
+  {
+   "name": "KABUTOPS",
+   "file": "kabutops",
+   "base": {
+    "hp": 60,
+    "atk": 115,
+    "def": 105,
+    "spe": 80,
+    "spc": 70
+   },
+   "types": [
+    5,
+    10
+   ],
+   "learnset": [
+    10,
+    13,
+    14,
+    25,
+    34,
+    36,
+    38,
+    43,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    63,
+    66,
+    69,
+    71,
+    92,
+    99,
+    102,
+    104,
+    106,
+    115,
+    117,
+    130,
+    156,
+    163,
+    164
+   ],
+   "prevos": [
+    "KABUTO"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     34,
+     "ABSORB"
+    ],
+    [
+     39,
+     "SLASH"
+    ],
+    [
+     46,
+     "LEER"
+    ],
+    [
+     53,
+     "HYDRO_PUMP"
+    ]
+   ],
+   "dex": 141
+  },
+  {
+   "name": "AERODACTYL",
+   "file": "aerodactyl",
+   "base": {
+    "hp": 80,
+    "atk": 105,
+    "def": 65,
+    "spe": 130,
+    "spc": 60
+   },
+   "types": [
+    5,
+    2
+   ],
+   "learnset": [
+    13,
+    17,
+    18,
+    19,
+    36,
+    38,
+    44,
+    48,
+    63,
+    82,
+    92,
+    97,
+    99,
+    102,
+    104,
+    115,
+    117,
+    126,
+    129,
+    143,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     33,
+     "SUPERSONIC"
+    ],
+    [
+     38,
+     "BITE"
+    ],
+    [
+     45,
+     "TAKE_DOWN"
+    ],
+    [
+     54,
+     "HYPER_BEAM"
+    ]
+   ],
+   "dex": 142
+  },
+  {
+   "name": "SNORLAX",
+   "file": "snorlax",
+   "base": {
+    "hp": 160,
+    "atk": 110,
+    "def": 65,
+    "spe": 30,
+    "spc": 65
+   },
+   "types": [
+    0,
+    0
+   ],
+   "learnset": [
+    5,
+    6,
+    25,
+    29,
+    34,
+    36,
+    38,
+    55,
+    57,
+    58,
+    59,
+    61,
+    63,
+    66,
+    68,
+    69,
+    70,
+    76,
+    85,
+    87,
+    89,
+    90,
+    92,
+    94,
+    99,
+    102,
+    104,
+    106,
+    115,
+    117,
+    118,
+    120,
+    126,
+    130,
+    133,
+    149,
+    156,
+    157,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     35,
+     "BODY_SLAM"
+    ],
+    [
+     41,
+     "HARDEN"
+    ],
+    [
+     48,
+     "DOUBLE_EDGE"
+    ],
+    [
+     56,
+     "HYPER_BEAM"
+    ]
+   ],
+   "dex": 143
+  },
+  {
+   "name": "ARTICUNO",
+   "file": "articuno",
+   "base": {
+    "hp": 90,
+    "atk": 85,
+    "def": 100,
+    "spe": 85,
+    "spc": 125
+   },
+   "types": [
+    14,
+    2
+   ],
+   "learnset": [
+    13,
+    18,
+    19,
+    36,
+    38,
+    54,
+    55,
+    58,
+    59,
+    61,
+    63,
+    64,
+    92,
+    97,
+    99,
+    102,
+    104,
+    115,
+    117,
+    129,
+    143,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     51,
+     "BLIZZARD"
+    ],
+    [
+     55,
+     "AGILITY"
+    ],
+    [
+     60,
+     "MIST"
+    ]
+   ],
+   "dex": 144
+  },
+  {
+   "name": "ZAPDOS",
+   "file": "zapdos",
+   "base": {
+    "hp": 90,
+    "atk": 90,
+    "def": 85,
+    "spe": 100,
+    "spc": 125
+   },
+   "types": [
+    12,
+    2
+   ],
+   "learnset": [
+    13,
+    18,
+    19,
+    36,
+    38,
+    63,
+    65,
+    84,
+    85,
+    86,
+    87,
+    92,
+    97,
+    99,
+    102,
+    104,
+    113,
+    115,
+    117,
+    129,
+    143,
+    148,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     51,
+     "THUNDER"
+    ],
+    [
+     55,
+     "AGILITY"
+    ],
+    [
+     60,
+     "LIGHT_SCREEN"
+    ]
+   ],
+   "dex": 145
+  },
+  {
+   "name": "MOLTRES",
+   "file": "moltres",
+   "base": {
+    "hp": 90,
+    "atk": 100,
+    "def": 90,
+    "spe": 90,
+    "spc": 125
+   },
+   "types": [
+    9,
+    2
+   ],
+   "learnset": [
+    13,
+    18,
+    19,
+    36,
+    38,
+    43,
+    63,
+    64,
+    83,
+    92,
+    97,
+    99,
+    102,
+    104,
+    115,
+    117,
+    126,
+    129,
+    143,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     51,
+     "LEER"
+    ],
+    [
+     55,
+     "AGILITY"
+    ],
+    [
+     60,
+     "SKY_ATTACK"
+    ]
+   ],
+   "dex": 146
+  },
+  {
+   "name": "DRATINI",
+   "file": "dratini",
+   "base": {
+    "hp": 41,
+    "atk": 64,
+    "def": 45,
+    "spe": 50,
+    "spc": 50
+   },
+   "types": [
+    15,
+    15
+   ],
+   "learnset": [
+    21,
+    34,
+    35,
+    36,
+    38,
+    43,
+    55,
+    57,
+    58,
+    59,
+    61,
+    63,
+    82,
+    85,
+    86,
+    87,
+    92,
+    97,
+    99,
+    102,
+    104,
+    115,
+    117,
+    126,
+    129,
+    130,
+    156,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     10,
+     "THUNDER_WAVE"
+    ],
+    [
+     20,
+     "AGILITY"
+    ],
+    [
+     30,
+     "SLAM"
+    ],
+    [
+     40,
+     "DRAGON_RAGE"
+    ],
+    [
+     50,
+     "HYPER_BEAM"
+    ]
+   ],
+   "dex": 147
+  },
+  {
+   "name": "DRAGONAIR",
+   "file": "dragonair",
+   "base": {
+    "hp": 61,
+    "atk": 84,
+    "def": 65,
+    "spe": 70,
+    "spc": 70
+   },
+   "types": [
+    15,
+    15
+   ],
+   "learnset": [
+    21,
+    32,
+    34,
+    35,
+    36,
+    38,
+    43,
+    55,
+    57,
+    58,
+    59,
+    61,
+    63,
+    82,
+    85,
+    86,
+    87,
+    92,
+    97,
+    99,
+    102,
+    104,
+    115,
+    117,
+    126,
+    129,
+    130,
+    156,
+    164
+   ],
+   "prevos": [
+    "DRATINI"
+   ],
+   "fully_evolved": false,
+   "levelup": [
+    [
+     10,
+     "THUNDER_WAVE"
+    ],
+    [
+     20,
+     "AGILITY"
+    ],
+    [
+     35,
+     "SLAM"
+    ],
+    [
+     45,
+     "DRAGON_RAGE"
+    ],
+    [
+     55,
+     "HYPER_BEAM"
+    ]
+   ],
+   "dex": 148
+  },
+  {
+   "name": "DRAGONITE",
+   "file": "dragonite",
+   "base": {
+    "hp": 91,
+    "atk": 134,
+    "def": 95,
+    "spe": 80,
+    "spc": 100
+   },
+   "types": [
+    15,
+    2
+   ],
+   "learnset": [
+    13,
+    21,
+    32,
+    34,
+    35,
+    36,
+    38,
+    43,
+    55,
+    57,
+    58,
+    59,
+    61,
+    63,
+    70,
+    82,
+    85,
+    86,
+    87,
+    92,
+    97,
+    99,
+    102,
+    104,
+    115,
+    117,
+    126,
+    129,
+    130,
+    156,
+    164
+   ],
+   "prevos": [
+    "DRAGONAIR",
+    "DRATINI"
+   ],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     10,
+     "THUNDER_WAVE"
+    ],
+    [
+     20,
+     "AGILITY"
+    ],
+    [
+     35,
+     "SLAM"
+    ],
+    [
+     45,
+     "DRAGON_RAGE"
+    ],
+    [
+     60,
+     "HYPER_BEAM"
+    ]
+   ],
+   "dex": 149
+  },
+  {
+   "name": "MEWTWO",
+   "file": "mewtwo",
+   "base": {
+    "hp": 106,
+    "atk": 110,
+    "def": 90,
+    "spe": 130,
+    "spc": 154
+   },
+   "types": [
+    13,
+    13
+   ],
+   "learnset": [
+    5,
+    6,
+    25,
+    34,
+    36,
+    38,
+    50,
+    54,
+    55,
+    58,
+    59,
+    61,
+    63,
+    66,
+    68,
+    69,
+    70,
+    76,
+    85,
+    86,
+    87,
+    92,
+    93,
+    94,
+    99,
+    100,
+    102,
+    104,
+    105,
+    112,
+    115,
+    117,
+    118,
+    120,
+    126,
+    129,
+    130,
+    133,
+    148,
+    149,
+    156,
+    161,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     63,
+     "BARRIER"
+    ],
+    [
+     66,
+     "PSYCHIC_M"
+    ],
+    [
+     70,
+     "RECOVER"
+    ],
+    [
+     75,
+     "MIST"
+    ],
+    [
+     81,
+     "AMNESIA"
+    ]
+   ],
+   "dex": 150
+  },
+  {
+   "name": "MEW",
+   "file": "mew",
+   "base": {
+    "hp": 100,
+    "atk": 100,
+    "def": 100,
+    "spe": 100,
+    "spc": 100
+   },
+   "types": [
+    13,
+    13
+   ],
+   "learnset": [
+    1,
+    5,
+    6,
+    13,
+    14,
+    15,
+    18,
+    19,
+    25,
+    32,
+    34,
+    36,
+    38,
+    55,
+    57,
+    58,
+    59,
+    61,
+    63,
+    66,
+    68,
+    69,
+    70,
+    72,
+    76,
+    82,
+    85,
+    86,
+    87,
+    89,
+    90,
+    91,
+    92,
+    94,
+    99,
+    100,
+    102,
+    104,
+    115,
+    117,
+    118,
+    120,
+    121,
+    126,
+    129,
+    130,
+    135,
+    138,
+    143,
+    144,
+    148,
+    149,
+    153,
+    156,
+    157,
+    161,
+    164
+   ],
+   "prevos": [],
+   "fully_evolved": true,
+   "levelup": [
+    [
+     10,
+     "TRANSFORM"
+    ],
+    [
+     20,
+     "MEGA_PUNCH"
+    ],
+    [
+     30,
+     "METRONOME"
+    ],
+    [
+     40,
+     "PSYCHIC_M"
+    ]
+   ],
+   "dex": 151
+  }
+ ]
+}

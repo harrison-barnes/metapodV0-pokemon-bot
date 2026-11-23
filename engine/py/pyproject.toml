@@ -1,0 +1,14 @@
+[build-system]
+requires = ["maturin>=1.5,<2"]
+build-backend = "maturin"
+
+[project]
+name = "gen1py"
+version = "0.1.0"
+description = "Python bindings for the Gen 1 6v6 battle engine (vectorised environments)"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = ["numpy"]
+
+[tool.maturin]
+module-name = "gen1py"

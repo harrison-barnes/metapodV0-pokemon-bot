@@ -1,0 +1,18 @@
+[package]
+name = "gen1py"
+version = "0.1.0"
+edition = "2024"
+description = "Python bindings for the Gen 1 6v6 battle engine (vectorised environments)"
+
+[lib]
+name = "gen1py"
+crate-type = ["cdylib"]
+
+[dependencies]
+gen1 = { path = ".." }
+numpy = "0.30.0"
+pyo3 = { version = "0.30.1", features = ["extension-module"] }
+rayon = "1"
+
+[profile.release]
+debug = 1

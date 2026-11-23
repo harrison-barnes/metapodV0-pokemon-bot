@@ -1,0 +1,1715 @@
+[
+ {
+  "species": "TAUROS",
+  "moves": [
+   "BODY_SLAM",
+   "HYPER_BEAM",
+   "EARTHQUAKE",
+   "BLIZZARD"
+  ],
+  "weight": 0.8573295367337759,
+  "source": "ladder"
+ },
+ {
+  "species": "TAUROS",
+  "moves": [
+   "BODY_SLAM",
+   "HYPER_BEAM",
+   "EARTHQUAKE",
+   "REST"
+  ],
+  "weight": 0.06754255111218307,
+  "source": "ladder"
+ },
+ {
+  "species": "TAUROS",
+  "moves": [
+   "BODY_SLAM",
+   "HYPER_BEAM",
+   "EARTHQUAKE",
+   "THUNDERBOLT"
+  ],
+  "weight": 0.03434518519750939,
+  "source": "ladder"
+ },
+ {
+  "species": "TAUROS",
+  "moves": [
+   "BODY_SLAM",
+   "HYPER_BEAM",
+   "EARTHQUAKE",
+   "FIRE_BLAST"
+  ],
+  "weight": 0.009624571701962913,
+  "source": "ladder"
+ },
+ {
+  "species": "TAUROS",
+  "moves": [
+   "BODY_SLAM",
+   "HYPER_BEAM",
+   "BLIZZARD",
+   "REST"
+  ],
+  "weight": 0.009117855254568857,
+  "source": "ladder"
+ },
+ {
+  "species": "SNORLAX",
+  "moves": [
+   "BODY_SLAM",
+   "SELFDESTRUCT",
+   "EARTHQUAKE",
+   "HYPER_BEAM"
+  ],
+  "weight": 0.2874343491071116,
+  "source": "ladder"
+ },
+ {
+  "species": "SNORLAX",
+  "moves": [
+   "BODY_SLAM",
+   "SELFDESTRUCT",
+   "EARTHQUAKE",
+   "REST"
+  ],
+  "weight": 0.2055613480405697,
+  "source": "ladder"
+ },
+ {
+  "species": "SNORLAX",
+  "moves": [
+   "BODY_SLAM",
+   "SELFDESTRUCT",
+   "EARTHQUAKE",
+   "REFLECT"
+  ],
+  "weight": 0.18055027828689557,
+  "source": "ladder"
+ },
+ {
+  "species": "SNORLAX",
+  "moves": [
+   "BODY_SLAM",
+   "SELFDESTRUCT",
+   "HYPER_BEAM",
+   "REST"
+  ],
+  "weight": 0.0855638187200794,
+  "source": "ladder"
+ },
+ {
+  "species": "SNORLAX",
+  "moves": [
+   "BODY_SLAM",
+   "EARTHQUAKE",
+   "HYPER_BEAM",
+   "REST"
+  ],
+  "weight": 0.08110440584534383,
+  "source": "ladder"
+ },
+ {
+  "species": "EXEGGUTOR",
+  "moves": [
+   "PSYCHIC_M",
+   "SLEEP_POWDER",
+   "EXPLOSION",
+   "STUN_SPORE"
+  ],
+  "weight": 0.4930966265753082,
+  "source": "ladder"
+ },
+ {
+  "species": "EXEGGUTOR",
+  "moves": [
+   "PSYCHIC_M",
+   "SLEEP_POWDER",
+   "EXPLOSION",
+   "MEGA_DRAIN"
+  ],
+  "weight": 0.10733490091177436,
+  "source": "ladder"
+ },
+ {
+  "species": "EXEGGUTOR",
+  "moves": [
+   "PSYCHIC_M",
+   "SLEEP_POWDER",
+   "EXPLOSION",
+   "HYPER_BEAM"
+  ],
+  "weight": 0.06908198166061082,
+  "source": "ladder"
+ },
+ {
+  "species": "EXEGGUTOR",
+  "moves": [
+   "PSYCHIC_M",
+   "SLEEP_POWDER",
+   "EXPLOSION",
+   "REST"
+  ],
+  "weight": 0.06309641046431207,
+  "source": "ladder"
+ },
+ {
+  "species": "EXEGGUTOR",
+  "moves": [
+   "PSYCHIC_M",
+   "SLEEP_POWDER",
+   "STUN_SPORE",
+   "MEGA_DRAIN"
+  ],
+  "weight": 0.024095580387994583,
+  "source": "ladder"
+ },
+ {
+  "species": "CHANSEY",
+  "moves": [
+   "SOFTBOILED",
+   "THUNDER_WAVE",
+   "ICE_BEAM",
+   "SING"
+  ],
+  "weight": 0.23280905779877997,
+  "source": "ladder"
+ },
+ {
+  "species": "CHANSEY",
+  "moves": [
+   "SOFTBOILED",
+   "THUNDER_WAVE",
+   "ICE_BEAM",
+   "THUNDERBOLT"
+  ],
+  "weight": 0.19957561653262904,
+  "source": "ladder"
+ },
+ {
+  "species": "CHANSEY",
+  "moves": [
+   "SOFTBOILED",
+   "THUNDER_WAVE",
+   "ICE_BEAM",
+   "SEISMIC_TOSS"
+  ],
+  "weight": 0.14612024273089252,
+  "source": "ladder"
+ },
+ {
+  "species": "CHANSEY",
+  "moves": [
+   "SOFTBOILED",
+   "THUNDER_WAVE",
+   "SING",
+   "THUNDERBOLT"
+  ],
+  "weight": 0.08904497693917453,
+  "source": "ladder"
+ },
+ {
+  "species": "CHANSEY",
+  "moves": [
+   "SOFTBOILED",
+   "THUNDER_WAVE",
+   "SING",
+   "SEISMIC_TOSS"
+  ],
+  "weight": 0.06519470599852407,
+  "source": "ladder"
+ },
+ {
+  "species": "STARMIE",
+  "moves": [
+   "RECOVER",
+   "THUNDER_WAVE",
+   "THUNDERBOLT",
+   "BLIZZARD"
+  ],
+  "weight": 0.21712604109672687,
+  "source": "ladder"
+ },
+ {
+  "species": "STARMIE",
+  "moves": [
+   "RECOVER",
+   "THUNDER_WAVE",
+   "THUNDERBOLT",
+   "PSYCHIC_M"
+  ],
+  "weight": 0.12332770231302029,
+  "source": "ladder"
+ },
+ {
+  "species": "STARMIE",
+  "moves": [
+   "RECOVER",
+   "THUNDER_WAVE",
+   "BLIZZARD",
+   "PSYCHIC_M"
+  ],
+  "weight": 0.10652777588495102,
+  "source": "ladder"
+ },
+ {
+  "species": "STARMIE",
+  "moves": [
+   "RECOVER",
+   "THUNDER_WAVE",
+   "THUNDERBOLT",
+   "SURF"
+  ],
+  "weight": 0.04457203247178369,
+  "source": "ladder"
+ },
+ {
+  "species": "STARMIE",
+  "moves": [
+   "RECOVER",
+   "THUNDER_WAVE",
+   "BLIZZARD",
+   "SURF"
+  ],
+  "weight": 0.03850034823351808,
+  "source": "ladder"
+ },
+ {
+  "species": "ALAKAZAM",
+  "moves": [
+   "PSYCHIC_M",
+   "RECOVER",
+   "THUNDER_WAVE",
+   "SEISMIC_TOSS"
+  ],
+  "weight": 0.38041982309784583,
+  "source": "ladder"
+ },
+ {
+  "species": "ALAKAZAM",
+  "moves": [
+   "PSYCHIC_M",
+   "RECOVER",
+   "THUNDER_WAVE",
+   "REFLECT"
+  ],
+  "weight": 0.003370524355561088,
+  "source": "ladder"
+ },
+ {
+  "species": "ALAKAZAM",
+  "moves": [
+   "PSYCHIC_M",
+   "RECOVER",
+   "SEISMIC_TOSS",
+   "REFLECT"
+  ],
+  "weight": 2.8784182197695442e-05,
+  "source": "ladder"
+ },
+ {
+  "species": "ALAKAZAM",
+  "moves": [
+   "PSYCHIC_M",
+   "THUNDER_WAVE",
+   "SEISMIC_TOSS",
+   "REFLECT"
+  ],
+  "weight": 2.8784182197695442e-05,
+  "source": "ladder"
+ },
+ {
+  "species": "ALAKAZAM",
+  "moves": [
+   "RECOVER",
+   "THUNDER_WAVE",
+   "SEISMIC_TOSS",
+   "REFLECT"
+  ],
+  "weight": 2.8784182197695442e-05,
+  "source": "ladder"
+ },
+ {
+  "species": "JYNX",
+  "moves": [
+   "LOVELY_KISS",
+   "REST",
+   "PSYCHIC_M",
+   "BLIZZARD"
+  ],
+  "weight": 0.32588929827635743,
+  "source": "ladder"
+ },
+ {
+  "species": "JYNX",
+  "moves": [
+   "LOVELY_KISS",
+   "REST",
+   "PSYCHIC_M",
+   "ICE_BEAM"
+  ],
+  "weight": 0.008994356374507857,
+  "source": "ladder"
+ },
+ {
+  "species": "JYNX",
+  "moves": [
+   "LOVELY_KISS",
+   "REST",
+   "PSYCHIC_M",
+   "BODY_SLAM"
+  ],
+  "weight": 0.008833705773894437,
+  "source": "ladder"
+ },
+ {
+  "species": "JYNX",
+  "moves": [
+   "LOVELY_KISS",
+   "REST",
+   "BLIZZARD",
+   "ICE_BEAM"
+  ],
+  "weight": 0.008715000260861222,
+  "source": "ladder"
+ },
+ {
+  "species": "JYNX",
+  "moves": [
+   "LOVELY_KISS",
+   "REST",
+   "BLIZZARD",
+   "BODY_SLAM"
+  ],
+  "weight": 0.008559339314379076,
+  "source": "ladder"
+ },
+ {
+  "species": "GENGAR",
+  "moves": [
+   "HYPNOSIS",
+   "EXPLOSION",
+   "PSYCHIC_M",
+   "THUNDERBOLT"
+  ],
+  "weight": 0.17067061381350943,
+  "source": "ladder"
+ },
+ {
+  "species": "GENGAR",
+  "moves": [
+   "HYPNOSIS",
+   "EXPLOSION",
+   "PSYCHIC_M",
+   "NIGHT_SHADE"
+  ],
+  "weight": 0.07939594205545236,
+  "source": "ladder"
+ },
+ {
+  "species": "GENGAR",
+  "moves": [
+   "HYPNOSIS",
+   "EXPLOSION",
+   "THUNDERBOLT",
+   "NIGHT_SHADE"
+  ],
+  "weight": 0.03468696020498839,
+  "source": "ladder"
+ },
+ {
+  "species": "GENGAR",
+  "moves": [
+   "HYPNOSIS",
+   "PSYCHIC_M",
+   "THUNDERBOLT",
+   "NIGHT_SHADE"
+  ],
+  "weight": 0.006754552518540371,
+  "source": "ladder"
+ },
+ {
+  "species": "GENGAR",
+  "moves": [
+   "EXPLOSION",
+   "PSYCHIC_M",
+   "THUNDERBOLT",
+   "NIGHT_SHADE"
+  ],
+  "weight": 0.0014183314075094234,
+  "source": "ladder"
+ },
+ {
+  "species": "ZAPDOS",
+  "moves": [
+   "DRILL_PECK",
+   "THUNDERBOLT",
+   "THUNDER_WAVE",
+   "AGILITY"
+  ],
+  "weight": 0.24828410631764372,
+  "source": "ladder"
+ },
+ {
+  "species": "ZAPDOS",
+  "moves": [
+   "DRILL_PECK",
+   "THUNDERBOLT",
+   "THUNDER_WAVE",
+   "REST"
+  ],
+  "weight": 0.011737310870492963,
+  "source": "ladder"
+ },
+ {
+  "species": "ZAPDOS",
+  "moves": [
+   "DRILL_PECK",
+   "THUNDERBOLT",
+   "THUNDER_WAVE",
+   "HYPER_BEAM"
+  ],
+  "weight": 0.004255346773206955,
+  "source": "ladder"
+ },
+ {
+  "species": "ZAPDOS",
+  "moves": [
+   "DRILL_PECK",
+   "THUNDERBOLT",
+   "THUNDER_WAVE",
+   "TOXIC"
+  ],
+  "weight": 0.001882172375072678,
+  "source": "ladder"
+ },
+ {
+  "species": "ZAPDOS",
+  "moves": [
+   "DRILL_PECK",
+   "THUNDERBOLT",
+   "AGILITY",
+   "REST"
+  ],
+  "weight": 0.0003605636635837046,
+  "source": "ladder"
+ },
+ {
+  "species": "RHYDON",
+  "moves": [
+   "EARTHQUAKE",
+   "SUBSTITUTE",
+   "BODY_SLAM",
+   "ROCK_SLIDE"
+  ],
+  "weight": 0.1481772844587984,
+  "source": "ladder"
+ },
+ {
+  "species": "RHYDON",
+  "moves": [
+   "EARTHQUAKE",
+   "SUBSTITUTE",
+   "BODY_SLAM",
+   "REST"
+  ],
+  "weight": 0.05375685037899588,
+  "source": "ladder"
+ },
+ {
+  "species": "RHYDON",
+  "moves": [
+   "EARTHQUAKE",
+   "SUBSTITUTE",
+   "BODY_SLAM",
+   "LEER"
+  ],
+  "weight": 0.0047801840927328655,
+  "source": "ladder"
+ },
+ {
+  "species": "RHYDON",
+  "moves": [
+   "EARTHQUAKE",
+   "SUBSTITUTE",
+   "ROCK_SLIDE",
+   "REST"
+  ],
+  "weight": 0.0035992594091840634,
+  "source": "ladder"
+ },
+ {
+  "species": "RHYDON",
+  "moves": [
+   "EARTHQUAKE",
+   "BODY_SLAM",
+   "ROCK_SLIDE",
+   "REST"
+  ],
+  "weight": 0.0027082216602887987,
+  "source": "ladder"
+ },
+ {
+  "species": "CLOYSTER",
+  "moves": [
+   "CLAMP",
+   "EXPLOSION",
+   "BLIZZARD",
+   "REST"
+  ],
+  "weight": 0.15266403889536992,
+  "source": "ladder"
+ },
+ {
+  "species": "CLOYSTER",
+  "moves": [
+   "CLAMP",
+   "EXPLOSION",
+   "BLIZZARD",
+   "HYPER_BEAM"
+  ],
+  "weight": 0.010659901297264083,
+  "source": "ladder"
+ },
+ {
+  "species": "CLOYSTER",
+  "moves": [
+   "CLAMP",
+   "EXPLOSION",
+   "BLIZZARD",
+   "ICE_BEAM"
+  ],
+  "weight": 0.00401499556488041,
+  "source": "ladder"
+ },
+ {
+  "species": "CLOYSTER",
+  "moves": [
+   "CLAMP",
+   "EXPLOSION",
+   "REST",
+   "HYPER_BEAM"
+  ],
+  "weight": 0.003050764242485559,
+  "source": "ladder"
+ },
+ {
+  "species": "LAPRAS",
+  "moves": [
+   "THUNDERBOLT",
+   "BLIZZARD",
+   "REST",
+   "CONFUSE_RAY"
+  ],
+  "weight": 0.05441815993793653,
+  "source": "ladder"
+ },
+ {
+  "species": "LAPRAS",
+  "moves": [
+   "THUNDERBOLT",
+   "BLIZZARD",
+   "REST",
+   "HYPER_BEAM"
+  ],
+  "weight": 0.020897639352579378,
+  "source": "ladder"
+ },
+ {
+  "species": "LAPRAS",
+  "moves": [
+   "THUNDERBOLT",
+   "BLIZZARD",
+   "REST",
+   "SING"
+  ],
+  "weight": 0.01193639375737124,
+  "source": "ladder"
+ },
+ {
+  "species": "LAPRAS",
+  "moves": [
+   "THUNDERBOLT",
+   "BLIZZARD",
+   "REST",
+   "BODY_SLAM"
+  ],
+  "weight": 0.008969106952112865,
+  "source": "ladder"
+ },
+ {
+  "species": "SLOWBRO",
+  "moves": [
+   "AMNESIA",
+   "SURF",
+   "THUNDER_WAVE",
+   "REST"
+  ],
+  "weight": 0.06939638175430958,
+  "source": "ladder"
+ },
+ {
+  "species": "SLOWBRO",
+  "moves": [
+   "AMNESIA",
+   "SURF",
+   "THUNDER_WAVE",
+   "REFLECT"
+  ],
+  "weight": 0.00944711190765416,
+  "source": "ladder"
+ },
+ {
+  "species": "SLOWBRO",
+  "moves": [
+   "AMNESIA",
+   "SURF",
+   "REST",
+   "REFLECT"
+  ],
+  "weight": 0.0023524981609493976,
+  "source": "ladder"
+ },
+ {
+  "species": "SLOWBRO",
+  "moves": [
+   "AMNESIA",
+   "THUNDER_WAVE",
+   "REST",
+   "REFLECT"
+  ],
+  "weight": 0.0014436081770868709,
+  "source": "ladder"
+ },
+ {
+  "species": "JOLTEON",
+  "moves": [
+   "THUNDERBOLT",
+   "THUNDER_WAVE",
+   "DOUBLE_KICK",
+   "PIN_MISSILE"
+  ],
+  "weight": 0.03843860506344157,
+  "source": "ladder"
+ },
+ {
+  "species": "JOLTEON",
+  "moves": [
+   "THUNDERBOLT",
+   "THUNDER_WAVE",
+   "DOUBLE_KICK",
+   "REST"
+  ],
+  "weight": 0.006795744520879694,
+  "source": "ladder"
+ },
+ {
+  "species": "JOLTEON",
+  "moves": [
+   "THUNDERBOLT",
+   "THUNDER_WAVE",
+   "DOUBLE_KICK",
+   "AGILITY"
+  ],
+  "weight": 0.004302350415678731,
+  "source": "ladder"
+ },
+ {
+  "species": "VICTREEBEL",
+  "moves": [
+   "RAZOR_LEAF",
+   "WRAP",
+   "SLEEP_POWDER",
+   "STUN_SPORE"
+  ],
+  "weight": 0.02730741992682279,
+  "source": "ladder"
+ },
+ {
+  "species": "VICTREEBEL",
+  "moves": [
+   "RAZOR_LEAF",
+   "WRAP",
+   "SLEEP_POWDER",
+   "HYPER_BEAM"
+  ],
+  "weight": 0.0027735693687561,
+  "source": "ladder"
+ },
+ {
+  "species": "VICTREEBEL",
+  "moves": [
+   "RAZOR_LEAF",
+   "WRAP",
+   "SLEEP_POWDER",
+   "SWORDS_DANCE"
+  ],
+  "weight": 0.0027342107044211125,
+  "source": "ladder"
+ },
+ {
+  "species": "ARTICUNO",
+  "moves": [
+   "BLIZZARD",
+   "AGILITY",
+   "HYPER_BEAM",
+   "ICE_BEAM"
+  ],
+  "weight": 0.027854022934170882,
+  "source": "ladder"
+ },
+ {
+  "species": "ARTICUNO",
+  "moves": [
+   "BLIZZARD",
+   "AGILITY",
+   "HYPER_BEAM",
+   "DOUBLE_EDGE"
+  ],
+  "weight": 0.00016533082240093491,
+  "source": "ladder"
+ },
+ {
+  "species": "ARTICUNO",
+  "moves": [
+   "BLIZZARD",
+   "AGILITY",
+   "HYPER_BEAM",
+   "REST"
+  ],
+  "weight": 0.00012914624342818035,
+  "source": "ladder"
+ },
+ {
+  "species": "DRAGONITE",
+  "moves": [
+   "WRAP",
+   "BLIZZARD",
+   "AGILITY",
+   "HYPER_BEAM"
+  ],
+  "weight": 0.01588514284191676,
+  "source": "ladder"
+ },
+ {
+  "species": "DRAGONITE",
+  "moves": [
+   "WRAP",
+   "BLIZZARD",
+   "AGILITY",
+   "THUNDER_WAVE"
+  ],
+  "weight": 0.0050979529745633165,
+  "source": "ladder"
+ },
+ {
+  "species": "DRAGONITE",
+  "moves": [
+   "WRAP",
+   "BLIZZARD",
+   "HYPER_BEAM",
+   "THUNDER_WAVE"
+  ],
+  "weight": 0.004548904183519924,
+  "source": "ladder"
+ },
+ {
+  "species": "PERSIAN",
+  "moves": [
+   "SLASH",
+   "BUBBLEBEAM",
+   "BODY_SLAM",
+   "GROWL"
+  ],
+  "weight": 0.01488207176911943,
+  "source": "ladder"
+ },
+ {
+  "species": "PERSIAN",
+  "moves": [
+   "SLASH",
+   "BUBBLEBEAM",
+   "BODY_SLAM",
+   "THUNDERBOLT"
+  ],
+  "weight": 0.004665636072215452,
+  "source": "ladder"
+ },
+ {
+  "species": "PERSIAN",
+  "moves": [
+   "SLASH",
+   "BUBBLEBEAM",
+   "BODY_SLAM",
+   "HYPER_BEAM"
+  ],
+  "weight": 0.004119292158665117,
+  "source": "ladder"
+ },
+ {
+  "species": "PORYGON",
+  "moves": [
+   "ICE_BEAM",
+   "RECOVER",
+   "THUNDER_WAVE",
+   "DOUBLE_EDGE"
+  ],
+  "weight": 0.017415851761569696,
+  "source": "ladder"
+ },
+ {
+  "species": "PORYGON",
+  "moves": [
+   "ICE_BEAM",
+   "RECOVER",
+   "THUNDER_WAVE",
+   "THUNDERBOLT"
+  ],
+  "weight": 0.001498897535299706,
+  "source": "ladder"
+ },
+ {
+  "species": "PORYGON",
+  "moves": [
+   "ICE_BEAM",
+   "RECOVER",
+   "THUNDER_WAVE",
+   "TRI_ATTACK"
+  ],
+  "weight": 0.0002609507031305977,
+  "source": "ladder"
+ },
+ {
+  "species": "VAPOREON",
+  "moves": [
+   "REST",
+   "ICE_BEAM",
+   "SAND_ATTACK",
+   "SURF"
+  ],
+  "weight": 0.014335640945650048,
+  "source": "ladder"
+ },
+ {
+  "species": "VAPOREON",
+  "moves": [
+   "REST",
+   "ICE_BEAM",
+   "SAND_ATTACK",
+   "ACID_ARMOR"
+  ],
+  "weight": 0.00017114806341685007,
+  "source": "ladder"
+ },
+ {
+  "species": "VAPOREON",
+  "moves": [
+   "REST",
+   "ICE_BEAM",
+   "SURF",
+   "ACID_ARMOR"
+  ],
+  "weight": 3.4110990933103135e-05,
+  "source": "ladder"
+ },
+ {
+  "species": "SANDSLASH",
+  "moves": [
+   "EARTHQUAKE",
+   "SWORDS_DANCE",
+   "HYPER_BEAM",
+   "BODY_SLAM"
+  ],
+  "weight": 0.013391961138248795,
+  "source": "ladder"
+ },
+ {
+  "species": "SANDSLASH",
+  "moves": [
+   "EARTHQUAKE",
+   "SWORDS_DANCE",
+   "HYPER_BEAM",
+   "ROCK_SLIDE"
+  ],
+  "weight": 0.00021468804517001661,
+  "source": "ladder"
+ },
+ {
+  "species": "SANDSLASH",
+  "moves": [
+   "EARTHQUAKE",
+   "SWORDS_DANCE",
+   "BODY_SLAM",
+   "ROCK_SLIDE"
+  ],
+  "weight": 5.505081658119034e-05,
+  "source": "ladder"
+ },
+ {
+  "species": "GOLEM",
+  "moves": [
+   "EARTHQUAKE",
+   "EXPLOSION",
+   "BODY_SLAM",
+   "ROCK_SLIDE"
+  ],
+  "weight": 0.009652169499250357,
+  "source": "ladder"
+ },
+ {
+  "species": "GOLEM",
+  "moves": [
+   "EARTHQUAKE",
+   "EXPLOSION",
+   "BODY_SLAM",
+   "SUBSTITUTE"
+  ],
+  "weight": 3.768922804586606e-05,
+  "source": "ladder"
+ },
+ {
+  "species": "GOLEM",
+  "moves": [
+   "EARTHQUAKE",
+   "EXPLOSION",
+   "ROCK_SLIDE",
+   "SUBSTITUTE"
+  ],
+  "weight": 2.9041272703778235e-05,
+  "source": "ladder"
+ },
+ {
+  "species": "KANGASKHAN",
+  "moves": [
+   "EARTHQUAKE",
+   "HYPER_BEAM",
+   "BODY_SLAM",
+   "COUNTER"
+  ],
+  "weight": 0.006656635562057993,
+  "source": "ladder"
+ },
+ {
+  "species": "KANGASKHAN",
+  "moves": [
+   "EARTHQUAKE",
+   "HYPER_BEAM",
+   "BODY_SLAM",
+   "SURF"
+  ],
+  "weight": 0.0008871539022182411,
+  "source": "ladder"
+ },
+ {
+  "species": "KANGASKHAN",
+  "moves": [
+   "EARTHQUAKE",
+   "HYPER_BEAM",
+   "BODY_SLAM",
+   "MEGA_KICK"
+  ],
+  "weight": 0.0003559105357237645,
+  "source": "ladder"
+ },
+ {
+  "species": "TENTACRUEL",
+  "moves": [
+   "WRAP",
+   "HYPER_BEAM",
+   "SURF",
+   "SWORDS_DANCE"
+  ],
+  "weight": 0.006756973818043539,
+  "source": "ladder"
+ },
+ {
+  "species": "TENTACRUEL",
+  "moves": [
+   "WRAP",
+   "HYPER_BEAM",
+   "SURF",
+   "HYDRO_PUMP"
+  ],
+  "weight": 7.958247082394498e-06,
+  "source": "ladder"
+ },
+ {
+  "species": "TENTACRUEL",
+  "moves": [
+   "WRAP",
+   "HYPER_BEAM",
+   "SURF",
+   "BLIZZARD"
+  ],
+  "weight": 7.867934874066394e-06,
+  "source": "ladder"
+ },
+ {
+  "species": "DUGTRIO",
+  "moves": [
+   "EARTHQUAKE",
+   "SUBSTITUTE",
+   "SAND_ATTACK",
+   "SLASH"
+  ],
+  "weight": 0.006306153843472365,
+  "source": "ladder"
+ },
+ {
+  "species": "DUGTRIO",
+  "moves": [
+   "EARTHQUAKE",
+   "SUBSTITUTE",
+   "SAND_ATTACK",
+   "BODY_SLAM"
+  ],
+  "weight": 7.958884317055551e-05,
+  "source": "ladder"
+ },
+ {
+  "species": "DUGTRIO",
+  "moves": [
+   "EARTHQUAKE",
+   "SUBSTITUTE",
+   "SLASH",
+   "BODY_SLAM"
+  ],
+  "weight": 5.957313357079206e-06,
+  "source": "ladder"
+ },
+ {
+  "species": "HYPNO",
+  "moves": [
+   "THUNDER_WAVE",
+   "PSYCHIC_M",
+   "HYPNOSIS",
+   "REST"
+  ],
+  "weight": 0.003335705085510494,
+  "source": "ladder"
+ },
+ {
+  "species": "HYPNO",
+  "moves": [
+   "THUNDER_WAVE",
+   "PSYCHIC_M",
+   "HYPNOSIS",
+   "SEISMIC_TOSS"
+  ],
+  "weight": 0.0026437106336206547,
+  "source": "ladder"
+ },
+ {
+  "species": "HYPNO",
+  "moves": [
+   "THUNDER_WAVE",
+   "PSYCHIC_M",
+   "REST",
+   "SEISMIC_TOSS"
+  ],
+  "weight": 0.00020778428086885167,
+  "source": "ladder"
+ },
+ {
+  "species": "BLASTOISE",
+  "moves": [
+   "BLIZZARD",
+   "EARTHQUAKE",
+   "REST",
+   "REFLECT"
+  ],
+  "weight": 0.002921312760717876,
+  "source": "ladder"
+ },
+ {
+  "species": "BLASTOISE",
+  "moves": [
+   "BLIZZARD",
+   "EARTHQUAKE",
+   "REST",
+   "SUBMISSION"
+  ],
+  "weight": 0.0014689453840424562,
+  "source": "ladder"
+ },
+ {
+  "species": "BLASTOISE",
+  "moves": [
+   "BLIZZARD",
+   "EARTHQUAKE",
+   "REFLECT",
+   "SUBMISSION"
+  ],
+  "weight": 0.0013744418552396678,
+  "source": "ladder"
+ },
+ {
+  "species": "ELECTRODE",
+  "moves": [
+   "EXPLOSION",
+   "THUNDERBOLT",
+   "THUNDER_WAVE",
+   "SUBSTITUTE"
+  ],
+  "weight": 0.0054815,
+  "source": "ladder"
+ },
+ {
+  "species": "VENUSAUR",
+  "moves": [
+   "SOLARBEAM",
+   "SLEEP_POWDER",
+   "HYPER_BEAM",
+   "REST"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "CHARIZARD",
+  "moves": [
+   "FIRE_BLAST",
+   "EARTHQUAKE",
+   "REST",
+   "SWORDS_DANCE"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "BUTTERFREE",
+  "moves": [
+   "PSYCHIC_M",
+   "SLEEP_POWDER",
+   "STUN_SPORE",
+   "REST"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "BEEDRILL",
+  "moves": [
+   "TWINEEDLE",
+   "HYPER_BEAM",
+   "REST",
+   "SWORDS_DANCE"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "PIDGEOT",
+  "moves": [
+   "HYPER_BEAM",
+   "REST",
+   "SKY_ATTACK",
+   "DOUBLE_EDGE"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "RATICATE",
+  "moves": [
+   "HYPER_BEAM",
+   "REST",
+   "BLIZZARD",
+   "THUNDERBOLT"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "FEAROW",
+  "moves": [
+   "HYPER_BEAM",
+   "DRILL_PECK",
+   "REST",
+   "DOUBLE_EDGE"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "ARBOK",
+  "moves": [
+   "EARTHQUAKE",
+   "ROCK_SLIDE",
+   "GLARE",
+   "REST"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "RAICHU",
+  "moves": [
+   "THUNDERBOLT",
+   "THUNDER_WAVE",
+   "REST",
+   "SEISMIC_TOSS"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "NIDOQUEEN",
+  "moves": [
+   "EARTHQUAKE",
+   "BLIZZARD",
+   "REST",
+   "THUNDERBOLT"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "NIDOKING",
+  "moves": [
+   "EARTHQUAKE",
+   "BLIZZARD",
+   "REST",
+   "ROCK_SLIDE"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "CLEFABLE",
+  "moves": [
+   "BLIZZARD",
+   "SING",
+   "THUNDER_WAVE",
+   "HYPER_BEAM"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "NINETALES",
+  "moves": [
+   "FIRE_BLAST",
+   "REST",
+   "HYPER_BEAM",
+   "DIG"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "WIGGLYTUFF",
+  "moves": [
+   "HYPER_BEAM",
+   "SING",
+   "THUNDER_WAVE",
+   "REST"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "GOLBAT",
+  "moves": [
+   "HYPER_BEAM",
+   "REST",
+   "MEGA_DRAIN",
+   "WING_ATTACK"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "VILEPLUME",
+  "moves": [
+   "PETAL_DANCE",
+   "SLEEP_POWDER",
+   "STUN_SPORE",
+   "REST"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "PARASECT",
+  "moves": [
+   "HYPER_BEAM",
+   "SPORE",
+   "SOLARBEAM",
+   "STUN_SPORE"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "VENOMOTH",
+  "moves": [
+   "PSYCHIC_M",
+   "SLEEP_POWDER",
+   "STUN_SPORE",
+   "REST"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "GOLDUCK",
+  "moves": [
+   "HYDRO_PUMP",
+   "REST",
+   "BLIZZARD",
+   "SEISMIC_TOSS"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "PRIMEAPE",
+  "moves": [
+   "SUBMISSION",
+   "ROCK_SLIDE",
+   "REST",
+   "THUNDERBOLT"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "ARCANINE",
+  "moves": [
+   "FIRE_BLAST",
+   "REST",
+   "HYPER_BEAM",
+   "DIG"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "POLIWRATH",
+  "moves": [
+   "HYDRO_PUMP",
+   "HYPNOSIS",
+   "REST",
+   "AMNESIA"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "MACHAMP",
+  "moves": [
+   "EARTHQUAKE",
+   "ROCK_SLIDE",
+   "REST",
+   "SUBMISSION"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "RAPIDASH",
+  "moves": [
+   "FIRE_BLAST",
+   "REST",
+   "HYPER_BEAM",
+   "SUBSTITUTE"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "MAGNETON",
+  "moves": [
+   "THUNDERBOLT",
+   "THUNDER_WAVE",
+   "REST",
+   "HYPER_BEAM"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "FARFETCHD",
+  "moves": [
+   "DOUBLE_EDGE",
+   "REST",
+   "SWORDS_DANCE",
+   "FLY"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "DODRIO",
+  "moves": [
+   "HYPER_BEAM",
+   "DRILL_PECK",
+   "REST",
+   "DOUBLE_EDGE"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "DEWGONG",
+  "moves": [
+   "BLIZZARD",
+   "REST",
+   "SURF",
+   "HYPER_BEAM"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "MUK",
+  "moves": [
+   "SLUDGE",
+   "REST",
+   "THUNDERBOLT",
+   "FIRE_BLAST"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "ONIX",
+  "moves": [
+   "EARTHQUAKE",
+   "ROCK_SLIDE",
+   "REST",
+   "SUBSTITUTE"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "KINGLER",
+  "moves": [
+   "HYPER_BEAM",
+   "SURF",
+   "REST",
+   "SWORDS_DANCE"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "MAROWAK",
+  "moves": [
+   "EARTHQUAKE",
+   "BLIZZARD",
+   "REST",
+   "FIRE_BLAST"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "HITMONLEE",
+  "moves": [
+   "HI_JUMP_KICK",
+   "REST",
+   "DOUBLE_EDGE",
+   "SEISMIC_TOSS"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "HITMONCHAN",
+  "moves": [
+   "SUBMISSION",
+   "DOUBLE_EDGE",
+   "REST",
+   "SEISMIC_TOSS"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "LICKITUNG",
+  "moves": [
+   "HYPER_BEAM",
+   "BLIZZARD",
+   "REST",
+   "SWORDS_DANCE"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "WEEZING",
+  "moves": [
+   "THUNDERBOLT",
+   "FIRE_BLAST",
+   "REST",
+   "SLUDGE"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "TANGELA",
+  "moves": [
+   "SOLARBEAM",
+   "SLEEP_POWDER",
+   "STUN_SPORE",
+   "REST"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "SEADRA",
+  "moves": [
+   "HYDRO_PUMP",
+   "REST",
+   "BLIZZARD",
+   "HYPER_BEAM"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "SEAKING",
+  "moves": [
+   "SURF",
+   "REST",
+   "BLIZZARD",
+   "HYPER_BEAM"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "MR_MIME",
+  "moves": [
+   "PSYCHIC_M",
+   "THUNDER_WAVE",
+   "REST",
+   "THUNDERBOLT"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "SCYTHER",
+  "moves": [
+   "HYPER_BEAM",
+   "REST",
+   "SWORDS_DANCE",
+   "DOUBLE_EDGE"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "ELECTABUZZ",
+  "moves": [
+   "THUNDERBOLT",
+   "THUNDER_WAVE",
+   "PSYCHIC_M",
+   "REST"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "MAGMAR",
+  "moves": [
+   "FIRE_BLAST",
+   "REST",
+   "SEISMIC_TOSS",
+   "PSYCHIC_M"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "PINSIR",
+  "moves": [
+   "HYPER_BEAM",
+   "REST",
+   "SWORDS_DANCE",
+   "SUBMISSION"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "GYARADOS",
+  "moves": [
+   "HYDRO_PUMP",
+   "THUNDERBOLT",
+   "REST",
+   "BLIZZARD"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "DITTO",
+  "moves": [
+   "TRANSFORM"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "FLAREON",
+  "moves": [
+   "FIRE_BLAST",
+   "REST",
+   "HYPER_BEAM",
+   "SUBSTITUTE"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "OMASTAR",
+  "moves": [
+   "HYDRO_PUMP",
+   "BLIZZARD",
+   "REST",
+   "SEISMIC_TOSS"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "KABUTOPS",
+  "moves": [
+   "HYDRO_PUMP",
+   "REST",
+   "SWORDS_DANCE",
+   "HYPER_BEAM"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "AERODACTYL",
+  "moves": [
+   "SKY_ATTACK",
+   "REST",
+   "HYPER_BEAM",
+   "FIRE_BLAST"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ },
+ {
+  "species": "MOLTRES",
+  "moves": [
+   "FIRE_BLAST",
+   "REST",
+   "HYPER_BEAM",
+   "SKY_ATTACK"
+  ],
+  "weight": 0.0005,
+  "source": "heuristic"
+ }
+]

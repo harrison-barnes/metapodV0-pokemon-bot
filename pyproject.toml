@@ -1,0 +1,35 @@
+[project]
+name = "metapodv0"
+version = "0.1.0"
+description = "MetapodV0: a Gen 1 OU Pokemon Showdown bot (transformer policy + privileged critic + exact one-turn search)"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.0",
+    "scipy>=1.13",
+    "torch>=2.4",
+    "gen1py",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "maturin>=1.5,<2",
+]
+data = [
+    "lz4>=4",
+]
+showdown = [
+    "poke-env>=0.16.1",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+gen1py = { path = "engine/py" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

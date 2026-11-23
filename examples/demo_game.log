@@ -1,0 +1,91 @@
+=== game 1: MetapodV0 (search: tau 0.02, --infer, K=8) vs spec2_00200.pt (policy only) ===
+side 0 (MetapodV0): Tauros, Zapdos, Lapras, Exeggutor, Starmie, Snorlax
+side 1 (opponent):  Slowbro, Tauros, Exeggutor, Zapdos, Chansey, Jynx
+turn   1: Tauros 353/353               vs Slowbro 393/393              | ours: switch to Exeggutor; theirs: Thunder Wave   [value +0.31; mix switch to Exeggutor 1.00]
+turn   2: Exeggutor 393/393 PAR        vs Slowbro 393/393              | ours: Sleep Powder; theirs: switch to Zapdos   [value +0.34; mix Sleep Powder 1.00]
+turn   3: Exeggutor 393/393 PAR        vs Zapdos 383/383               | ours: switch to Snorlax; theirs: Drill Peck   [value +0.17; mix switch to Snorlax 0.88, switch to Zapdos 0.11]
+turn   4: Snorlax 310/523              vs Zapdos 383/383               | ours: Selfdestruct; theirs: Thunderbolt   [value +0.17; mix Selfdestruct 1.00]
+turn   5: Snorlax 0/523                vs Zapdos 6/383                 | ours: switch to Tauros; theirs: (no choice)   [value +0.19; mix switch to Tauros 1.00]
+turn   6: Tauros 353/353               vs Zapdos 6/383                 | ours: Body Slam; theirs: switch to Slowbro   [value +0.23; mix Body Slam 1.00]
+turn   7: Tauros 353/353               vs Slowbro 297/393              | ours: switch to Exeggutor; theirs: Amnesia   [value +0.21; mix switch to Exeggutor 1.00]
+turn   8: Exeggutor 393/393 PAR        vs Slowbro 297/393              | ours: Sleep Powder; theirs: switch to Zapdos   [value +0.14; mix Sleep Powder 0.98, Psychic 0.02]
+turn   9: Exeggutor 393/393 PAR        vs Zapdos 6/383 SLP             | ours: Psychic; theirs: switch to Jynx   [value +0.16; mix Psychic 0.64, Stun Spore 0.19, switch to Tauros 0.17]
+turn  10: Exeggutor 393/393 PAR        vs Jynx 265/333                 | ours: switch to Starmie; theirs: Blizzard   [value +0.11; mix Explosion 0.53, switch to Starmie 0.43, switch to Tauros 0.02, Stun Spore 0.02]
+turn  11: Starmie 275/323              vs Jynx 265/333                 | ours: Thunder Wave; theirs: Lovely Kiss   [value +0.17; mix Thunder Wave 1.00]
+turn  12: Starmie 275/323              vs Jynx 265/333 PAR             | ours: Psychic; theirs: Lovely Kiss   [value +0.25; mix Psychic 1.00]
+turn  13: Starmie 275/323 SLP          vs Jynx 178/333 PAR             | ours: switch to Lapras; theirs: switch to Chansey   [value +0.14; mix switch to Lapras 1.00]
+turn  14: Lapras 463/463               vs Chansey 703/703              | ours: switch to Exeggutor; theirs: Thunder Wave   [value +0.11; mix switch to Exeggutor 0.77, Blizzard 0.19, Sing 0.03]
+turn  15: Exeggutor 393/393 PAR        vs Chansey 703/703              | ours: Stun Spore; theirs: Seismic Toss   [value +0.03; mix Stun Spore 0.80, Psychic 0.15, Explosion 0.05]
+turn  16: Exeggutor 293/393 PAR        vs Chansey 703/703 PAR          | ours: Psychic; theirs: switch to Jynx   [value +0.05; mix Psychic 0.99]
+turn  17: Exeggutor 293/393 PAR        vs Jynx 64/333 PAR              | ours: switch to Lapras; theirs: Blizzard   [value +0.29; mix switch to Lapras 0.89, switch to Starmie 0.11]
+turn  18: Lapras 426/463               vs Jynx 64/333 PAR              | ours: switch to Tauros; theirs: switch to Chansey   [value +0.28; mix switch to Tauros 0.97, switch to Zapdos 0.02, Blizzard 0.01]
+turn  19: Tauros 353/353               vs Chansey 703/703 PAR          | ours: Body Slam; theirs: Thunder Wave   [value +0.29; mix Body Slam 1.00]
+turn  20: Tauros 353/353               vs Chansey 211/703 PAR          | ours: Body Slam; theirs: switch to Zapdos   [value +0.62; mix Body Slam 1.00]
+turn  21: Tauros 353/353               vs Zapdos 0/383 SLP             | ours: (no choice); theirs: switch to Slowbro
+turn  22: Tauros 353/353               vs Slowbro 297/393              | ours: switch to Exeggutor; theirs: Amnesia   [value +0.58; mix switch to Exeggutor 1.00]
+turn  23: Exeggutor 293/393 PAR        vs Slowbro 297/393              | ours: Sleep Powder; theirs: Amnesia   [value +0.61; mix Sleep Powder 0.61, Psychic 0.39]
+turn  24: Exeggutor 293/393 PAR        vs Slowbro 297/393 SLP          | ours: switch to Zapdos; theirs: (no choice)   [value +0.63; mix switch to Zapdos 0.87, switch to Tauros 0.13]
+turn  25: Zapdos 383/383               vs Slowbro 297/393 SLP          | ours: Thunderbolt; theirs: (no choice)   [value +0.68; mix Thunderbolt 1.00]
+turn  26: Zapdos 383/383               vs Slowbro 200/393 SLP          | ours: Thunderbolt; theirs: (no choice)   [value +0.77; mix Thunderbolt 1.00]
+turn  27: Zapdos 383/383               vs Slowbro 105/393 SLP          | ours: Thunderbolt; theirs: (no choice)   [value +0.69; mix Thunderbolt 1.00]
+turn  28: Zapdos 383/383               vs Slowbro 0/393 SLP            | ours: (no choice); theirs: switch to Exeggutor
+turn  29: Zapdos 383/383               vs Exeggutor 393/393            | ours: Drill Peck; theirs: Stun Spore   [value +0.84; mix Drill Peck 0.99, switch to Exeggutor 0.01]
+turn  30: Zapdos 383/383 PAR           vs Exeggutor 206/393            | ours: Drill Peck; theirs: Psychic   [value +0.77; mix Drill Peck 0.97, switch to Exeggutor 0.03]
+turn  31: Zapdos 280/383 PAR           vs Exeggutor 19/393             | ours: switch to Starmie; theirs: Explosion   [value +0.82; mix switch to Starmie 1.00]
+turn  32: Starmie 7/323 SLP            vs Exeggutor 0/393              | ours: (no choice); theirs: switch to Tauros
+turn  33: Starmie 7/323 SLP            vs Tauros 353/353               | ours: (no choice); theirs: Body Slam
+turn  34: Starmie 0/323 SLP            vs Tauros 353/353               | ours: switch to Lapras; theirs: (no choice)   [value +0.81; mix switch to Lapras 1.00]
+turn  35: Lapras 426/463               vs Tauros 353/353               | ours: Blizzard; theirs: switch to Chansey   [value +0.82; mix Blizzard 1.00]
+turn  36: Lapras 426/463               vs Chansey 81/703 PAR           | ours: Blizzard; theirs: Softboiled   [value +0.85; mix Blizzard 1.00]
+turn  37: Lapras 426/463               vs Chansey 0/703 PAR            | ours: (no choice); theirs: switch to Tauros
+turn  38: Lapras 426/463               vs Tauros 353/353               | ours: Blizzard; theirs: Body Slam   [value +0.90; mix Blizzard 0.99]
+turn  39: Lapras 307/463               vs Tauros 18/353                | ours: Blizzard; theirs: Hyper Beam   [value +0.98; mix Thunderbolt 0.59, Blizzard 0.41]
+turn  40: Lapras 92/463                vs Tauros 0/353                 | ours: (no choice); theirs: switch to Jynx
+turn  41: Lapras 92/463                vs Jynx 64/333 PAR              | ours: Thunderbolt; theirs: Rest   [value +1.00; mix Thunderbolt 0.98, Blizzard 0.02]
+result: MetapodV0 wins after 41 turns; left standing: ours 4, theirs 0; mean decision time 0.62 s (max 1.29 s)
+
+=== game 2: MetapodV0 (search: tau 0.02, --infer, K=8) vs spec2_00200.pt (policy only) ===
+side 0 (MetapodV0): Tauros, Zapdos, Lapras, Exeggutor, Starmie, Snorlax
+side 1 (opponent):  Exeggutor, Gengar, Snorlax, Chansey, Tauros, Jynx
+turn   1: Tauros 353/353               vs Exeggutor 393/393            | ours: Blizzard; theirs: Psychic   [value +0.23; mix Blizzard 1.00]
+turn   2: Tauros 199/353               vs Exeggutor 257/393            | ours: Blizzard; theirs: Psychic   [value +0.25; mix Blizzard 1.00]
+turn   3: Tauros 35/353                vs Exeggutor 119/393            | ours: Body Slam; theirs: switch to Snorlax   [value +0.10; mix Body Slam 1.00]
+turn   4: Tauros 35/353                vs Snorlax 267/523              | ours: Hyper Beam; theirs: Body Slam   [value +0.29; mix Hyper Beam 1.00]
+turn   5: Tauros 0/353                 vs Snorlax 56/523               | ours: switch to Lapras; theirs: (no choice)   [value +0.22; mix switch to Lapras 1.00]
+turn   6: Lapras 463/463               vs Snorlax 56/523               | ours: Blizzard; theirs: switch to Jynx   [value +0.22; mix Blizzard 0.77, Sing 0.21, Thunderbolt 0.02]
+turn   7: Lapras 463/463               vs Jynx 260/333                 | ours: Sing; theirs: Lovely Kiss   [value +0.24; mix Sing 1.00]
+turn   8: Lapras 463/463               vs Jynx 260/333 SLP             | ours: Blizzard; theirs: (no choice)   [value +0.45; mix Thunderbolt 0.56, Blizzard 0.37, switch to Snorlax 0.07]
+turn   9: Lapras 463/463               vs Jynx 260/333 SLP             | ours: switch to Snorlax; theirs: (no choice)   [value +0.41; mix switch to Snorlax 0.63, Thunderbolt 0.30, switch to Zapdos 0.07]
+turn  10: Snorlax 523/523              vs Jynx 260/333 SLP             | ours: Body Slam; theirs: switch to Gengar   [value +0.54; mix Body Slam 1.00]
+turn  11: Snorlax 523/523              vs Gengar 323/323               | ours: Earthquake; theirs: Hypnosis   [value +0.39; mix Earthquake 1.00]
+turn  12: Snorlax 523/523 SLP          vs Gengar 323/323               | ours: switch to Exeggutor; theirs: Thunderbolt   [value +0.36; mix switch to Exeggutor 1.00]
+turn  13: Exeggutor 355/393            vs Gengar 323/323               | ours: Psychic; theirs: switch to Exeggutor   [value +0.30; mix Psychic 1.00]
+turn  14: Exeggutor 355/393            vs Exeggutor 66/393             | ours: switch to Snorlax; theirs: Explosion   [value +0.31; mix switch to Snorlax 0.69, Psychic 0.31]
+turn  15: Snorlax 202/523 SLP          vs Exeggutor 0/393              | ours: (no choice); theirs: switch to Tauros
+turn  16: Snorlax 202/523 SLP          vs Tauros 353/353               | ours: switch to Lapras; theirs: Body Slam   [value +0.40; mix switch to Lapras 1.00]
+turn  17: Lapras 344/463               vs Tauros 353/353               | ours: Blizzard; theirs: Body Slam   [value +0.46; mix Blizzard 1.00]
+turn  18: Lapras 223/463 PAR           vs Tauros 178/353               | ours: Blizzard; theirs: Body Slam   [value +0.49; mix Blizzard 1.00]
+turn  19: Lapras 0/463 PAR             vs Tauros 178/353               | ours: switch to Starmie; theirs: (no choice)   [value +0.44; mix switch to Starmie 1.00]
+turn  20: Starmie 323/323              vs Tauros 178/353               | ours: Psychic; theirs: switch to Chansey   [value +0.36; mix Psychic 0.82, Blizzard 0.18]
+turn  21: Starmie 323/323              vs Chansey 604/703              | ours: Thunder Wave; theirs: Thunder Wave   [value +0.30; mix Thunder Wave 1.00]
+turn  22: Starmie 323/323              vs Chansey 604/703 PAR          | ours: switch to Snorlax; theirs: Ice Beam   [value +0.40; mix switch to Snorlax 0.66, Psychic 0.33]
+turn  23: Snorlax 105/523 SLP          vs Chansey 604/703 PAR          | ours: switch to Exeggutor; theirs: Ice Beam   [value +0.35; mix switch to Exeggutor 1.00]
+turn  24: Exeggutor 227/393            vs Chansey 604/703 PAR          | ours: Psychic; theirs: switch to Jynx   [value +0.38; mix Psychic 1.00]
+turn  25: Exeggutor 227/393            vs Jynx 194/333 SLP             | ours: Psychic; theirs: (no choice)   [value +0.41; mix Psychic 0.99]
+turn  26: Exeggutor 227/393            vs Jynx 95/333 SLP              | ours: Psychic; theirs: switch to Chansey   [value +0.46; mix Psychic 1.00]
+turn  27: Exeggutor 227/393            vs Chansey 477/703 PAR          | ours: Psychic; theirs: Softboiled   [value +0.51; mix Psychic 0.98, Explosion 0.02]
+turn  28: Exeggutor 227/393            vs Chansey 294/703 PAR          | ours: Psychic; theirs: switch to Jynx   [value +0.61; mix Psychic 1.00]
+turn  29: Exeggutor 227/393            vs Jynx 32/333 SLP              | ours: Psychic; theirs: (no choice)   [value +0.61; mix Psychic 1.00]
+turn  30: Exeggutor 227/393            vs Jynx 0/333 SLP               | ours: (no choice); theirs: switch to Tauros
+turn  31: Exeggutor 227/393            vs Tauros 178/353               | ours: Sleep Powder; theirs: Body Slam   [value +0.52; mix Sleep Powder 0.89, Psychic 0.10]
+turn  32: Exeggutor 227/393            vs Tauros 178/353 SLP           | ours: Psychic; theirs: (no choice)   [value +0.80; mix Psychic 1.00]
+turn  33: Exeggutor 227/393            vs Tauros 15/353 SLP            | ours: Psychic; theirs: (no choice)   [value +0.81; mix Psychic 1.00]
+turn  34: Exeggutor 227/393            vs Tauros 0/353                 | ours: (no choice); theirs: switch to Chansey
+turn  35: Exeggutor 227/393            vs Chansey 294/703 PAR          | ours: Explosion; theirs: Softboiled   [value +0.90; mix Explosion 0.86, Psychic 0.14]
+turn  36: Exeggutor 0/393              vs Chansey 0/703 PAR            | ours: switch to Starmie; theirs: switch to Gengar   [value +0.92; mix switch to Starmie 0.93, switch to Zapdos 0.07]
+turn  37: Starmie 323/323              vs Gengar 323/323               | ours: Psychic; theirs: Thunderbolt   [value +0.95; mix Psychic 1.00]
+turn  38: Starmie 323/323              vs Gengar 0/323                 | ours: (no choice); theirs: switch to Snorlax
+turn  39: Starmie 323/323              vs Snorlax 56/523               | ours: Psychic; theirs: Rest   [value +1.00; mix Psychic 1.00]
+result: MetapodV0 wins after 39 turns; left standing: ours 3, theirs 0; mean decision time 0.93 s (max 3.13 s)
+
+score: 2 / 2
