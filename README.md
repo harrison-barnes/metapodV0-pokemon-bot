@@ -274,9 +274,28 @@ rebuilds the engine state from the Showdown protocol and runs the search each tu
 per decision: candidates, payoff matrix, mixes and timing.
 
 **If you run it on the public ladder:**
+- **Register your bot with Pokémon Showdown first.** Running an unregistered bot is a bannable offence. Type `/ht` in
+  chat on Pokémon Showdown, then choose "Something else" → "I want to register my bot". Policy:
+  https://www.smogon.com/forums/threads/initial-policy-on-bots.3789528/
+- Never use a bot, or any AI assistance, in tournaments (that is ghosting).
 - Use a dedicated account that is clearly marked as a bot.
 - Keep `CONCURRENT` at 1-2.
 - Respect Pokémon Showdown's rules for bots.
+
+### The checkpoint from the "How the bot learned" video (mpr2@300)
+
+The explainer video *How the bot learned* walks through **mpr2@300**, a later checkpoint of the same architecture (same
+4-layer, 256-wide policy and privileged critic, plus one extra input: the PP left on the opponent's revealed moves). It
+is the version that held #1 on the Gen 1 OU ladder (Nov 14–15, 2026, with per-opponent action-frequency memory added
+to the search, which is not included here). Download it from the
+[`mpr2-300` release](https://github.com/harrison-barnes/metapodV0-pokemon-bot/releases/tag/mpr2-300) (SHA-256 sums
+included) and play it with the same scripts:
+
+```sh
+gh release download mpr2-300 -D checkpoints -R harrison-barnes/metapodV0-pokemon-bot   # or download the two .pt files by hand
+cd checkpoints && shasum -a 256 -c SHA256SUMS && cd ..
+uv run python scripts/play_local.py --ckpt checkpoints/mpr2_00300.pt   # the critic is found next to it (mpr2_00300_critic.pt)
+```
 
 ## Train
 
