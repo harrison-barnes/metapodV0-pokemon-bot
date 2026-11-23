@@ -6,8 +6,8 @@
 # update also trains on exact 1v1 endgames from the tablebase. These are the defaults of the original recipe; spec2's
 # own training log was not kept, so treat them as the recipe, not a verified transcript of that run.
 #
-# Needs (none of it is in this repository, see README "Training"):
-#   $CKPT_DIR/v7_300.pt, v7_300_critic.pt   starting policy and critic
+# Needs (none of it is in the git tree, see README "Train"):
+#   $CKPT_DIR/v7_300.pt, v7_300_critic.pt   starting policy and critic  (these six: bash scripts/download_lineage.sh)
 #   $CKPT_DIR/v5d_00400.pt, v6_latest.pt     league members (v7_300 is one too)
 #   $CKPT_DIR/bc_full.pt, bc_skill.pt        human-imitation opponents
 #   data/human_teams_v1.json                 real players' teams (from Metamon's parsed replays)

@@ -197,7 +197,15 @@ Caveats for this table:
 
 ### On the public ladder
 
-**Record: 305 wins, 136 losses, 3 ties** in 444 logged battles as `MetapodV0`, from 2026-11-09 07:42 to 2026-11-12
+Two versions played under the Showdown account `MetapodV0`. Keep them apart:
+
+- **The `MetapodV0` account held #1 on the Gen 1 OU ladder for at least 17 hours (Nov 14–15, 2026; rank readings are
+  about 10 minutes apart with an overnight gap), at 1,591 Elo.** That was a slightly newer checkpoint, mpr2@300 plus
+  opponent memory, **not the one released here**.
+- **The spec2@200 checkpoint released here peaked at #2 (Nov 10, 2026) and 1,607 Elo.** Its record and ratings
+  follow.
+
+**Record of spec2@200: 305 wins, 136 losses, 3 ties** in 444 logged battles as `MetapodV0`, from 2026-11-09 07:42 to 2026-11-12
 09:57 (that is spec2@200 alone; the account later ran other versions). It played one or two battles at a time from a
 laptop.
 
@@ -280,8 +288,16 @@ per decision: candidates, payoff matrix, mixes and timing.
 
 **`scripts/train.sh` needs inputs this repository does not contain:**
 - **Starting and league checkpoints:** v7@300 policy and critic, v5d@400, v6, and the two human-imitation nets
-  (`bc_full`, `bc_skill`), in `checkpoints/lineage/`. They are not published here (yet); if they are, they will be
-  attached to a release on this repository's Releases page rather than committed.
+  (`bc_full`, `bc_skill`), about 105 MB in all. They are attached to the
+  [`lineage-v1` release](https://github.com/harrison-barnes/metapodV0-pokemon-bot/releases/tag/lineage-v1), not
+  committed, so the clone stays small. `bash scripts/download_lineage.sh` fetches them into `checkpoints/lineage/` and
+  checks them against `checkpoints/lineage.SHA256SUMS`.
+  - **The bc nets were trained on Metamon's parsed replay dataset**,
+    [jakegrigsby/metamon-parsed-replays](https://huggingface.co/datasets/jakegrigsby/metamon-parsed-replays)
+    (Grigsby et al., UT Austin), licensed CC BY-NC 4.0: they carry its attribution and non-commercial terms.
+  - **`bc_skill` provenance:** it is the skill-conditioned imitation run of 2026-11-01 (4,000 steps). The copy the
+    training box used under that name was not kept, so this is the best match on disk. Its stored table path was
+    changed to the relative `data/matchup_table_v2.npz`; the weights are unchanged.
 - **Real players' teams:** `data/human_teams_v1.json`. Build it from Metamon's parsed replays: download them, convert
   them with `agent/metamon_convert.py` (needs `uv sync --group data`), then dump the teams with `agent/team_search.py`.
 - **The exact 1v1 dataset** (`data/dataset_aws`, `data/dataset_pp`, about 7.5 GB), behind the tablebase:
@@ -378,7 +394,9 @@ data/           gen1.json                (species, moves, learnsets, type chart:
                 search_teams_v1/         MetapodV0's two teams (Showdown export format)
                 showdown_names.json, dataset_smogon_v1/schema.json, stall_pairs.json
 checkpoints/    spec2_00200.pt, spec2_00200_critic.pt                    MetapodV0
-scripts/        play_local.py, play_showdown.sh, train.sh, train_smoke.sh, eval_metamon.sh, build_tables.sh
+                lineage.SHA256SUMS                                       checksums of the release download
+scripts/        play_local.py, play_showdown.sh, train.sh, train_smoke.sh, download_lineage.sh, eval_metamon.sh,
+                build_tables.sh
 tools/          extract_pokered.py, ladder_sets.py, build_matchup_table.py, luck.py (luck counts from battle logs);
                 showdown/ (Showdown-simulator scripts that record the test fixtures)
 tests/          pytest suite and fixtures
@@ -393,13 +411,13 @@ examples/       demo_game.log
 | Metamon's parsed human replays, and anything copied from them (the human team pool, converted arrays) | Metamon's dataset, licensed CC BY-NC 4.0. Get it from [jakegrigsby/metamon-parsed-replays](https://huggingface.co/datasets/jakegrigsby/metamon-parsed-replays) and convert it with `agent/metamon_convert.py` |
 | The exact 1v1 dataset (7.5 GB), training runs, evaluation logs, ladder replays | Bulk outputs; all rebuildable with the scripts above |
 | Metamon, Foul Play, pokered and Pokémon Showdown sources | Third-party projects: install them from their own repositories. Foul Play is GPL-3.0 and was only ever run as a separate program |
-| Earlier checkpoints of the lineage (v1-v7, bc nets) | Kept out of the clone to keep it small; the bc nets are direct imitations of the CC BY-NC replay data. See [Train](#train) |
+| Earlier checkpoints of the lineage | The six that `scripts/train.sh` needs are a release download (see [Train](#train)); v1-v5c are not published |
 | Research notes, cloud launch scripts, the later ladder versions (mpr1/mpr2, opponent memory) | Project-internal, or not MetapodV0 |
 
 **About the weights:**
 - The MIT license covers this repository's code and data files.
 - The checkpoints were trained partly against human-imitation opponents, and with real players' teams, derived from
-  Metamon's CC BY-NC 4.0 replay dataset.
+  Metamon's CC BY-NC 4.0 replay dataset. The `bc_*` release files were trained on it directly.
 - If you build on the weights, respect that dataset's terms as well.
 
 ## Which code version this is
